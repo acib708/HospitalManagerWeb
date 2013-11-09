@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Actualizar.java" afterPath="$PROJECT_DIR$/src/actions/Actualizar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383980674809" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383981653778" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383977492084" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
@@ -48,7 +47,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -85,6 +83,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -97,7 +96,7 @@
       <file leaf-file-name="Actualizar.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="0" selection-start="143" selection-end="2875" vertical-scroll-proportion="3.792325">
+            <state line="84" column="49" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.3234536">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,8 +142,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,7 +241,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,44 +255,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,12 +278,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss 7.2.0.Final-redhat-8">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -345,6 +312,19 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -371,19 +351,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -560,10 +527,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -575,7 +542,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -583,12 +549,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22094691" sideWeight="0.670398" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -717,8 +684,8 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_range_rngtypid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_event_trigger_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_type</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdepend_reference_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_type</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_options</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_event_trigger</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum</node>
@@ -726,9 +693,9 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_user_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_collation_name_enc_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_activity</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion_oid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_collation_name_enc_nsp_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.applicable_roles</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_replication</node>
@@ -757,12 +724,12 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tablespace_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.table_privileges</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.serealiza</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.atiende</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.serealiza</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opclass_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opfamily</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_all_indexes</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opfamily</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate_name_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.collation_character_set_applicability</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_am_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_operator</node>
@@ -771,10 +738,10 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_namespace_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.paciente</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_tgconstraint_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.domain_constraints</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.analisisclinico</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_tgconstraint_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_database</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.analisisclinico</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.check_constraints</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend_reference_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server_name_index</node>
@@ -784,21 +751,21 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_am_name_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_servers</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_data_wrapper_options</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_db_role_setting</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.table_constraints</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdescription_o_c_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend_depender_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.check_constraint_routine_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdescription</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amproc</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.administrable_role_authorizations</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.view_table_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_table</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_map</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_all_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits_relid_seqno_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tablespace</node>
@@ -899,10 +866,10 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_map_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.constraint_column_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.character_sets</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.data_type_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_data_wrappers</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.character_sets</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_timezone_names</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_data_wrappers</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_prepared_xacts</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_implementation_info</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_servers</node>
@@ -910,23 +877,23 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.constraint_table_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_user_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_aggregate_fnoid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_user_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_extension_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_range</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cursors</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject_metadata_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_oid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject_metadata_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_database_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_database_conflicts</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_language_oid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_database_conflicts</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_sys_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_conname_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_rolname_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.view_column_usage</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_rolname_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.domains</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.referential_constraints</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate</node>
@@ -935,8 +902,8 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.information_schema_catalog_name</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_index_indexrelid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_parser_prsname_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_index_indexrelid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_locks</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_group</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_default_acl</node>
@@ -948,25 +915,25 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_conrelid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.udt_privileges</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_features</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_udt_grants</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_dict_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_udt_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.doctor</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_udt_grants</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_prepared_statements</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.doctor</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_udt_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_rules</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_table_options</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_table_relid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_languages</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_languages</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_user_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shseclabel</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_auth_members_role_member_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shseclabel</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.user_defined_types</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_proc_proname_args_nsp_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tables</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_proc_proname_args_nsp_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amproc_fam_proc_index</node>
           </nodes>
           <notes />
@@ -1007,52 +974,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2933" column="41" selection-start="51529" selection-end="51529" vertical-scroll-proportion="0.8623298">
-          <folding />
-        </state>
+        <state line="2933" column="41" selection-start="51529" selection-end="51529" vertical-scroll-proportion="0.8623298" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.2846154">
-          <folding />
-        </state>
+        <state line="43" column="25" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.2846154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="122" selection-start="302" selection-end="412" vertical-scroll-proportion="0.41860464">
-          <folding>
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Doctor..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..doctor..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..doctor..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="UPDATE Docto..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Paciente..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Paciente..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="UPDATE pacie..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..AnalisisClinico..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..AnalisisClinico..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..analisisClinico..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="UPDATE Anali..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..SeRealiza..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Atiende..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Paciente..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Doctor..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Paciente..." />
-            <marker date="1383979184000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..AnalisisClinico..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1012,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="143" selection-end="2875" vertical-scroll-proportion="3.792325">
+        <state line="84" column="49" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.3234536">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
