@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="" />
+    <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/DBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createHospital.sql" afterPath="$PROJECT_DIR$/createHospital.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962060754" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973895279" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962322957" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
     <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962384725" ignored="false" />
+    <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973847921" ignored="false" />
+    <file path="/Doctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964350283" ignored="false" />
+    <file path="/AnalisisClinico.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964660394" ignored="false" />
+    <file path="/Atiende.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964648641" ignored="false" />
+    <file path="/Paciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965119585" ignored="false" />
+    <file path="/ReporteAnalisisPaciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965885918" ignored="false" />
+    <file path="/ReporteDoctoresPaciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965793962" ignored="false" />
+    <file path="/ReportePacientesAnalisis.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383966115438" ignored="false" />
+    <file path="/ReportePacientesDoctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383968607322" ignored="false" />
+    <file path="/SeRealiza.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383968789448" ignored="false" />
+    <file path="/fragment.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383972041466" ignored="false" />
+    <file path="/createHospital.sql" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973588282" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +39,11 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -69,70 +92,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+      <file leaf-file-name="DBManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="426" selection-end="426" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.app.viewlets.ApplicationModuleGeneralEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="32" selection-start="3110" selection-end="3110" vertical-scroll-proportion="-8.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/struts.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="425" selection-end="425" vertical-scroll-proportion="-6.6666665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consultar.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="121" selection-end="121" vertical-scroll-proportion="0.1764706">
-              <folding />
+            <state line="27" column="14" selection-start="842" selection-end="842" vertical-scroll-proportion="0.4766949">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1527#1535#0" expanded="true" />
+                <element signature="e#3351#3359#0" expanded="true" />
+                <element signature="e#5986#5996#0" expanded="true" />
+                <element signature="e#9570#9587#0" expanded="true" />
+                <element signature="e#11104#11121#0" expanded="true" />
+                <element signature="e#13729#13740#0" expanded="true" />
+                <element signature="e#15202#15211#0" expanded="true" />
+                <element signature="e#16589#16614#0" expanded="true" />
+                <element signature="e#18427#18451#0" expanded="true" />
+                <element signature="e#20112#20137#0" expanded="true" />
+                <element signature="e#22011#22037#0" expanded="true" />
+                <marker date="1383973848000" expanded="true" signature="926:977" placeholder="INSERT INTO ..." />
+                <marker date="1383973848000" expanded="true" signature="1457:1477" placeholder="SELECT * FRO..Doctor..." />
+                <marker date="1383973848000" expanded="true" signature="2377:2423" placeholder="SELECT * FRO..doctor..." />
+                <marker date="1383973848000" expanded="true" signature="3241:3301" placeholder="SELECT * FRO..doctor..." />
+                <marker date="1383973848000" expanded="true" signature="4197:4283" placeholder="UPDATE Docto..." />
+                <marker date="1383973848000" expanded="true" signature="4693:4735" placeholder="DELETE FROM ..." />
+                <marker date="1383973848000" expanded="true" signature="4776:4827" placeholder="DELETE FROM ..." />
+                <marker date="1383973848000" expanded="true" signature="5446:5501" placeholder="INSERT INTO ..." />
+                <marker date="1383973848000" expanded="true" signature="5912:5934" placeholder="SELECT * FRO..Paciente..." />
+                <marker date="1383973848000" expanded="true" signature="6787:6835" placeholder="SELECT * FRO..Paciente..." />
+                <marker date="1383973848000" expanded="true" signature="7588:7680" placeholder="UPDATE pacie..." />
+                <marker date="1383973848000" expanded="true" signature="8092:8136" placeholder="DELETE FROM ..." />
+                <marker date="1383973848000" expanded="true" signature="8178:8229" placeholder="DELETE FROM ..." />
+                <marker date="1383973848000" expanded="true" signature="8271:8324" placeholder="DELETE FROM ..." />
+                <marker date="1383973848000" expanded="true" signature="9004:9066" placeholder="INSERT INTO ..." />
+                <marker date="1383973848000" expanded="true" signature="9482:9511" placeholder="SELECT * FRO..AnalisisClinico..." />
+                <marker date="1383973848000" expanded="true" signature="10287:10342" placeholder="SELECT * FRO..AnalisisClinico..." />
+                <marker date="1383973848000" expanded="true" signature="10993:11045" placeholder="SELECT * FRO..analisisClinico..." />
+                <marker date="1383973848000" expanded="true" signature="11824:11923" placeholder="UPDATE Anali..." />
+                <marker date="1383973848000" expanded="true" signature="12340:12391" placeholder="DELETE FROM ..." />
+                <marker date="1383973848000" expanded="true" signature="12432:12485" placeholder="DELETE FROM ..." />
+                <marker date="1383973848000" expanded="true" signature="13109:13166" placeholder="INSERT INTO ..." />
+                <marker date="1383973848000" expanded="true" signature="13653:13676" placeholder="SELECT * FRO..SeRealiza..." />
+                <marker date="1383973848000" expanded="true" signature="14596:14649" placeholder="INSERT INTO ..." />
+                <marker date="1383973848000" expanded="true" signature="15130:15151" placeholder="SELECT * FRO..Atiende..." />
+                <marker date="1383973848000" expanded="true" signature="16206:16522" placeholder="SELECT Pacie..Paciente..." />
+                <marker date="1383973848000" expanded="true" signature="17805:18361" placeholder="SELECT Pacie..Doctor..." />
+                <marker date="1383973848000" expanded="true" signature="19643:20007" placeholder="SELECT Pacie..Paciente..." />
+                <marker date="1383973848000" expanded="true" signature="21324:21943" placeholder="SELECT Pacie..AnalisisClinico..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consulta.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/consulta.jsp">
+      <file leaf-file-name="createHospital.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/createHospital.sql">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="332" selection-end="332" vertical-scroll-proportion="-7.5">
+            <state line="125" column="74" selection-start="9214" selection-end="9214" vertical-scroll-proportion="-47.333332">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnalisisClinico.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/AnalisisClinico.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="44" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeRealiza.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/SeRealiza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="35" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,6 +180,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -153,6 +196,17 @@
         <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/actions/Consultar.java" />
+        <option value="$PROJECT_DIR$/src/model/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/model/Atiende.java" />
+        <option value="$PROJECT_DIR$/src/model/AnalisisClinico.java" />
+        <option value="$PROJECT_DIR$/src/model/Paciente.java" />
+        <option value="$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java" />
+        <option value="$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java" />
+        <option value="$PROJECT_DIR$/src/model/ReportePacientesAnalisis.java" />
+        <option value="$PROJECT_DIR$/src/model/ReportePacientesDoctor.java" />
+        <option value="$PROJECT_DIR$/src/model/SeRealiza.java" />
+        <option value="$PROJECT_DIR$/createHospital.sql" />
+        <option value="$PROJECT_DIR$/src/model/DBManager.java" />
       </list>
     </option>
   </component>
@@ -227,7 +281,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -236,7 +290,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -245,7 +299,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -333,6 +387,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -359,13 +431,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Developer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -374,6 +446,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -479,6 +552,12 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="JBoss 7.2.0.Final-redhat-8" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2.0.Final-redhat-8">
@@ -596,7 +675,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6708229" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -604,7 +683,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -613,7 +692,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -663,7 +742,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="added whole model" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -677,6 +756,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="added whole model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -686,16 +766,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="426" selection-end="426" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.app.viewlets.ApplicationModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
@@ -731,15 +801,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="32" selection-start="3110" selection-end="3110" vertical-scroll-proportion="-8.375">
+        <state line="75" column="29" selection-start="3110" selection-end="3110" vertical-scroll-proportion="-8.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="121" selection-end="121" vertical-scroll-proportion="0.1764706">
+        <state line="4" column="12" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Paciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="11" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.7058824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="35" selection-start="2690" selection-end="2690" vertical-scroll-proportion="2.5090544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="64" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.57746476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ReportePacientesAnalisis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="36" selection-start="2470" selection-end="2470" vertical-scroll-proportion="2.8973844">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ReportePacientesDoctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="4" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.93963784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Atiende.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="69" selection-start="611" selection-end="611" vertical-scroll-proportion="0.27565393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/SeRealiza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="35" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AnalisisClinico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createHospital.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="74" selection-start="9214" selection-end="9214" vertical-scroll-proportion="-47.333332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="842" selection-end="842" vertical-scroll-proportion="0.4766949">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1527#1535#0" expanded="true" />
+            <element signature="e#3351#3359#0" expanded="true" />
+            <element signature="e#5986#5996#0" expanded="true" />
+            <element signature="e#9570#9587#0" expanded="true" />
+            <element signature="e#11104#11121#0" expanded="true" />
+            <element signature="e#13729#13740#0" expanded="true" />
+            <element signature="e#15202#15211#0" expanded="true" />
+            <element signature="e#16589#16614#0" expanded="true" />
+            <element signature="e#18427#18451#0" expanded="true" />
+            <element signature="e#20112#20137#0" expanded="true" />
+            <element signature="e#22011#22037#0" expanded="true" />
+            <marker date="1383973848000" expanded="true" signature="926:977" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="1457:1477" placeholder="SELECT * FRO..Doctor..." />
+            <marker date="1383973848000" expanded="true" signature="2377:2423" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1383973848000" expanded="true" signature="3241:3301" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1383973848000" expanded="true" signature="4197:4283" placeholder="UPDATE Docto..." />
+            <marker date="1383973848000" expanded="true" signature="4693:4735" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="4776:4827" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="5446:5501" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="5912:5934" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="6787:6835" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="7588:7680" placeholder="UPDATE pacie..." />
+            <marker date="1383973848000" expanded="true" signature="8092:8136" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="8178:8229" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="8271:8324" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="9004:9066" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="9482:9511" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1383973848000" expanded="true" signature="10287:10342" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1383973848000" expanded="true" signature="10993:11045" placeholder="SELECT * FRO..analisisClinico..." />
+            <marker date="1383973848000" expanded="true" signature="11824:11923" placeholder="UPDATE Anali..." />
+            <marker date="1383973848000" expanded="true" signature="12340:12391" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="12432:12485" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="13109:13166" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="13653:13676" placeholder="SELECT * FRO..SeRealiza..." />
+            <marker date="1383973848000" expanded="true" signature="14596:14649" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="15130:15151" placeholder="SELECT * FRO..Atiende..." />
+            <marker date="1383973848000" expanded="true" signature="16206:16522" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="17805:18361" placeholder="SELECT Pacie..Doctor..." />
+            <marker date="1383973848000" expanded="true" signature="19643:20007" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="21324:21943" placeholder="SELECT Pacie..AnalisisClinico..." />
+          </folding>
         </state>
       </provider>
     </entry>
