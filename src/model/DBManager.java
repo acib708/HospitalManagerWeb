@@ -324,7 +324,7 @@ public class DBManager {
         return resp.toArray(new AnalisisClinico[resp.size()]);
     }
 
-    public boolean actualizarAnalaisis(AnalisisClinico analisis){
+    public boolean actualizarAnalisis(AnalisisClinico analisis){
         String update = "UPDATE AnalisisClinico SET "+analisis.toStringSQLUpdate()+" WHERE clave = '"+analisis.getClave()+"';";
         boolean resp;
         try{

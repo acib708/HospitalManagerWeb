@@ -42,7 +42,7 @@ public class Actualizar {
         analisis.setClave(clave);
         analisis.setDescripcion(descripcion);
         analisis.setTipo(tipo);
-        response = dbManager.actualizarAnalaisis(analisis);
+        response = dbManager.actualizarAnalisis(analisis);
         return "success";
     }
 
