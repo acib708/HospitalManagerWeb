@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383976769458" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383981596548" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383977492084" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
@@ -25,8 +24,8 @@
     <file path="/fragment.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383972041466" ignored="false" />
     <file path="/createHospital.sql" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973588282" ignored="false" />
     <file path="/Actualizar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974844215" ignored="false" />
-    <file path="/Borrar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974868103" ignored="false" />
-    <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974923496" ignored="false" />
+    <file path="/Borrar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383980381051" ignored="false" />
+    <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383981551917" ignored="false" />
     <file path="/Generar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974982943" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,18 @@
       <file leaf-file-name="Actualizar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="73" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="11" column="35" selection-start="227" selection-end="330" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Capturar.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="51" selection-start="2504" selection-end="2504" vertical-scroll-proportion="1.5571617">
               <folding />
             </state>
           </provider>
@@ -105,46 +115,7 @@
       <file leaf-file-name="Borrar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="43" selection-start="4735" selection-end="4735" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/struts.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="28" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.75967956">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Capturar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="71" selection-end="515" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+            <state line="27" column="33" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,7 +124,7 @@
       <file leaf-file-name="Consultar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="65" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="14" column="23" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,9 +138,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -187,12 +160,12 @@
         <option value="$PROJECT_DIR$/src/model/SeRealiza.java" />
         <option value="$PROJECT_DIR$/createHospital.sql" />
         <option value="$PROJECT_DIR$/src/actions/Consultar.java" />
-        <option value="$PROJECT_DIR$/src/actions/Actualizar.java" />
-        <option value="$PROJECT_DIR$/src/actions/Borrar.java" />
-        <option value="$PROJECT_DIR$/src/actions/Capturar.java" />
         <option value="$PROJECT_DIR$/src/actions/Generar.java" />
         <option value="$PROJECT_DIR$/src/model/DBManager.java" />
         <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/src/actions/Borrar.java" />
+        <option value="$PROJECT_DIR$/src/actions/Actualizar.java" />
+        <option value="$PROJECT_DIR$/src/actions/Capturar.java" />
       </list>
     </option>
   </component>
@@ -394,50 +367,6 @@
               <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Borrar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -479,6 +408,118 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/actions/Actualizar.java</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss 7.2.0.Final-redhat-8">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -711,14 +752,34 @@
       <created>1383975629884</created>
       <updated>1383975629884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added actions to struts.xml">
+      <created>1383977526349</created>
+      <updated>1383977526349</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished Action: borrar.">
+      <created>1383978966355</created>
+      <updated>1383978966355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed DBManager actualizarAnalisis Typo">
+      <created>1383979132042</created>
+      <updated>1383979132042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed DBManager actualizarAnalisis Typo">
+      <created>1383979166892</created>
+      <updated>1383979166892</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Coded action: Capturar.">
+      <created>1383981600627</created>
+      <updated>1383981600627</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -729,7 +790,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -743,7 +805,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -789,7 +850,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct DBManager Credentials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coded action: Capturar." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -807,6 +868,10 @@
     <MESSAGE value="Complete model." />
     <MESSAGE value="Added actions." />
     <MESSAGE value="Correct DBManager Credentials" />
+    <MESSAGE value="Added actions to struts.xml" />
+    <MESSAGE value="Finished Action: borrar." />
+    <MESSAGE value="Fixed DBManager actualizarAnalisis Typo" />
+    <MESSAGE value="Coded action: Capturar." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -816,20 +881,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="35" selection-start="2690" selection-end="2690" vertical-scroll-proportion="2.5090544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="64" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.57746476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ReportePacientesAnalisis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="36" selection-start="2470" selection-end="2470" vertical-scroll-proportion="2.8973844">
@@ -871,27 +922,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="74" selection-start="9214" selection-end="9214" vertical-scroll-proportion="-47.333332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="73" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="71" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1180,22 +1210,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+        <state line="37" column="38" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.71705425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="43" selection-start="4735" selection-end="4735" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="65" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="357" column="58" selection-start="12956" selection-end="12956" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Doctor..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="UPDATE Docto..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="UPDATE pacie..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..analisisClinico..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="UPDATE Anali..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..SeRealiza..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Atiende..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Doctor..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1383979158000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..AnalisisClinico..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,7 +1257,60 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="28" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.75967956">
+        <state line="123" column="46" selection-start="5349" selection-end="5349" vertical-scroll-proportion="-21.555555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="614" selection-end="614" vertical-scroll-proportion="-8.888889">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="63" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="227" selection-end="330" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="51" selection-start="2504" selection-end="2504" vertical-scroll-proportion="1.5571617">
           <folding />
         </state>
       </provider>
