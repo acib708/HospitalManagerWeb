@@ -144,4 +144,5 @@ public class Capturar {
     public void setTratamiento(String tratamiento) {
         this.tratamiento = tratamiento;
     }
+
 }
