@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/postgresql-9.2-1002.jdbc4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/AnalisisClinico.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/Atiende.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/Doctor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/Paciente.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/ReportePacientesAnalisis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/ReportePacientesDoctor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/SeRealiza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/postgresql-driver-license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/Actualizar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/Borrar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/Capturar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/Generar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Consultar.java" afterPath="$PROJECT_DIR$/src/actions/Consultar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974042484" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974134640" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962322957" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
-    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962384725" ignored="false" />
+    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974663875" ignored="false" />
     <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973847921" ignored="false" />
     <file path="/Doctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964350283" ignored="false" />
     <file path="/AnalisisClinico.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964660394" ignored="false" />
@@ -35,6 +28,10 @@
     <file path="/SeRealiza.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383968789448" ignored="false" />
     <file path="/fragment.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383972041466" ignored="false" />
     <file path="/createHospital.sql" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973588282" ignored="false" />
+    <file path="/Actualizar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974844215" ignored="false" />
+    <file path="/Borrar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974868103" ignored="false" />
+    <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974923496" ignored="false" />
+    <file path="/Generar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974982943" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,82 +97,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
+      <file leaf-file-name="Actualizar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="842" selection-end="842" vertical-scroll-proportion="0.4766949">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1527#1535#0" expanded="true" />
-                <element signature="e#3351#3359#0" expanded="true" />
-                <element signature="e#5986#5996#0" expanded="true" />
-                <element signature="e#9570#9587#0" expanded="true" />
-                <element signature="e#11104#11121#0" expanded="true" />
-                <element signature="e#13729#13740#0" expanded="true" />
-                <element signature="e#15202#15211#0" expanded="true" />
-                <element signature="e#16589#16614#0" expanded="true" />
-                <element signature="e#18427#18451#0" expanded="true" />
-                <element signature="e#20112#20137#0" expanded="true" />
-                <element signature="e#22011#22037#0" expanded="true" />
-                <marker date="1383973848000" expanded="true" signature="926:977" placeholder="INSERT INTO ..." />
-                <marker date="1383973848000" expanded="true" signature="1457:1477" placeholder="SELECT * FRO..Doctor..." />
-                <marker date="1383973848000" expanded="true" signature="2377:2423" placeholder="SELECT * FRO..doctor..." />
-                <marker date="1383973848000" expanded="true" signature="3241:3301" placeholder="SELECT * FRO..doctor..." />
-                <marker date="1383973848000" expanded="true" signature="4197:4283" placeholder="UPDATE Docto..." />
-                <marker date="1383973848000" expanded="true" signature="4693:4735" placeholder="DELETE FROM ..." />
-                <marker date="1383973848000" expanded="true" signature="4776:4827" placeholder="DELETE FROM ..." />
-                <marker date="1383973848000" expanded="true" signature="5446:5501" placeholder="INSERT INTO ..." />
-                <marker date="1383973848000" expanded="true" signature="5912:5934" placeholder="SELECT * FRO..Paciente..." />
-                <marker date="1383973848000" expanded="true" signature="6787:6835" placeholder="SELECT * FRO..Paciente..." />
-                <marker date="1383973848000" expanded="true" signature="7588:7680" placeholder="UPDATE pacie..." />
-                <marker date="1383973848000" expanded="true" signature="8092:8136" placeholder="DELETE FROM ..." />
-                <marker date="1383973848000" expanded="true" signature="8178:8229" placeholder="DELETE FROM ..." />
-                <marker date="1383973848000" expanded="true" signature="8271:8324" placeholder="DELETE FROM ..." />
-                <marker date="1383973848000" expanded="true" signature="9004:9066" placeholder="INSERT INTO ..." />
-                <marker date="1383973848000" expanded="true" signature="9482:9511" placeholder="SELECT * FRO..AnalisisClinico..." />
-                <marker date="1383973848000" expanded="true" signature="10287:10342" placeholder="SELECT * FRO..AnalisisClinico..." />
-                <marker date="1383973848000" expanded="true" signature="10993:11045" placeholder="SELECT * FRO..analisisClinico..." />
-                <marker date="1383973848000" expanded="true" signature="11824:11923" placeholder="UPDATE Anali..." />
-                <marker date="1383973848000" expanded="true" signature="12340:12391" placeholder="DELETE FROM ..." />
-                <marker date="1383973848000" expanded="true" signature="12432:12485" placeholder="DELETE FROM ..." />
-                <marker date="1383973848000" expanded="true" signature="13109:13166" placeholder="INSERT INTO ..." />
-                <marker date="1383973848000" expanded="true" signature="13653:13676" placeholder="SELECT * FRO..SeRealiza..." />
-                <marker date="1383973848000" expanded="true" signature="14596:14649" placeholder="INSERT INTO ..." />
-                <marker date="1383973848000" expanded="true" signature="15130:15151" placeholder="SELECT * FRO..Atiende..." />
-                <marker date="1383973848000" expanded="true" signature="16206:16522" placeholder="SELECT Pacie..Paciente..." />
-                <marker date="1383973848000" expanded="true" signature="17805:18361" placeholder="SELECT Pacie..Doctor..." />
-                <marker date="1383973848000" expanded="true" signature="19643:20007" placeholder="SELECT Pacie..Paciente..." />
-                <marker date="1383973848000" expanded="true" signature="21324:21943" placeholder="SELECT Pacie..AnalisisClinico..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createHospital.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/createHospital.sql">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="74" selection-start="9214" selection-end="9214" vertical-scroll-proportion="-47.333332">
+            <state line="5" column="4" selection-start="73" selection-end="357" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalisisClinico.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/AnalisisClinico.java">
+      <file leaf-file-name="Borrar.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+            <state line="10" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.19379845">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeRealiza.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/SeRealiza.java">
+      <file leaf-file-name="Capturar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="71" selection-end="515" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Generar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consultar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="28" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,11 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/META-INF/application.xml" />
-        <option value="$PROJECT_DIR$/web/consulta.jsp" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/actions/Consultar.java" />
         <option value="$PROJECT_DIR$/src/model/Doctor.java" />
         <option value="$PROJECT_DIR$/src/model/Atiende.java" />
         <option value="$PROJECT_DIR$/src/model/AnalisisClinico.java" />
@@ -215,6 +171,11 @@
         <option value="$PROJECT_DIR$/src/model/SeRealiza.java" />
         <option value="$PROJECT_DIR$/createHospital.sql" />
         <option value="$PROJECT_DIR$/src/model/DBManager.java" />
+        <option value="$PROJECT_DIR$/src/actions/Consultar.java" />
+        <option value="$PROJECT_DIR$/src/actions/Actualizar.java" />
+        <option value="$PROJECT_DIR$/src/actions/Borrar.java" />
+        <option value="$PROJECT_DIR$/src/actions/Capturar.java" />
+        <option value="$PROJECT_DIR$/src/actions/Generar.java" />
       </list>
     </option>
   </component>
@@ -677,7 +638,11 @@
       <created>1383974054238</created>
       <updated>1383974054238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Complete model.">
+      <created>1383974140421</created>
+      <updated>1383974140421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -696,7 +661,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -755,7 +720,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added whole model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete model." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -770,6 +735,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="added whole model" />
+    <MESSAGE value="Complete model." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -779,53 +745,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/consulta.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="332" selection-end="332" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="425" selection-end="425" vertical-scroll-proportion="-6.6666665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="29" selection-start="3110" selection-end="3110" vertical-scroll-proportion="-8.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Doctor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="28" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
@@ -901,7 +820,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="842" selection-end="842" vertical-scroll-proportion="0.4766949">
+        <state line="138" column="40" selection-start="4959" selection-end="4959" vertical-scroll-proportion="0.3736413">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1527#1535#0" expanded="true" />
@@ -915,36 +834,71 @@
             <element signature="e#18427#18451#0" expanded="true" />
             <element signature="e#20112#20137#0" expanded="true" />
             <element signature="e#22011#22037#0" expanded="true" />
-            <marker date="1383973848000" expanded="true" signature="926:977" placeholder="INSERT INTO ..." />
-            <marker date="1383973848000" expanded="true" signature="1457:1477" placeholder="SELECT * FRO..Doctor..." />
-            <marker date="1383973848000" expanded="true" signature="2377:2423" placeholder="SELECT * FRO..doctor..." />
-            <marker date="1383973848000" expanded="true" signature="3241:3301" placeholder="SELECT * FRO..doctor..." />
-            <marker date="1383973848000" expanded="true" signature="4197:4283" placeholder="UPDATE Docto..." />
-            <marker date="1383973848000" expanded="true" signature="4693:4735" placeholder="DELETE FROM ..." />
-            <marker date="1383973848000" expanded="true" signature="4776:4827" placeholder="DELETE FROM ..." />
-            <marker date="1383973848000" expanded="true" signature="5446:5501" placeholder="INSERT INTO ..." />
-            <marker date="1383973848000" expanded="true" signature="5912:5934" placeholder="SELECT * FRO..Paciente..." />
-            <marker date="1383973848000" expanded="true" signature="6787:6835" placeholder="SELECT * FRO..Paciente..." />
-            <marker date="1383973848000" expanded="true" signature="7588:7680" placeholder="UPDATE pacie..." />
-            <marker date="1383973848000" expanded="true" signature="8092:8136" placeholder="DELETE FROM ..." />
-            <marker date="1383973848000" expanded="true" signature="8178:8229" placeholder="DELETE FROM ..." />
-            <marker date="1383973848000" expanded="true" signature="8271:8324" placeholder="DELETE FROM ..." />
-            <marker date="1383973848000" expanded="true" signature="9004:9066" placeholder="INSERT INTO ..." />
-            <marker date="1383973848000" expanded="true" signature="9482:9511" placeholder="SELECT * FRO..AnalisisClinico..." />
-            <marker date="1383973848000" expanded="true" signature="10287:10342" placeholder="SELECT * FRO..AnalisisClinico..." />
-            <marker date="1383973848000" expanded="true" signature="10993:11045" placeholder="SELECT * FRO..analisisClinico..." />
-            <marker date="1383973848000" expanded="true" signature="11824:11923" placeholder="UPDATE Anali..." />
-            <marker date="1383973848000" expanded="true" signature="12340:12391" placeholder="DELETE FROM ..." />
-            <marker date="1383973848000" expanded="true" signature="12432:12485" placeholder="DELETE FROM ..." />
-            <marker date="1383973848000" expanded="true" signature="13109:13166" placeholder="INSERT INTO ..." />
-            <marker date="1383973848000" expanded="true" signature="13653:13676" placeholder="SELECT * FRO..SeRealiza..." />
-            <marker date="1383973848000" expanded="true" signature="14596:14649" placeholder="INSERT INTO ..." />
-            <marker date="1383973848000" expanded="true" signature="15130:15151" placeholder="SELECT * FRO..Atiende..." />
-            <marker date="1383973848000" expanded="true" signature="16206:16522" placeholder="SELECT Pacie..Paciente..." />
-            <marker date="1383973848000" expanded="true" signature="17805:18361" placeholder="SELECT Pacie..Doctor..." />
-            <marker date="1383973848000" expanded="true" signature="19643:20007" placeholder="SELECT Pacie..Paciente..." />
-            <marker date="1383973848000" expanded="true" signature="21324:21943" placeholder="SELECT Pacie..AnalisisClinico..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Doctor..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="UPDATE Docto..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="UPDATE pacie..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..analisisClinico..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="UPDATE Anali..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..SeRealiza..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Atiende..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Doctor..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1383973848000" expanded="true" signature="-1:-1" placeholder="SELECT Pacie..AnalisisClinico..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="73" selection-end="357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="71" selection-end="515" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.19379845">
+          <folding />
         </state>
       </provider>
     </entry>
