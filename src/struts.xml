@@ -6,8 +6,125 @@
 
 <struts>
     <package name="hospital" extends="struts-default">
-        <action name="consultar"        class="actions.Consultar">
+        <!--               CONSULTAR               -->
+        <!--Consultas Analisis-->
+        <action name="consultarAnalisisClave" class="actions.Consultar"  method="analisisClave">
             <result name="success">consulta.jsp</result>
         </action>
+        <action name="consultarAnalisisGeneral" class="actions.Consultar" method="analisisGeneral">
+            <result name="success">consulta.jsp</result>
+        </action>
+        <action name="consultarAnalisisTipo" class="actions.Consultar" method="analisisTipo">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Consultas Atiende-->
+        <action name="consultarAtiendeGeneral" class="actions.Consultar" method="atiendeGeneral">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Consultas Doctores-->
+        <action name="consultarDoctorClave" class="actions.Consultar" method="doctorClave">
+            <result name="success">consulta.jsp</result>
+        </action>
+        <action name="consultarDoctorEspecialidad" class="actions.Consultar" method="doctorEspecialidad">
+            <result name="success">consulta.jsp</result>
+        </action>
+        <action name="consultarDoctorGeneral" class="actions.Consultar" method="doctorGeneral">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Consultas Pacientes-->
+        <action name="consultarPacienteClave" class="actions.Consultar" method="pacienteClave">
+            <result name="success">consulta.jsp</result>
+        </action>
+        <action name="consultarPacienteGeneral" class="actions.Consultar" method="pacienteGeneral">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Consultas Se Realiza-->
+        <action name="consultarSeRealizaGeneral" class="actions.Consultar" method="seRealizaGeneral">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--               CAPTURAR               -->
+        <!--Capturar Analisis-->
+        <action name="capturarAnalisis" class="actions.Capturar" method="analisis">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Capturar Atiende-->
+        <action name="capturarAtiende" class="actions.Capturar" method="atiende">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Capturar Doctor-->
+        <action name="capturarDoctor" class="actions.Capturar" method="doctor">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Capturar Paciente-->
+        <action name="capturarPaciente" class="actions.Capturar" method="paciente">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Capturar SeRealiza-->
+        <action name="capturarSeRealiza" class="actions.Capturar" method="seRealiza">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--               ACTUALIZAR               -->
+        <!--Actualizar Analisis-->
+        <action name="actualizarAnalisis" class="actions.Actualizar" method="analisis">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Actualizar Doctor-->
+        <action name="actualizarDoctor" class="actions.Actualizar" method="doctor">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Actualizar Paciente-->
+        <action name="actualizarPaciente" class="actions.Actualizar" method="paciente">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--               BORRAR               -->
+        <!--Borrar Analisis-->
+        <action name="borrarAnalisis" class="actions.Borrar" method="analisis">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Borrar Doctor-->
+        <action name="borrarDoctor" class="actions.Borrar" method="doctor">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Borrar Paciente-->
+        <action name="borrarPaciente" class="actions.Borrar" method="paciente">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--               GENERAR REPORTES               -->
+        <!--Generar Reporte Analisis Paciente-->
+        <action name="generarReporteAnalisisPaciente" class="actions.Generar" method="reporteAnalisisPaciente">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Generar Reporte Doctores Paciente-->
+        <action name="generarReporteDoctoresPaciente" class="actions.Generar" method="reporteDoctoresPaciente">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Generar Reporte Pacientes Analisis-->
+        <action name="generarReportePacientesAnalisis" class="actions.Generar" method="reportePacientesAnalisis">
+            <result name="success">consulta.jsp</result>
+        </action>
+
+        <!--Generar Reporte Pacientes Doctor-->
+        <action name="generarReportePacientesDoctor" class="actions.Generar" method="reportePacientesDoctor">
+            <result name="success">consulta.jsp</result>
+        </action>
+
     </package>
 </struts>
