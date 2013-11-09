@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/analisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/doctores.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pacientes.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/reportes.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/consulta.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/alertify/bower.json" afterPath="$PROJECT_DIR$/web/alertify/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383976769458" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383980505324" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383977492084" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
@@ -28,6 +49,7 @@
     <file path="/Borrar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974868103" ignored="false" />
     <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974923496" ignored="false" />
     <file path="/Generar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974982943" ignored="false" />
+    <file path="/bootstrap.css" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383980496967" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +69,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -83,7 +106,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -93,67 +115,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Actualizar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="73" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="43" column="25" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-4.5833335">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Borrar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="43" selection-start="4735" selection-end="4735" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/struts.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="28" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.75967956">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Capturar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="71" selection-end="515" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consultar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="65" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="2927" column="38" selection-start="51431" selection-end="51431" vertical-scroll-proportion="0.7162791">
               <folding />
             </state>
           </provider>
@@ -177,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/model/Atiende.java" />
-        <option value="$PROJECT_DIR$/src/model/AnalisisClinico.java" />
         <option value="$PROJECT_DIR$/src/model/Paciente.java" />
         <option value="$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java" />
         <option value="$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java" />
@@ -193,12 +165,14 @@
         <option value="$PROJECT_DIR$/src/actions/Generar.java" />
         <option value="$PROJECT_DIR$/src/model/DBManager.java" />
         <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -309,7 +283,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
+              <option name="myItemId" value="HospitalManagerWeb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,7 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
+              <option name="myItemId" value="HospitalManagerWeb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,130 +307,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
+              <option name="myItemId" value="HospitalManagerWeb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Borrar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,7 +326,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
@@ -473,12 +335,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss 7.2.0.Final-redhat-8">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -505,6 +367,19 @@
       </server-settings>
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -535,19 +410,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -561,6 +423,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -715,7 +584,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -730,6 +599,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -737,13 +607,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -816,20 +685,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="35" selection-start="2690" selection-end="2690" vertical-scroll-proportion="2.5090544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="64" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.57746476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ReportePacientesAnalisis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="36" selection-start="2470" selection-end="2470" vertical-scroll-proportion="2.8973844">
@@ -866,20 +721,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createHospital.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="74" selection-start="9214" selection-end="9214" vertical-scroll-proportion="-47.333332">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="73" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
@@ -891,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+        <state line="10" column="28" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -914,8 +762,8 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_range_rngtypid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_event_trigger_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_type</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdepend_reference_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_type</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_options</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_event_trigger</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum</node>
@@ -923,9 +771,9 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_user_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_collation_name_enc_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_activity</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion_oid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_collation_name_enc_nsp_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.applicable_roles</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_replication</node>
@@ -954,12 +802,12 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tablespace_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.table_privileges</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.serealiza</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.atiende</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.serealiza</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opclass_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opfamily</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_all_indexes</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opfamily</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate_name_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.collation_character_set_applicability</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_am_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_operator</node>
@@ -968,10 +816,10 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_namespace_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.paciente</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_tgconstraint_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.domain_constraints</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.analisisclinico</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_tgconstraint_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_database</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.analisisclinico</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.check_constraints</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend_reference_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server_name_index</node>
@@ -981,21 +829,21 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_am_name_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_servers</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_data_wrapper_options</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_db_role_setting</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.table_constraints</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdescription_o_c_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend_depender_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.check_constraint_routine_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdescription</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amproc</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.administrable_role_authorizations</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.view_table_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_table</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_map</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_all_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits_relid_seqno_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tablespace</node>
@@ -1096,10 +944,10 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_map_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.constraint_column_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.character_sets</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.data_type_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_data_wrappers</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.character_sets</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_timezone_names</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_data_wrappers</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_prepared_xacts</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_implementation_info</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_servers</node>
@@ -1107,23 +955,23 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.constraint_table_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_user_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_aggregate_fnoid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_user_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_extension_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_range</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cursors</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject_metadata_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_oid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject_metadata_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_database_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_database_conflicts</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_language_oid_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_database_conflicts</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_sys_tables</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_conname_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_rolname_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.view_column_usage</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_rolname_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.domains</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.referential_constraints</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate</node>
@@ -1132,8 +980,8 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.information_schema_catalog_name</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_index_indexrelid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_parser_prsname_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_index_indexrelid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_locks</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_group</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_default_acl</node>
@@ -1145,25 +993,25 @@
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_conrelid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.udt_privileges</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_features</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_udt_grants</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_dict_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_udt_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.doctor</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_udt_grants</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_prepared_statements</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.doctor</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_udt_usage</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_rules</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_table_options</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_table_relid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_languages</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_languages</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast_oid_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_user_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shseclabel</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_auth_members_role_member_index</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shseclabel</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.user_defined_types</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_proc_proname_args_nsp_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tables</node>
+            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_proc_proname_args_nsp_index</node>
             <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amproc_fam_proc_index</node>
           </nodes>
           <notes />
@@ -1180,7 +1028,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+        <state line="16" column="25" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1200,11 +1048,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="28" selection-start="5293" selection-end="5293" vertical-scroll-proportion="-17.37037">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="28" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.75967956">
+        <state line="7" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="25" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-4.5833335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2927" column="38" selection-start="51431" selection-end="51431" vertical-scroll-proportion="0.7162791">
           <folding />
         </state>
       </provider>
