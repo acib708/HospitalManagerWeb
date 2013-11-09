@@ -10,7 +10,7 @@ public class Actualizar {
     private Boolean   response;
 
     private String          claveDoctor,nombreDoctor,direccionDoctor,especialidadDoctor,telefonoDoctor,fotoDoctor;
-    private String          clavePaciente;
+    private String          clavePaciente,direccionPaciente,fotoPaciente,nombrePaciente,telefonoPaciente;
     private String          claveAnalisis;
     private Doctor          doctor;
     private Paciente        paciente;
