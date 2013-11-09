@@ -11,6 +11,7 @@ public class AnalisisClinico{
 		clave 		= "";
 		tipo        = "";
 		descripcion = "";
+
 	}
 	public AnalisisClinico(String datos){
 		StringTokenizer st = new StringTokenizer(datos,"_");
