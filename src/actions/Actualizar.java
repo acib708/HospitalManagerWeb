@@ -9,21 +9,28 @@ public class Actualizar {
     private DBManager dbManager = new DBManager();
     private Boolean   response;
 
-    private String          claveDoctor,clavePaciente,claveAnalisis;
+    private String          claveDoctor,nombreDoctor,direccionDoctor,especialidadDoctor,telefonoDoctor,fotoDoctor;
+    private String          clavePaciente;
+    private String          claveAnalisis;
     private Doctor          doctor;
     private Paciente        paciente;
     private AnalisisClinico analisis;
 
     public String doctor() throws Exception{
+        getDataDoctor();
         response = dbManager.actualizarDoctor(doctor);
         return "success";
     }
 
     public String paciente() throws Exception{
+        getDataPaciente();
+        response = dbManager.actualizarPaciente(paciente);
         return "success";
     }
 
     public String analisis() throws Exception{
+        getDataAnalisis();
+        response = dbManager.actualizarAnalaisis(analisis);
         return "success";
     }
     //Getters for attributes
