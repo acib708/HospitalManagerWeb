@@ -1,48 +1,128 @@
 package actions;
 
-import model.DBManager;
+import model.*;
 
 public class Consultar {
-    private DBManager dbManager = new DBManager();
+    private DBManager   dbManager = new DBManager();
+    //Doctor
+    private Doctor[]          doctores;
+    private String            claveDoctor,especialidadDoctor;
+    //Paciente
+    private Paciente[]        pacientes;
+    private String            clavePaciente;
+    //Analisis Clinico
+    private AnalisisClinico[] analisis;
+    private String            claveAnalisis,tipoAnalisis;
+    //SeRealiza
+    private SeRealiza[]       seRealiza;
+    //Atiende
+    private Atiende[]         atiende;
 
     //Doctor
     public String doctorGeneral() throws Exception{
+        doctores = dbManager.consultarDoctores();
         return "success";
     }
     public String doctorClave() throws Exception{
+        Doctor doctor = dbManager.consultarDoctorClave(claveDoctor);
+        if(doctor != null){
+            doctores    = new Doctor[1];
+            doctores[0] = doctor;
+        }
+        else
+            doctores = null;
         return "success";
     }
     public String doctorEspecialidad() throws Exception{
+        doctores = dbManager.consultarDoctoresEspecialidad(especialidadDoctor);
         return "success";
     }
 
     //Paciente
     public String pacienteGeneral() throws Exception{
+        pacientes = dbManager.consultarPacientes();
         return "success";
     }
     public String pacienteClave() throws Exception{
+        Paciente paciente = dbManager.consultarPacienteClave(clavePaciente);
+        if(paciente != null){
+            pacientes    = new Paciente[1];
+            pacientes[0] = paciente;
+        }
+        else
+            pacientes = null;
         return "success";
     }
 
     //Analisis
     public String analisisGeneral() throws Exception{
+        analisis = dbManager.consultarAnalisis();
         return "success";
     }
     public String analisisClave() throws Exception{
+        AnalisisClinico analisisClinico = dbManager.consultarAnalisisClave(claveAnalisis);
+        if(analisisClinico != null){
+            analisis    = new AnalisisClinico[1];
+            analisis[0] = analisisClinico;
+        }
+        else
+            analisis = null;
         return "success";
     }
     public String analisisTipo() throws Exception{
+        analisis = dbManager.consultarAnalisisTipo(tipoAnalisis);
         return "success";
     }
 
     //SeRealiza
     public String seRealizaGeneral() throws Exception{
+        seRealiza = dbManager.consultarSeRealiza();
         return "success";
     }
 
     //Atiende
     public String atiendeGeneral() throws Exception{
+        atiende = dbManager.consultarAtiende();
         return "success";
     }
 
+    public Doctor[] getDoctores() {
+        return doctores;
+    }
+
+    public Paciente[] getPacientes() {
+        return pacientes;
+    }
+
+    public AnalisisClinico[] getAnalisis() {
+        return analisis;
+    }
+
+    public SeRealiza[] getSeRealiza() {
+        return seRealiza;
+    }
+
+    public Atiende[] getAtiende() {
+        return atiende;
+    }
+
+    public void setEspecialidadDoctor(String especialidadDoctor) {
+        this.especialidadDoctor = especialidadDoctor;
+    }
+
+    public void setClaveDoctor(String claveDoctor) {
+        this.claveDoctor = claveDoctor;
+    }
+
+    public void setClavePaciente(String clavePaciente) {
+        this.clavePaciente = clavePaciente;
+    }
+
+    public void setClaveAnalisis(String claveAnalisis) {
+        this.claveAnalisis = claveAnalisis;
+    }
+
+    public void setTipoAnalisis(String tipoAnalisis) {
+        this.tipoAnalisis = tipoAnalisis;
+    }
 }
