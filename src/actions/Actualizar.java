@@ -9,7 +9,7 @@ public class Actualizar {
     private DBManager dbManager = new DBManager();
     private Boolean   response;
 
-    private String          clave,nombre,direccion,especialidad,telefono,foto,tipo,descripcion;
+    private String          clave, nombre, direccion, especialidad, telefono, foto, tipo, descripcion;
     private Doctor          doctor;
     private Paciente        paciente;
     private AnalisisClinico analisis;

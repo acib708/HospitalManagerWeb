@@ -6,26 +6,26 @@ public class Borrar {
     private DBManager dbManager = new DBManager();
     //Keys needed to erase each entry in the DB
     private String  clave;
-    private Boolean deleted;
+    private Boolean ans;
 
     public String doctor() throws Exception{
-        deleted = dbManager.borrarDoctor(clave);
+        ans = dbManager.borrarDoctor(clave);
         return "success";
     }
 
     public String paciente() throws Exception{
-        deleted = dbManager.borrarPaciente(clave);
+        ans = dbManager.borrarPaciente(clave);
         return "success";
     }
 
     public String analisis() throws Exception{
-        deleted = dbManager.borrarAnalisis(clave);
+        ans = dbManager.borrarAnalisis(clave);
         return "success";
     }
 
     /* Getters and Setters */
-    public Boolean isDeleted() {
-        return deleted;
+    public Boolean getAns() {
+        return ans;
     }
 
     public void setClave(String clave) {
