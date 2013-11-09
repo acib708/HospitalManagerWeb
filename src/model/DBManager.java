@@ -320,6 +320,7 @@ public class DBManager {
         }
         catch(SQLException sqle){
             System.out.println(sqle);
+
         }
         return resp.toArray(new AnalisisClinico[resp.size()]);
     }
