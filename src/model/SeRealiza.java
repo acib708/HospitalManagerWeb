@@ -31,11 +31,7 @@ public class SeRealiza{
 	}
 
 	public String toStringSQL(){
-		return "'"+claveAnalisis+"','"+clavePaciente+"','"+fechaAplic+"','"+fechaEntrega+"'";
-	}
-
-	public String toStringSQLUpdate(){
-		return "claveAnalisis= '"+claveAnalisis+"', clavePaciente='"+clavePaciente+"', fechaAplic= '"+fechaAplic+"', fechaEntrega= '"+fechaEntrega+"'";
+		return "'"+claveAnalisis+"','"+clavePaciente+"','"+fechaAplic+"','"+fechaEntrega+"','"+fotoPaciente+"'";
 	}
 		
 	public void setClaveAnalisis(String claveAnalisis){
