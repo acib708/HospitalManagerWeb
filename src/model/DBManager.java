@@ -11,7 +11,7 @@ public class DBManager {
     public DBManager(){
         try{
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost/bdhospital?user=root");
+            conexion = DriverManager.getConnection("jdbc:postgresql://localhost/hospital?user=acib708&password=page0122");
             System.out.println("Conexion exitosa");
         }
         catch(ClassNotFoundException cnfe){
