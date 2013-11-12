@@ -87,7 +87,7 @@ public class DBManager {
         try{
             si.connect();
             client = si.getClient();
-            client.borrarDoctor(clave);
+            ans = client.borrarDoctor(clave);
             si.disconnect();
         }
         catch (TException e){
@@ -101,7 +101,7 @@ public class DBManager {
         try{
             si.connect();
             client = si.getClient();
-            client.capturarPaciente(paciente);
+            ans = client.capturarPaciente(paciente);
             si.disconnect();
         }
         catch (TException e){

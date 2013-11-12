@@ -23,9 +23,9 @@
     %>
     <li class="span3" >
         <div class="thumbnail" >
-            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayAtiende[i].getFotoDoctor()%>" alt="">
+            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayAtiende[i].getClaveDoctor()%>.jpg" alt="">
             <h5><%=arrayAtiende[i].getClaveDoctor()%></h5>
-            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayAtiende[i].getFotoPaciente()%>" alt="">
+            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayAtiende[i].getClavePaciente()%>.jpg" alt="">
             <h5><%=arrayAtiende[i].getClavePaciente()%></h5>
 
 

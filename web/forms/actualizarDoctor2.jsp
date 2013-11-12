@@ -22,7 +22,7 @@
         var direccion    = $("input[name = direccion]").val();
         var especialidad = $("input[name = especialidad]").val();
         var telefono 	 = $("input[name = telefono]").val();
-        var foto	     = $("input[name = foto]").val();
+        //var foto	     = $("input[name = foto]").val();
 
         if (clave == null || clave == ""){
             alertify.error("Debes proporcionar una clave.");
@@ -48,10 +48,10 @@
             alertify.error("El telefono debe de ser numerico.");
             return false;
         }
-        else if (foto == null || foto == ""){
-            alertify.error("Debes proporcionar el campo imagen.");
-            return false;
-        }
+        //else if (foto == null || foto == ""){
+        //    alertify.error("Debes proporcionar el campo imagen.");
+        //    return false;
+        //}
         else{
             //document.getElementById('results_frame').style.display = "inherit";
             return true;
@@ -59,8 +59,8 @@
     }
 </script>
 </head>
-<body>
-    <h4> Capturar Doctores: </h4>
+<body style="background: #f5f5f5;">
+    <h4> Capturar Doctor: </h4>
     <% Doctor doctor = (Doctor)request.getAttribute("doctor");
         if(doctor != null){
     %>
@@ -88,10 +88,10 @@
                 <td class="text-right">Tel&eacute;fono:</td>
                 <td><input style="width:200px;" type="text" name="telefono" value="<%= doctor.getTelefono()%>"></td>
             </tr>
-            <tr>
+            <!--tr>
                 <td class="text-right">Foto:</td>
                 <td><input style="width:200px;" type="text" name="foto" value="<%= doctor.getFoto()%>"></td>
-            </tr>
+            </tr-->
             <tr>
                 <td></td>
                 <td>

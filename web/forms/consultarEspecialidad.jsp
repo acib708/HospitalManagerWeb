@@ -14,7 +14,7 @@
     }
 </script>
 
-<h4> Consulta thrift.Doctor: </h4>
+<h4> Consulta Doctor por Especialidad: </h4>
 <s:form name="form_consultar_especialidad" action="consultarDoctorEspecialidad" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>

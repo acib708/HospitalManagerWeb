@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
 </head>
 <body>
-<%    Boolean state = (Boolean)request.getAttribute("ans");
-	
+<%  Boolean state = (Boolean)request.getAttribute("ans");
+    System.out.println(request.getAttribute("ans"));
 	  if(state == false){	  
 %>
 			<h4>Lo sentimos hubo un error al capturar los datos.</h4>

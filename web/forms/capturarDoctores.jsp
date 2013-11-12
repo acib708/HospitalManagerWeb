@@ -6,7 +6,7 @@
             var direccion    = $("input[name = direccion]").val();
             var especialidad = $("input[name = especialidad]").val();
             var telefono 	 = $("input[name = telefono]").val();
-            var fotoDoctor	 = $("input[name = fotoDoctor]").val();
+            //var fotoDoctor	 = $("input[name = fotoDoctor]").val();
             
             if (claveDoctor == null || claveDoctor == ""){
                 alertify.error("Debes proporcionar una clave.");
@@ -32,10 +32,10 @@
                 alertify.error("El telefono debe de ser numerico.");
                 return false;
             }
-            else if (fotoDoctor == null || fotoDoctor == ""){
-                alertify.error("Debes proporcionar el campo imagen.");
-                return false;
-            }
+            //else if (fotoDoctor == null || fotoDoctor == ""){
+            //    alertify.error("Debes proporcionar el campo imagen.");
+            //    return false;
+            //}
             else{ 
             	//document.getElementById('results_frame').style.display = "inherit";
             	return true;
@@ -66,10 +66,10 @@
         	<td class="text-right">Tel&eacute;fono:</td>
             <td><input style="width:200px;" type="text" name="telefono"></td>
         </tr>
-        <tr>
+        <!--tr>
   	      <td class="text-right">Foto:</td>
           <td><input style="width:200px;" type="text" name="fotoDoctor"></td>
-        </tr>
+        </tr-->
         <tr>
         	<td></td>
         	<td>

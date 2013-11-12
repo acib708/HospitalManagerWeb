@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
 </head>
 <body style="background: #f5f5f5;">
-<h4>Consultar thrift.Doctor</h4>
 <%
     //DBManager dbman = new DBManager();
     //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
@@ -23,8 +22,10 @@
     %>
     <li class="span3" >
         <div class="thumbnail" >
-            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayDoctor[i].getFoto()%>" alt="">
+            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayDoctor[i].getClave()%>.jpg" alt="">
             <h5><%=arrayDoctor[i].getNombre()%></h5>
+            <h5><%=arrayDoctor[i].getEspecialidad()%></h5>
+            <h5>Telefono: <%=arrayDoctor[i].getTelefono()%></h5>
         </div>
     </li>
     <%
