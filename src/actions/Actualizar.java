@@ -7,7 +7,7 @@ import model.Paciente;
 
 public class Actualizar {
     private DBManager dbManager = new DBManager();
-    private Boolean   response;
+    private Boolean   ans;
 
     private String          clave, nombre, direccion, especialidad, telefono, foto, tipo, descripcion;
     private Doctor          doctor;
@@ -22,7 +22,7 @@ public class Actualizar {
         doctor.setFoto(foto);
         doctor.setNombre(nombre);
         doctor.setTelefono(telefono);
-        response = dbManager.actualizarDoctor(doctor);
+        ans = dbManager.actualizarDoctor(doctor);
         return "success";
     }
 
@@ -33,7 +33,7 @@ public class Actualizar {
         paciente.setFoto(foto);
         paciente.setNombre(nombre);
         paciente.setTelefono(telefono);
-        response = dbManager.actualizarPaciente(paciente);
+        ans = dbManager.actualizarPaciente(paciente);
         return "success";
     }
 
@@ -42,11 +42,12 @@ public class Actualizar {
         analisis.setClave(clave);
         analisis.setDescripcion(descripcion);
         analisis.setTipo(tipo);
-        response = dbManager.actualizarAnalisis(analisis);
+        ans = dbManager.actualizarAnalisis(analisis);
         return "success";
     }
 
     public String getDataDoctor(){
+        System.out.println("la clave es: " +clave);
         doctor = dbManager.consultarDoctorClave(clave);
         return "success";
     }
@@ -62,8 +63,8 @@ public class Actualizar {
     }
 
     //Getters for attributes
-    public Boolean getResponse() {
-        return response;
+    public Boolean getAns() {
+        return ans;
     }
 
     public Paciente getPaciente() {

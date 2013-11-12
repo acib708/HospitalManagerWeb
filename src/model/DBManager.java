@@ -10,9 +10,9 @@ public class DBManager {
 
     public DBManager(){
         try{
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
-            conexion = DriverManager.getConnection("jdbc:postgresql://localhost/hospital?user=marcelonicolasgomezrivera");
-            System.out.println("Conexion exitosa");
+            Class.forName("org.postgresql.Driver").newInstance();
+            conexion = DriverManager.getConnection("jdbc:postgresql://localhost/hospital?user=rantelo");
+            System.err.print("Conexion exitosa");
         }
         catch(ClassNotFoundException cnfe){
             System.out.println("Error: "+cnfe);
@@ -30,8 +30,6 @@ public class DBManager {
 
     public boolean capturarDoctor(Doctor doctor){
         String captura = "INSERT INTO Doctor VALUES("+doctor.toStringSQL()+");";
-        System.out.println(doctor);
-        System.out.println(captura);
         boolean resp;
         try{
             statement = conexion.createStatement();
@@ -71,6 +69,7 @@ public class DBManager {
 
     public Doctor consultarDoctorClave(String clave){
         String consulta = "SELECT * FROM doctor WHERE clave = '"+clave+"';";
+        System.out.println(consulta);
         Doctor doctor = null;
         try{
             statement = conexion.createStatement();
@@ -269,10 +268,10 @@ public class DBManager {
         String consulta = "SELECT * FROM AnalisisClinico;";
         ArrayList<AnalisisClinico> resp = new ArrayList<AnalisisClinico>();
         try{
-            AnalisisClinico analisis = new AnalisisClinico();
             statement = conexion.createStatement();
             tr = statement.executeQuery(consulta);
             while(tr.next()){
+                AnalisisClinico analisis = new AnalisisClinico();
                 analisis.setClave(tr.getString("clave"));
                 analisis.setTipo(tr.getString("tipo"));
                 analisis.setDescripcion(tr.getString("descripcion"));
@@ -306,6 +305,7 @@ public class DBManager {
 
     public AnalisisClinico[] consultarAnalisisTipo(String tipo){
         String consulta = "SELECT * FROM analisisClinico WHERE tipo= '"+tipo+"';";
+        System.out.println(consulta);
         ArrayList<AnalisisClinico> resp = new ArrayList<AnalisisClinico>();
         try{
             statement = conexion.createStatement();
@@ -327,6 +327,7 @@ public class DBManager {
 
     public boolean actualizarAnalisis(AnalisisClinico analisis){
         String update = "UPDATE AnalisisClinico SET "+analisis.toStringSQLUpdate()+" WHERE clave = '"+analisis.getClave()+"';";
+        System.out.println(update);
         boolean resp;
         try{
             statement = conexion.createStatement();
@@ -506,7 +507,14 @@ public class DBManager {
     }
 
     public ReporteAnalisisPaciente[] generarReporteAnalisisPaciente(String clavePaciente){
-        String consulta = "SELECT Paciente.foto,Paciente.clave,Paciente.nombre,AnalisisClinico.clave,AnalisisClinico.tipo,AnalisisClinico.descripcion,SeRealiza.fechaAplic,SeRealiza.fechaEntrega FROM (Paciente INNER JOIN SeRealiza ON Paciente.clave='"+ clavePaciente +"' AND Paciente.clave=SeRealiza.clavePaciente) INNER JOIN AnalisisClinico ON AnalisisClinico.clave = SeRealiza.claveAnalisis;";
+        String consulta   = "SELECT Paciente.foto,Paciente.clave,Paciente.nombre," +
+                                    "AnalisisClinico.clave,AnalisisClinico.tipo," +
+                                    "AnalisisClinico.descripcion,SeRealiza.fechaAplic,SeRealiza.fechaEntrega " +
+                            "FROM (Paciente INNER JOIN SeRealiza " +
+                                "ON Paciente.clave='"+ clavePaciente +"' " +
+                            "AND Paciente.clave=SeRealiza.clavePaciente) " +
+                                "INNER JOIN AnalisisClinico " +
+                            "ON AnalisisClinico.clave = SeRealiza.claveAnalisis;";
         System.out.println(consulta);
         ArrayList<ReporteAnalisisPaciente> resp = new ArrayList<ReporteAnalisisPaciente>();
         try{

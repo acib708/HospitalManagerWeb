@@ -37,7 +37,7 @@ public class Atiende{
 	}
 
 	public String toStringSQL(){
-		return "'"+claveDoctor+"','"+clavePaciente+"','"+fecha+"','"+tratamiento+"','"+diagnostico+"'";
+		return "'"+claveDoctor+"','"+clavePaciente+"','"+fecha+"','"+tratamiento+"','"+diagnostico+"','"+fotoDoctor+"','"+fotoPaciente+"'";
 	}
 
 	public String toStringSQLUpdate(){

@@ -2,32 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="Correct DBManager Credentials">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.15.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarDoctor.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarDoctor2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarPaciente2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/asignarAnalisisPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/asignarPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/borrarDoctor.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/borrarPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/capturarAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/capturarDoctores.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/capturarPacientes.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisisPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisisTipo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisisTipo2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAsignaciones.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveDoctores.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveDoctores2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClavePacientes.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClavePacientes2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarDoctorGeneral.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarEspecialidad.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarEspecialidad2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarPacientes.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/eliminarAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/estadoCaptura.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_9_2_1002_jdbc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesDoctoresPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesPacientesAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesPacientesDoctor.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisisPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAsignaciones.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarDoctorGeneral.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarPacientes.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspDoctoresPaciente.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspPacientesAnalisis.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspPacientesDoctor.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/analisis.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/doctores.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/pacientes.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/reportes.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Actualizar.java" afterPath="$PROJECT_DIR$/src/actions/Actualizar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Atiende.java" afterPath="$PROJECT_DIR$/src/model/Atiende.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Capturar.java" afterPath="$PROJECT_DIR$/src/actions/Capturar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/DBManager.java" afterPath="$PROJECT_DIR$/src/model/DBManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Generar.java" afterPath="$PROJECT_DIR$/src/actions/Generar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hospital.iml" afterPath="$PROJECT_DIR$/Hospital.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Hospital_ear_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Hospital_ear_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SeRealiza.java" afterPath="$PROJECT_DIR$/src/model/SeRealiza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383981760712" ignored="false" />
-    <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383977492084" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384283736155" ignored="false" />
+    <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384257826579" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
-    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974663875" ignored="false" />
-    <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973847921" ignored="false" />
+    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384222142138" ignored="false" />
+    <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384254397092" ignored="false" />
     <file path="/Doctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964350283" ignored="false" />
     <file path="/AnalisisClinico.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964660394" ignored="false" />
-    <file path="/Atiende.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964648641" ignored="false" />
+    <file path="/Atiende.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384124330096" ignored="false" />
     <file path="/Paciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965119585" ignored="false" />
     <file path="/ReporteAnalisisPaciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965885918" ignored="false" />
     <file path="/ReporteDoctoresPaciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965793962" ignored="false" />
     <file path="/ReportePacientesAnalisis.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383966115438" ignored="false" />
     <file path="/ReportePacientesDoctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383968607322" ignored="false" />
-    <file path="/SeRealiza.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383968789448" ignored="false" />
+    <file path="/SeRealiza.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384244614782" ignored="false" />
     <file path="/fragment.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383972041466" ignored="false" />
     <file path="/createHospital.sql" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973588282" ignored="false" />
-    <file path="/Actualizar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974844215" ignored="false" />
+    <file path="/Actualizar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384115677700" ignored="false" />
     <file path="/Borrar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974868103" ignored="false" />
-    <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974923496" ignored="false" />
-    <file path="/Generar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974982943" ignored="false" />
-    <file path="/bootstrap.css" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383980496967" ignored="false" />
+    <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384243910220" ignored="false" />
+    <file path="/Generar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384258411514" ignored="false" />
+    <file path="/bootstrap.css" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384128750614" ignored="false" />
+    <file path="/index2.html" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384025488650" ignored="false" />
+    <file path="/index.html" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384028421260" ignored="false" />
+    <file path="/dropdown2.css" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384029909365" ignored="false" />
+    <file path="/index.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384256202838" ignored="false" />
+    <file path="/capturarDoctores.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122069464" ignored="false" />
+    <file path="/estadoCaptura.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384036008343" ignored="false" />
+    <file path="/capturarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122657977" ignored="false" />
+    <file path="/capturarPacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122665251" ignored="false" />
+    <file path="/actualizarDoctor.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384113899319" ignored="false" />
+    <file path="/actualizarDoctor2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384123504160" ignored="false" />
+    <file path="/eliminarDoctor.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384116025847" ignored="false" />
+    <file path="/borrarDoctor.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122651993" ignored="false" />
+    <file path="/asignarPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384124109958" ignored="false" />
+    <file path="/consultarDoctorGeneral.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384235354777" ignored="false" />
+    <file path="/rspConsultarDoctorGeneral.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384236791106" ignored="false" />
+    <file path="/consultarClaveDoctores.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384253096675" ignored="false" />
+    <file path="/consultarEspecialidad.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384238283259" ignored="false" />
+    <file path="/consultarAsignaciones.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384239632563" ignored="false" />
+    <file path="/rspConsultarAsignaciones.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384240275002" ignored="false" />
+    <file path="/consultarPacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384240961838" ignored="false" />
+    <file path="/rspConsultarPacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384241165525" ignored="false" />
+    <file path="/consultarClavePacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384241737503" ignored="false" />
+    <file path="/consultarClavePacientes2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384241679081" ignored="false" />
+    <file path="/actualizarPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384242394717" ignored="false" />
+    <file path="/actualizarPaciente2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384248592228" ignored="false" />
+    <file path="/borrarPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384243353193" ignored="false" />
+    <file path="/asignarAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384245019319" ignored="false" />
+    <file path="/consultarAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384245261626" ignored="false" />
+    <file path="/rspConsultarAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384245800489" ignored="false" />
+    <file path="/eliminarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384246354927" ignored="false" />
+    <file path="/actualizarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384247741198" ignored="false" />
+    <file path="/actualizarAnalisis2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384249099331" ignored="false" />
+    <file path="/consultarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384249640307" ignored="false" />
+    <file path="/rspConsultarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384251330673" ignored="false" />
+    <file path="/consultarClaveAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384253154313" ignored="false" />
+    <file path="/consultarClaveAnalisis2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384253371427" ignored="false" />
+    <file path="/consultarAnalisisTipo.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384254603046" ignored="false" />
+    <file path="/consultarAnalisisTipo2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384254287219" ignored="false" />
+    <file path="/rspAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384256831961" ignored="false" />
+    <file path="/reportesAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384257979154" ignored="false" />
+    <file path="/reportesAnalisisPaciente2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384258122683" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +139,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Hospital$JBoss_7_2_0_Final_redhat_8.coverage" NAME="JBoss 7.2.0.Final-redhat-8 Coverage Results" MODIFIED="1384025667451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -47,7 +159,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -84,6 +195,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -93,21 +205,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Actualizar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
+      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="79" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="113" column="60" selection-start="5232" selection-end="5232" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Generar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="53" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="537" column="55" selection-start="21429" selection-end="21429" vertical-scroll-proportion="0.024205748">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1458#1466#0" expanded="true" />
+                <element signature="e#9539#9556#0" expanded="true" />
+                <marker date="1384284457000" expanded="true" signature="930:981" placeholder="INSERT INTO ..." />
+                <marker date="1384284457000" expanded="true" signature="1388:1408" placeholder="SELECT * FRO..Doctor..." />
+                <marker date="1384284457000" expanded="true" signature="2308:2354" placeholder="SELECT * FRO..doctor..." />
+                <marker date="1384284457000" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..doctor..." />
+                <marker date="1384284457000" expanded="true" signature="4166:4252" placeholder="UPDATE Docto..." />
+                <marker date="1384284457000" expanded="true" signature="4662:4704" placeholder="DELETE FROM ..." />
+                <marker date="1384284457000" expanded="true" signature="4745:4796" placeholder="DELETE FROM ..." />
+                <marker date="1384284457000" expanded="true" signature="5415:5470" placeholder="INSERT INTO ..." />
+                <marker date="1384284457000" expanded="true" signature="5881:5903" placeholder="SELECT * FRO..Paciente..." />
+                <marker date="1384284457000" expanded="true" signature="6756:6804" placeholder="SELECT * FRO..Paciente..." />
+                <marker date="1384284457000" expanded="true" signature="7557:7649" placeholder="UPDATE pacie..." />
+                <marker date="1384284457000" expanded="true" signature="8061:8105" placeholder="DELETE FROM ..." />
+                <marker date="1384284457000" expanded="true" signature="8147:8198" placeholder="DELETE FROM ..." />
+                <marker date="1384284457000" expanded="true" signature="8240:8293" placeholder="DELETE FROM ..." />
+                <marker date="1384284457000" expanded="true" signature="8973:9035" placeholder="INSERT INTO ..." />
+                <marker date="1384284457000" expanded="true" signature="9451:9480" placeholder="SELECT * FRO..AnalisisClinico..." />
+                <marker date="1384284457000" expanded="true" signature="10260:10315" placeholder="SELECT * FRO..AnalisisClinico..." />
+                <marker date="1384284457000" expanded="true" signature="10966:11018" placeholder="SELECT * FRO..analisisClinico..." />
+                <marker date="1384284457000" expanded="true" signature="11835:11934" placeholder="UPDATE Anali..." />
+                <marker date="1384284457000" expanded="true" signature="12387:12438" placeholder="DELETE FROM ..." />
+                <marker date="1384284457000" expanded="true" signature="12479:12532" placeholder="DELETE FROM ..." />
+                <marker date="1384284457000" expanded="true" signature="13156:13213" placeholder="INSERT INTO ..." />
+                <marker date="1384284457000" expanded="true" signature="13700:13723" placeholder="SELECT * FRO..SeRealiza..." />
+                <marker date="1384284457000" expanded="true" signature="14643:14696" placeholder="INSERT INTO ..." />
+                <marker date="1384284457000" expanded="true" signature="15177:15198" placeholder="SELECT * FRO..Atiende..." />
+                <marker date="1384284457000" expanded="true" signature="16253:16569" placeholder="SELECT Pacie..Paciente..." />
+                <marker date="1384284457000" expanded="true" signature="17852:18408" placeholder="SELECT Pacie..Doctor..." />
+                <marker date="1384284457000" expanded="true" signature="19692:20311" placeholder="SELECT Pacie..Paciente..." />
+                <marker date="1384284457000" expanded="true" signature="21628:22247" placeholder="SELECT Pacie..AnalisisClinico..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Capturar.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="22" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.47806355">
+            <state line="261" column="40" selection-start="11386" selection-end="11386" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reportesAnalisisPaciente.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="21" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,22 +300,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/model/Paciente.java" />
-        <option value="$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java" />
-        <option value="$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java" />
-        <option value="$PROJECT_DIR$/src/model/ReportePacientesAnalisis.java" />
-        <option value="$PROJECT_DIR$/src/model/ReportePacientesDoctor.java" />
-        <option value="$PROJECT_DIR$/src/model/SeRealiza.java" />
-        <option value="$PROJECT_DIR$/createHospital.sql" />
-        <option value="$PROJECT_DIR$/src/actions/Consultar.java" />
-        <option value="$PROJECT_DIR$/src/actions/Actualizar.java" />
-        <option value="$PROJECT_DIR$/src/actions/Borrar.java" />
-        <option value="$PROJECT_DIR$/src/actions/Capturar.java" />
+        <option value="$PROJECT_DIR$/web/forms/actualizarPaciente2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarAnalisis.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarClaveDoctores.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarClaveAnalisis.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarAnalisisTipo2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarAnalisisTipo.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" />
         <option value="$PROJECT_DIR$/src/actions/Generar.java" />
         <option value="$PROJECT_DIR$/src/model/DBManager.java" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -249,8 +418,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,7 +464,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="Responses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HospitalManagerWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,58 +497,25 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="SQL Dialects" />
+    <property name="options.lastSelected" value="preferences.applicationServers" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LibraryManager-master" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -376,15 +528,14 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <PyConsoleSettings />
-    </option>
-    <option name="myDjangoConsoleState">
-      <PyConsoleSettings />
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/forms" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+    </key>
   </component>
-  <component name="RunManager" selected="JBoss Server.JBoss 7.2.0.Final-redhat-8">
+  <component name="RunManager" selected="JBoss Server.JBoss">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -474,6 +625,13 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -501,8 +659,9 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="false" name="JBoss 7.2.0.Final-redhat-8" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2.0.Final-redhat-8">
+    <configuration default="false" name="JBoss" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2.0.Final-redhat-8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Hospital" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Hospital:ear exploded">
           <settings />
@@ -518,7 +677,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53710" />
+        <option name="DEBUG_PORT" value="52442" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -575,7 +734,7 @@
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.2.0.Final-redhat-8" />
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -622,20 +781,16 @@
       <created>1383975629884</created>
       <updated>1383975629884</updated>
     </task>
-    <task id="LOCAL-00005" summary="Correct DBManager Credentials">
-      <created>1383981426487</created>
-      <updated>1383981426487</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.2863248" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6708229" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -644,21 +799,22 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.67094016" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23095624" sideWeight="0.6823362" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31766382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67094016" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -731,322 +887,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/SeRealiza.java">
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspPacientesAnalisis.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createHospital.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspPacientesDoctor.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="74" selection-start="9214" selection-end="9214" vertical-scroll-proportion="-47.333332">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Borrar.java">
+    <entry file="file://$PROJECT_DIR$/web/forms/reportesDoctoresPaciente.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/133041ee-866d-40bd-8532-06fa4a53c3f8">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>133041ee-866d-40bd-8532-06fa4a53c3f8</OriginalElement>
-          <nodes>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_available_extension_versions</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_timezone_abbrevs</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_attribute_relid_attnum_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.user_mapping_options</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_rewrite_rel_rulename_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_settings</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_user_sequences</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.enabled_roles</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_extension</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_range_rngtypid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_event_trigger_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdepend_reference_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_type</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_options</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_event_trigger</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_server_options</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_user_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_activity</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_collation_name_enc_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.applicable_roles</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_replication</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_sys_indexes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_parser</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_all_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion_name_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_user_mappings</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast_source_target_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_proc_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_auth_members_member_role_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.user_mappings</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_attrdef_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_language</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_attrdef</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_tgrelid_tgname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_language_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_extension_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_collation_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_index_indrelid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_db_role_setting_databaseid_rol_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opfamily_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_domain_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_operator_oprname_l_r_n_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.parameters</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tablespace_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.table_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.atiende</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.serealiza</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opclass_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_all_indexes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opfamily</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.collation_character_set_applicability</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_am_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_operator</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_template_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_table_grants</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_namespace_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.paciente</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.domain_constraints</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_tgconstraint_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_database</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.analisisclinico</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.check_constraints</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend_reference_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_sys_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_bgwriter</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_attribute</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_am_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_servers</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_data_wrapper_options</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_db_role_setting</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.table_constraints</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdescription_o_c_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_depend_depender_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.check_constraint_routine_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdescription</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amproc</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.administrable_role_authorizations</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.view_table_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_table</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_map</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_server</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_all_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits_relid_seqno_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tablespace</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shseclabel_object_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_sizing_profiles</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_am</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_sys_indexes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_parts</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_database_datname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_parser_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.routines</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_indexes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_namespace</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum_typid_label_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_auth_members</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.views</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opfamily_am_name_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_collation</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.attributes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_sys_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_all_sequences</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum_typid_sortorder_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_views</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.key_column_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_all_indexes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_template_tmplname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.element_types</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_contypid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.view_routine_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opclass_am_name_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_seclabels</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_operator_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_user_functions</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_description_o_c_o_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_available_extensions</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_rewrite_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.columns</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_cfgname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statistic</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_proc</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_user_indexes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_dict_dictname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_database</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user_mapping</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_packages</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_default_acl_role_nsp_obj_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sequences</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_xact_user_functions</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.routine_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.domain_udt_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_matviews</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.triggered_update_columns</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_column_grants</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_opclass</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user_mapping_user_server_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_sys_sequences</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_roles</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user_mappings</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop_opr_fam_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_all_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper_name_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amproc_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_attrdef_adrelid_adnum_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.triggers</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_event_trigger_evtname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdepend</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop_fam_strat_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_description</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shdepend_depender_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_conversion_default_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_aggregate</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject_loid_pn_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.collations</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_attribute_relid_attnam_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject_metadata</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statistic_relid_att_inh_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_namespace_nspname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_seclabel</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_dict</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_rewrite</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_data_wrappers</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tablespace_spcname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_type_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user_mapping_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_usage_grants</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_template</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.schemata</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_sizing</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_class_relname_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shadow</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_type_typname_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_map_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.constraint_column_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amop_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.data_type_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.character_sets</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_timezone_names</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_data_wrappers</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_prepared_xacts</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_implementation_info</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_servers</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_inherits_parent_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_enum_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.constraint_table_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_aggregate_fnoid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_user_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_extension_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_range</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cursors</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_user</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_config_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_data_wrapper</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject_metadata_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_database_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_language_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_database_conflicts</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_sys_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_conname_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.view_column_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_rolname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.domains</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.referential_constraints</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_pltemplate</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_default_acl_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.usage_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.information_schema_catalog_name</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_parser_prsname_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_index_indexrelid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_locks</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_group</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_default_acl</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stats</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_routine_grants</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_seclabel_object_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema._pg_foreign_table_columns</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_statio_user_indexes</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_constraint_conrelid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.udt_privileges</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_features</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_ts_dict_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.role_udt_grants</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_prepared_statements</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.public.doctor</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.column_udt_usage</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_rules</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.foreign_table_options</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_foreign_table_relid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_authid_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_trigger_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_largeobject</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.sql_languages</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_cast_oid_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_stat_user_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_auth_members_role_member_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_shseclabel</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.information_schema.user_defined_types</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_tables</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_proc_proname_args_nsp_index</node>
-            <node x="" y="">133041ee-866d-40bd-8532-06fa4a53c3f8.table:hospital.pg_catalog.pg_amproc_fam_proc_index</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.10259103641456582" x="2846.0" y="1841.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
+    <entry file="file://$PROJECT_DIR$/web/forms/reportesPacientesAnalisis.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
+    <entry file="file://$PROJECT_DIR$/web/forms/reportesPacientesDoctor.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="65" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/forms/consultarAnalisis.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="981" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1176" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="40" selection-start="11386" selection-end="11386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/forms/consultarClavePacientes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1432" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="667" selection-end="667" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
@@ -1056,82 +976,61 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="28" selection-start="5293" selection-end="5293" vertical-scroll-proportion="-17.37037">
+        <state line="113" column="60" selection-start="5232" selection-end="5232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2933" column="41" selection-start="51529" selection-end="51529" vertical-scroll-proportion="0.8623298">
+        <state line="16" column="53" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.2846154">
+        <state line="16" column="21" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="122" selection-start="302" selection-end="412" vertical-scroll-proportion="0.41860464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.10465116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AnalisisClinico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="697" selection-end="697" vertical-scroll-proportion="0.94808125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Atiende.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="612" selection-end="612" vertical-scroll-proportion="0.76744187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="79" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+        <state line="537" column="55" selection-start="21429" selection-end="21429" vertical-scroll-proportion="0.024205748">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1458#1466#0" expanded="true" />
+            <element signature="e#9539#9556#0" expanded="true" />
+            <marker date="1384284457000" expanded="true" signature="930:981" placeholder="INSERT INTO ..." />
+            <marker date="1384284457000" expanded="true" signature="1388:1408" placeholder="SELECT * FRO..Doctor..." />
+            <marker date="1384284457000" expanded="true" signature="2308:2354" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1384284457000" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..doctor..." />
+            <marker date="1384284457000" expanded="true" signature="4166:4252" placeholder="UPDATE Docto..." />
+            <marker date="1384284457000" expanded="true" signature="4662:4704" placeholder="DELETE FROM ..." />
+            <marker date="1384284457000" expanded="true" signature="4745:4796" placeholder="DELETE FROM ..." />
+            <marker date="1384284457000" expanded="true" signature="5415:5470" placeholder="INSERT INTO ..." />
+            <marker date="1384284457000" expanded="true" signature="5881:5903" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1384284457000" expanded="true" signature="6756:6804" placeholder="SELECT * FRO..Paciente..." />
+            <marker date="1384284457000" expanded="true" signature="7557:7649" placeholder="UPDATE pacie..." />
+            <marker date="1384284457000" expanded="true" signature="8061:8105" placeholder="DELETE FROM ..." />
+            <marker date="1384284457000" expanded="true" signature="8147:8198" placeholder="DELETE FROM ..." />
+            <marker date="1384284457000" expanded="true" signature="8240:8293" placeholder="DELETE FROM ..." />
+            <marker date="1384284457000" expanded="true" signature="8973:9035" placeholder="INSERT INTO ..." />
+            <marker date="1384284457000" expanded="true" signature="9451:9480" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1384284457000" expanded="true" signature="10260:10315" placeholder="SELECT * FRO..AnalisisClinico..." />
+            <marker date="1384284457000" expanded="true" signature="10966:11018" placeholder="SELECT * FRO..analisisClinico..." />
+            <marker date="1384284457000" expanded="true" signature="11835:11934" placeholder="UPDATE Anali..." />
+            <marker date="1384284457000" expanded="true" signature="12387:12438" placeholder="DELETE FROM ..." />
+            <marker date="1384284457000" expanded="true" signature="12479:12532" placeholder="DELETE FROM ..." />
+            <marker date="1384284457000" expanded="true" signature="13156:13213" placeholder="INSERT INTO ..." />
+            <marker date="1384284457000" expanded="true" signature="13700:13723" placeholder="SELECT * FRO..SeRealiza..." />
+            <marker date="1384284457000" expanded="true" signature="14643:14696" placeholder="INSERT INTO ..." />
+            <marker date="1384284457000" expanded="true" signature="15177:15198" placeholder="SELECT * FRO..Atiende..." />
+            <marker date="1384284457000" expanded="true" signature="16253:16569" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1384284457000" expanded="true" signature="17852:18408" placeholder="SELECT Pacie..Doctor..." />
+            <marker date="1384284457000" expanded="true" signature="19692:20311" placeholder="SELECT Pacie..Paciente..." />
+            <marker date="1384284457000" expanded="true" signature="21628:22247" placeholder="SELECT Pacie..AnalisisClinico..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.3709428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Capturar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="22" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.47806355">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1065,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>actionmailer (v4.0.1, RVM: ruby-2.0.0-p247) [gem]</last-edited>
+          <last-edited>actionmailer (v3.2.13, RVM: ruby-2.0.0-p247 [global]) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

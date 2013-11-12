@@ -14,6 +14,8 @@ public class Generar {
 
     public String reporteAnalisisPaciente() throws Exception{
         reportesAnalisisPaciente = dbManager.generarReporteAnalisisPaciente(clavePaciente);
+        System.out.println(reportesAnalisisPaciente);
+
         return "success";
     }
 

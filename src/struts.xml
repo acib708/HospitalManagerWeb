@@ -5,125 +5,142 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
     <package name="hospital" extends="struts-default">
+
         <!--               CONSULTAR               -->
         <!-- Consultas Analisis -->
         <action name="consultarAnalisisClave" class="actions.Consultar"  method="analisisClave">
-            <result name="success">reportes.jsp</result>
+            <result name="success">consultarClaveAnalisis2.jsp</result>
         </action>
         <action name="consultarAnalisisGeneral" class="actions.Consultar" method="analisisGeneral">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspConsultarAnalisis.jsp</result>
         </action>
         <action name="consultarAnalisisTipo" class="actions.Consultar" method="analisisTipo">
-            <result name="success">reportes.jsp</result>
+            <result name="success">consultarAnalisisTipo2.jsp</result>
         </action>
 
         <!-- Consultas Atiende -->
         <action name="consultarAtiendeGeneral" class="actions.Consultar" method="atiendeGeneral">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspConsultarAsignaciones.jsp</result>
         </action>
 
         <!-- Consultas Doctores -->
         <action name="consultarDoctorClave" class="actions.Consultar" method="doctorClave">
-            <result name="success">reportes.jsp</result>
+            <result name="success">consultarClaveDoctores2.jsp</result>
         </action>
         <action name="consultarDoctorEspecialidad" class="actions.Consultar" method="doctorEspecialidad">
-            <result name="success">reportes.jsp</result>
+            <result name="success">consultarClaveDoctores2.jsp</result>
         </action>
         <action name="consultarDoctorGeneral" class="actions.Consultar" method="doctorGeneral">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspConsultarDoctorGeneral.jsp</result>
         </action>
 
         <!-- Consultas Pacientes -->
         <action name="consultarPacienteClave" class="actions.Consultar" method="pacienteClave">
-            <result name="success">reportes.jsp</result>
+            <result name="success">consultarClavePacientes2.jsp</result>
         </action>
         <action name="consultarPacienteGeneral" class="actions.Consultar" method="pacienteGeneral">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspConsultarPacientes.jsp</result>
         </action>
 
         <!-- Consultas Se Realiza -->
         <action name="consultarSeRealizaGeneral" class="actions.Consultar" method="seRealizaGeneral">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspConsultarAnalisisPaciente.jsp</result>
         </action>
 
         <!--               CAPTURAR               -->
         <!-- Capturar Analisis -->
         <action name="capturarAnalisis" class="actions.Capturar" method="analisis">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar Atiende -->
         <action name="capturarAtiende" class="actions.Capturar" method="atiende">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar Doctor -->
         <action name="capturarDoctor" class="actions.Capturar" method="doctor">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar Paciente -->
         <action name="capturarPaciente" class="actions.Capturar" method="paciente">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar SeRealiza -->
         <action name="capturarSeRealiza" class="actions.Capturar" method="seRealiza">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!--               ACTUALIZAR               -->
         <!-- Actualizar Analisis -->
         <action name="actualizarAnalisis" class="actions.Actualizar" method="analisis">
-            <result name="success">reportes.jsp</result>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Actualizar Doctor -->
         <action name="actualizarDoctor" class="actions.Actualizar" method="doctor">
-            <result name="success">reportes.jsp</result>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Actualizar Paciente -->
         <action name="actualizarPaciente" class="actions.Actualizar" method="paciente">
-            <result name="success">reportes.jsp</result>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!--               BORRAR               -->
         <!-- Borrar Analisis -->
         <action name="borrarAnalisis" class="actions.Borrar" method="analisis">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!-- Borrar Doctor -->
         <action name="borrarDoctor" class="actions.Borrar" method="doctor">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!-- Borrar Paciente -->
         <action name="borrarPaciente" class="actions.Borrar" method="paciente">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!--               GENERAR REPORTES               -->
         <!-- Generar Reporte Analisis Paciente -->
         <action name="generarReporteAnalisisPaciente" class="actions.Generar" method="reporteAnalisisPaciente">
-            <result name="success">reportes.jsp</result>
+            <result name="success">reportesAnalisisPaciente2.jsp</result>
         </action>
 
         <!-- Generar Reporte Doctores Paciente -->
         <action name="generarReporteDoctoresPaciente" class="actions.Generar" method="reporteDoctoresPaciente">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspDoctoresPaciente.jsp</result>
         </action>
 
         <!-- Generar Reporte Pacientes Analisis -->
         <action name="generarReportePacientesAnalisis" class="actions.Generar" method="reportePacientesAnalisis">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspPacientesAnalisis.jsp</result>
         </action>
 
         <!-- Generar Reporte Pacientes Doctor -->
         <action name="generarReportePacientesDoctor" class="actions.Generar" method="reportePacientesDoctor">
-            <result name="success">reportes.jsp</result>
+            <result name="success">../Responses/rspPacientesDoctor.jsp</result>
+        </action>
+
+        <!--                OBTENER DATOS                  -->
+        <!-- Obtener Datos Doctor Clave -->
+        <action name="obtenerDatosDoctor" class="actions.Actualizar" method="getDataDoctor">
+            <result name="success">actualizarDoctor2.jsp</result>
+        </action>
+        <!-- Obtener Datos Doctor Paciente -->
+        <action name="obtenerDatosPaciente" class="actions.Actualizar" method="getDataPaciente">
+            <result name="success">actualizarPaciente2.jsp</result>
+        </action>
+        <!-- Obtener Datos Doctor Analisis-->
+        <action name="obtenerDatosAnalisis" class="actions.Actualizar" method="getDataAnalisis">
+            <result name="success">actualizarAnalisis2.jsp</result>
         </action>
 
     </package>

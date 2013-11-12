@@ -1,13 +1,15 @@
 package actions;
 
 import model.*;
+import java.lang.String;
 
 public class Capturar {
     private DBManager dbManager = new DBManager();
     private Boolean ans;
     private String  claveDoctor, clavePaciente, claveAnalisis, nombre, direccion, especialidad, telefono, fotoPaciente, fotoDoctor, tipo, descripcion, fechaAplicacion, fechaEntrega, diagnostico, fechaAtiende, tratamiento;
 
-    public String doctor() throws Exception{
+
+  public String doctor() throws Exception{
         Doctor doctor = new Doctor();
         doctor.setFoto(fotoDoctor);
         doctor.setClave(claveDoctor);
@@ -47,7 +49,7 @@ public class Capturar {
 
     public String seRealiza() throws Exception{
         SeRealiza seRealiza = new SeRealiza();
-        seRealiza.setClaveAnalisis(clavePaciente);
+        seRealiza.setClaveAnalisis(claveAnalisis);
         seRealiza.setClavePaciente(clavePaciente);
         seRealiza.setFotoPaciente(fotoPaciente);
         seRealiza.setFechaAplic(fechaAplicacion);
@@ -144,5 +146,4 @@ public class Capturar {
     public void setTratamiento(String tratamiento) {
         this.tratamiento = tratamiento;
     }
-
 }
