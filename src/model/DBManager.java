@@ -115,10 +115,12 @@ public class DBManager {
 
     public boolean actualizarDoctor(Doctor doctor){
         String update = "UPDATE Doctor SET "+doctor.toStringSQLUpdate()+" WHERE clave = '"+doctor.getClave()+"';";
+        String updateDependencies  = "UPDATE Atiende SET fotoDoctor='"+doctor.getFoto()+"' WHERE claveDoctor='"+doctor.getClave()+"';";
         boolean resp;
         try{
             statement = conexion.createStatement();
             statement.executeUpdate(update);
+            statement.executeUpdate(updateDependencies);
             statement.close();
             resp = true;
         }
@@ -211,10 +213,14 @@ public class DBManager {
 
     public boolean actualizarPaciente(Paciente paciente){
         String update = "UPDATE paciente SET "+paciente.toStringSQLUpdate()+" WHERE clave = '"+paciente.getClave()+"';";
+        String updateDependencies  = "UPDATE Atiende SET fotoPaciente='"+paciente.getFoto()+" WHERE clave = '"+paciente.getClave()+"';";
+        String updateDependencies1 = "UPDATE SeRealiza SET fotoPaciente='"+paciente.getFoto()+" WHERE clave = '"+paciente.getClave()+"';";
         boolean resp;
         try{
             statement = conexion.createStatement();
             statement.executeUpdate(update);
+            statement.executeUpdate(updateDependencies);
+            statement.executeUpdate(updateDependencies1);
             statement.close();
             resp = true;
         }
