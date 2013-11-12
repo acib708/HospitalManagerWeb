@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
-<%@ page import="model.Paciente"%>
+<%@ page import="thrift.Paciente" %>
 <!DOCTYPE html>
 <html>
 <head>

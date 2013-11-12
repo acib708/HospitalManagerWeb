@@ -10,11 +10,11 @@
         var fotoPaciente   = $("input[name = fotoPaciente]").val();
 
         if (clavePaciente == null || clavePaciente == ""){
-            alertify.error("Debes proporcionar una clave de Paciente.");
+            alertify.error("Debes proporcionar una clave de thrift.Paciente.");
             return false;
         }
         else if (claveDoctor == null || claveDoctor == ""){
-            alertify.error("Debes proporcionar una clave de Doctor.");
+            alertify.error("Debes proporcionar una clave de thrift.Doctor.");
             return false;
         }
         else if (fecha == null || fecha== ""){
@@ -30,11 +30,11 @@
             return false;
         }
         else if (fotoDoctor == null || fotoDoctor == ""){
-            alertify.error("Debes proporcionar una foto del Doctor.");
+            alertify.error("Debes proporcionar una foto del thrift.Doctor.");
             return false;
         }
         else if (fotoPaciente == null || fotoPaciente == ""){
-            alertify.error("Debes proporcionar una foto del Paciente.");
+            alertify.error("Debes proporcionar una foto del thrift.Paciente.");
             return false;
         }
         else{
@@ -48,11 +48,11 @@
 <s:form name="form_capturar_atiende" action="capturarAtiende" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
-            <td class="text-right">Clave Doctor:</td>
+            <td class="text-right">Clave thrift.Doctor:</td>
             <td><input style="width:200px;" type="text" name="claveDoctor"></td>
         </tr>
         <tr>
-            <td class="text-right">Clave Paciente:</td>
+            <td class="text-right">Clave thrift.Paciente:</td>
             <td><input style="width:200px;" type="text" name="clavePaciente"></td>
         </tr>
         <tr>
@@ -68,11 +68,11 @@
             <td><input style="width:200px;" type="text" name="tratamiento"> </td>
         </tr>
         <tr>
-            <td class="text-right">Foto Doctor:</td>
+            <td class="text-right">Foto thrift.Doctor:</td>
             <td><input style="width:200px;" type="text" name="fotoDoctor"> </td>
         </tr>
         <tr>
-            <td class="text-right">Foto Paciente:</td>
+            <td class="text-right">Foto thrift.Paciente:</td>
             <td><input style="width:200px;" type="text" name="fotoPaciente"> </td>
         </tr>
         <tr>

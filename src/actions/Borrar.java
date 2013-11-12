@@ -1,6 +1,6 @@
 package actions;
 
-import model.DBManager;
+import thrift.DBManager;
 
 public class Borrar {
     private DBManager dbManager = new DBManager();

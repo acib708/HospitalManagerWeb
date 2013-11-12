@@ -175,13 +175,13 @@
 							<a href="forms/consultarEspecialidad.jsp"> Consultar Especialidad </a>
 						</li>    		
 						<li id="actualizarDoctor" class="disabled" onclick="changePillState(document.getElementById('doc'));">
-							<a href="forms/actualizarDoctor.jsp"> Modificar Doctor</a>
+							<a href="forms/actualizarDoctor.jsp"> Modificar thrift.Doctor</a>
 						</li>    	
 						<li id="borrarDoctor" class="disabled" onclick="changePillState(document.getElementById('doc'));">
-							<a href="forms/borrarDoctor.jsp"> Eliminar Doctor</a>
+							<a href="forms/borrarDoctor.jsp"> Eliminar thrift.Doctor</a>
 						</li>    	
 						<li id="asignarPaciente" class="disabled" onclick="changePillState(document.getElementById('doc'));">
-							<a href="forms/asignarPaciente.jsp"> Asignar Paciente</a>
+							<a href="forms/asignarPaciente.jsp"> Asignar thrift.Paciente</a>
 						</li>    	
 						<li id="consultarAsignaciones" class="disabled" onclick="changePillState(document.getElementById('doc'));">
 							<a href="forms/consultarAsignaciones.jsp"> Consultar Asignaciones</a>
@@ -204,13 +204,13 @@
 							<a href="forms/consultarClavePacientes.jsp"> Consultar por Clave</a>
 						</li>    		
 						<li id="modificarPacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
-							<a href="forms/actualizarPaciente.jsp"> Modificar Paciente</a>
+							<a href="forms/actualizarPaciente.jsp"> Modificar thrift.Paciente</a>
 						</li>    	
 						<li id="borrarPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
-							<a href="forms/borrarDoctor.jsp"> Borrar Paciente</a>
+							<a href="forms/borrarDoctor.jsp"> Borrar thrift.Paciente</a>
 						</li>    	
 						<li id="asignarAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
-							<a href="forms/asignarAnalisisPaciente.jsp"> Asignar Analisis a Paciente</a>
+							<a href="forms/asignarAnalisisPaciente.jsp"> Asignar Analisis a thrift.Paciente</a>
 						</li>    	
 						<li id="consultarAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
 							<a href="forms/consultarAnalisisPaciente.jsp"> Consultar Analisis</a>
@@ -251,16 +251,16 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li id="reportesAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('rep'));">
-                            <a href="forms/reportesAnalisisPaciente.jsp"> Reporte Analisis Paciente </a>
+                            <a href="forms/reportesAnalisisPaciente.jsp"> Reporte Analisis thrift.Paciente </a>
                         </li>
                         <li id="reportesDoctoresPaciente" class="disabled" onclick="changePillState(document.getElementById('rep'));">
-                            <a href="forms/reportesDoctoresPaciente.jsp"> Reporte Doctores Paciente</a>
+                            <a href="forms/reportesDoctoresPaciente.jsp"> Reporte Doctores thrift.Paciente</a>
                         </li>
                         <li id="reportesPacientesAnalisis" class="disabled" onclick="changePillState(document.getElementById('rep'));">
                             <a href="forms/reportesPacientesAnalisis.jsp"> Reporte Pacientes Analisis </a>
                         </li>
                         <li id="reportesPacientesDoctor" class="disabled" onclick="changePillState(document.getElementById('rep'));">
-                            <a href="forms/reportesPacientesDoctor.jsp"> Reporte Pacientes Doctor </a>
+                            <a href="forms/reportesPacientesDoctor.jsp"> Reporte Pacientes thrift.Doctor </a>
                         </li>
                     </ul>
                 </li>

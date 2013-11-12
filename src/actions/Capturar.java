@@ -1,7 +1,7 @@
 package actions;
 
-import model.*;
 import java.lang.String;
+import thrift.*;
 
 public class Capturar {
     private DBManager dbManager = new DBManager();

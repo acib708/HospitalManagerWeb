@@ -1,137 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="Correct DBManager Credentials">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.15.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarDoctor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarDoctor2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/actualizarPaciente2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/asignarAnalisisPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/asignarPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/borrarDoctor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/borrarPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/capturarAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/capturarDoctores.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/capturarPacientes.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisisPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisisTipo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisisTipo2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarAsignaciones.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveDoctores.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClaveDoctores2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClavePacientes.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarClavePacientes2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarDoctorGeneral.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarEspecialidad.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarEspecialidad2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/consultarPacientes.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/eliminarAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/estadoCaptura.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_9_2_1002_jdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesDoctoresPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesPacientesAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms/reportesPacientesDoctor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisisPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAsignaciones.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarDoctorGeneral.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarPacientes.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspDoctoresPaciente.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspPacientesAnalisis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Responses/rspPacientesDoctor.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/analisis.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/doctores.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/pacientes.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/reportes.jsp" afterPath="" />
+    <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/Actions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/AnalisisClinico.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/Atiende.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/DBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/Doctor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/Paciente.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/ReporteAnalisisPaciente.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/ReporteDoctoresPaciente.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/ReportePacientesAnalisis.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/ReportePacientesDoctor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/SeRealiza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thrift/ServerInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions.thrift" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/AnalisisClinico.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/Atiende.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/DBManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/Doctor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/Paciente.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/ReporteAnalisisPaciente.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/ReporteDoctoresPaciente.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/ReportePacientesAnalisis.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/ReportePacientesDoctor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/SeRealiza.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Actualizar.java" afterPath="$PROJECT_DIR$/src/actions/Actualizar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Atiende.java" afterPath="$PROJECT_DIR$/src/model/Atiende.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Borrar.java" afterPath="$PROJECT_DIR$/src/actions/Borrar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Capturar.java" afterPath="$PROJECT_DIR$/src/actions/Capturar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/DBManager.java" afterPath="$PROJECT_DIR$/src/model/DBManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Consultar.java" afterPath="$PROJECT_DIR$/src/actions/Consultar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Generar.java" afterPath="$PROJECT_DIR$/src/actions/Generar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hospital.iml" afterPath="$PROJECT_DIR$/Hospital.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Hospital_ear_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Hospital_ear_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SeRealiza.java" afterPath="$PROJECT_DIR$/src/model/SeRealiza.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp" afterPath="$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/actualizarDoctor2.jsp" afterPath="$PROJECT_DIR$/web/forms/actualizarDoctor2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/actualizarPaciente2.jsp" afterPath="$PROJECT_DIR$/web/forms/actualizarPaciente2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/asignarAnalisisPaciente.jsp" afterPath="$PROJECT_DIR$/web/forms/asignarAnalisisPaciente.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/asignarPaciente.jsp" afterPath="$PROJECT_DIR$/web/forms/asignarPaciente.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/borrarPaciente.jsp" afterPath="$PROJECT_DIR$/web/forms/borrarPaciente.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarAnalisisTipo2.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarAnalisisTipo2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarClaveDoctores.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarClaveDoctores.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarClaveDoctores2.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarClaveDoctores2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarClavePacientes.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarClavePacientes.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarClavePacientes2.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarClavePacientes2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarEspecialidad.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarEspecialidad.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarEspecialidad2.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarEspecialidad2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index2.jsp" afterPath="$PROJECT_DIR$/web/index2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp" afterPath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" afterPath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp" afterPath="$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisisPaciente.jsp" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAnalisisPaciente.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Responses/rspConsultarAsignaciones.jsp" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarAsignaciones.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Responses/rspConsultarDoctorGeneral.jsp" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarDoctorGeneral.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Responses/rspConsultarPacientes.jsp" afterPath="$PROJECT_DIR$/web/Responses/rspConsultarPacientes.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384283736155" ignored="false" />
-    <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384257826579" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384288785740" ignored="false" />
+    <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383984558884" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
-    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384222142138" ignored="false" />
-    <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384254397092" ignored="false" />
+    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384289484544" ignored="false" />
+    <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384291574858" ignored="false" />
     <file path="/Doctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964350283" ignored="false" />
     <file path="/AnalisisClinico.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964660394" ignored="false" />
-    <file path="/Atiende.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384124330096" ignored="false" />
+    <file path="/Atiende.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964648641" ignored="false" />
     <file path="/Paciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965119585" ignored="false" />
     <file path="/ReporteAnalisisPaciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965885918" ignored="false" />
     <file path="/ReporteDoctoresPaciente.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383965793962" ignored="false" />
     <file path="/ReportePacientesAnalisis.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383966115438" ignored="false" />
     <file path="/ReportePacientesDoctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383968607322" ignored="false" />
-    <file path="/SeRealiza.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384244614782" ignored="false" />
-    <file path="/fragment.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383972041466" ignored="false" />
+    <file path="/SeRealiza.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383968789448" ignored="false" />
+    <file path="/fragment.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384290332975" ignored="false" />
     <file path="/createHospital.sql" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383973588282" ignored="false" />
-    <file path="/Actualizar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384115677700" ignored="false" />
-    <file path="/Borrar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974868103" ignored="false" />
-    <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384243910220" ignored="false" />
-    <file path="/Generar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384258411514" ignored="false" />
-    <file path="/bootstrap.css" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384128750614" ignored="false" />
-    <file path="/index2.html" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384025488650" ignored="false" />
-    <file path="/index.html" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384028421260" ignored="false" />
-    <file path="/dropdown2.css" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384029909365" ignored="false" />
-    <file path="/index.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384256202838" ignored="false" />
-    <file path="/capturarDoctores.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122069464" ignored="false" />
-    <file path="/estadoCaptura.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384036008343" ignored="false" />
-    <file path="/capturarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122657977" ignored="false" />
-    <file path="/capturarPacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122665251" ignored="false" />
-    <file path="/actualizarDoctor.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384113899319" ignored="false" />
-    <file path="/actualizarDoctor2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384123504160" ignored="false" />
-    <file path="/eliminarDoctor.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384116025847" ignored="false" />
-    <file path="/borrarDoctor.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384122651993" ignored="false" />
-    <file path="/asignarPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384124109958" ignored="false" />
-    <file path="/consultarDoctorGeneral.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384235354777" ignored="false" />
-    <file path="/rspConsultarDoctorGeneral.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384236791106" ignored="false" />
-    <file path="/consultarClaveDoctores.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384253096675" ignored="false" />
-    <file path="/consultarEspecialidad.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384238283259" ignored="false" />
-    <file path="/consultarAsignaciones.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384239632563" ignored="false" />
-    <file path="/rspConsultarAsignaciones.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384240275002" ignored="false" />
-    <file path="/consultarPacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384240961838" ignored="false" />
-    <file path="/rspConsultarPacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384241165525" ignored="false" />
-    <file path="/consultarClavePacientes.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384241737503" ignored="false" />
-    <file path="/consultarClavePacientes2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384241679081" ignored="false" />
-    <file path="/actualizarPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384242394717" ignored="false" />
-    <file path="/actualizarPaciente2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384248592228" ignored="false" />
-    <file path="/borrarPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384243353193" ignored="false" />
-    <file path="/asignarAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384245019319" ignored="false" />
-    <file path="/consultarAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384245261626" ignored="false" />
-    <file path="/rspConsultarAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384245800489" ignored="false" />
-    <file path="/eliminarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384246354927" ignored="false" />
-    <file path="/actualizarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384247741198" ignored="false" />
-    <file path="/actualizarAnalisis2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384249099331" ignored="false" />
-    <file path="/consultarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384249640307" ignored="false" />
-    <file path="/rspConsultarAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384251330673" ignored="false" />
-    <file path="/consultarClaveAnalisis.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384253154313" ignored="false" />
-    <file path="/consultarClaveAnalisis2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384253371427" ignored="false" />
-    <file path="/consultarAnalisisTipo.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384254603046" ignored="false" />
-    <file path="/consultarAnalisisTipo2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384254287219" ignored="false" />
-    <file path="/rspAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384256831961" ignored="false" />
-    <file path="/reportesAnalisisPaciente.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384257979154" ignored="false" />
-    <file path="/reportesAnalisisPaciente2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384258122683" ignored="false" />
+    <file path="/Actualizar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974844215" ignored="false" />
+    <file path="/Borrar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384291665763" ignored="false" />
+    <file path="/Capturar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384291654371" ignored="false" />
+    <file path="/Generar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383974982943" ignored="false" />
+    <file path="/bootstrap.css" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383980496967" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/hospital_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384042178555" ignored="false" />
+    <file path="/hospital_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384255380885" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/db_manager.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384023643616" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/.idea/workspace.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384043263260" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/.idea/vcs.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384023474024" ignored="false" />
+    <file path="/db_manager.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384286738549" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/analisis_clinico.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384037779446" ignored="false" />
+    <file path="/analisis_clinico.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384037696218" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/atiende.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384027608517" ignored="false" />
+    <file path="/atiende.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384027599996" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/.gitignore" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384025767817" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/.idea/misc.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384026250201" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/doctor.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384027659766" ignored="false" />
+    <file path="/doctor.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384027642543" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/paciente.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384027913332" ignored="false" />
+    <file path="/paciente.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384027907802" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/dbmanager.thrift" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384030002504" ignored="false" />
+    <file path="/dbmanager.thrift" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384030002504" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/actions_types.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384030177701" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384030425668" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/actions_constants.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384030431611" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/gen-rb/hospital_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384030945700" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/hospital_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031556293" ignored="false" />
+    <file path="$PROJECT_DIR$/../Practica Parcial 3/web/index.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031078928" ignored="false" />
+    <file path="/index.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031075250" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/gen-rb/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031708630" ignored="false" />
+    <file path="/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031698767" ignored="false" />
+    <file path="$PROJECT_DIR$/../ThriftRuby101/.idea/workspace.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384035702380" ignored="false" />
+    <file path="$PROJECT_DIR$/../ThriftRuby101/rb/ruby_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384033176472" ignored="false" />
+    <file path="$PROJECT_DIR$/../ThriftRuby101/rb/ruby_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384033905927" ignored="false" />
+    <file path="/ruby_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384033156118" ignored="false" />
+    <file path="/ruby_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384033902452" ignored="false" />
+    <file path="$PROJECT_DIR$/../Practica Parcial 3/src/model/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384036369111" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/model/db_manager.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384042079492" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalServer/src/testc_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384042616243" ignored="false" />
+    <file path="/testc_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384042607890" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/thrift_files/actions.thrift" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384045556983" ignored="false" />
+    <file path="/actions.thrift" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384056779129" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/.idea/workspace.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384288198621" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/db_manager.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384286739779" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/thrift_files/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384045765344" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/hospital_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384109918170" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/hospital_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384255383983" ignored="false" />
+    <file path="/hospital_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384068207747" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384057826571" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/HospitalServer.iml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384053476729" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/actions.thrift" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384057272161" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/actions_constants.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384057841853" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/src/actions_types.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384057834146" ignored="false" />
+    <file path="/ServerInterface.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384289461947" ignored="false" />
+    <file path="/actualizarAnalisis2.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384291967645" ignored="false" />
+    <file path="/a.dummy" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384292395294" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,14 +143,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="Commander">
-    <leftPanel />
-    <rightPanel />
-    <splitter proportion="0.5" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Hospital$JBoss_7_2_0_Final_redhat_8.coverage" NAME="JBoss 7.2.0.Final-redhat-8 Coverage Results" MODIFIED="1384025667451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -159,6 +155,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -195,7 +192,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -205,78 +201,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <file leaf-file-name="actualizarAnalisis2.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="60" selection-start="5232" selection-end="5232" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.541666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Generar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
+      <file leaf-file-name="actualizarDoctor.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/forms/actualizarDoctor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="53" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
+      <file leaf-file-name="actualizarDoctor2.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/forms/actualizarDoctor2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="537" column="55" selection-start="21429" selection-end="21429" vertical-scroll-proportion="0.024205748">
-              <folding>
-                <element signature="e#1458#1466#0" expanded="true" />
-                <element signature="e#9539#9556#0" expanded="true" />
-                <marker date="1384284457000" expanded="true" signature="930:981" placeholder="INSERT INTO ..." />
-                <marker date="1384284457000" expanded="true" signature="1388:1408" placeholder="SELECT * FRO..Doctor..." />
-                <marker date="1384284457000" expanded="true" signature="2308:2354" placeholder="SELECT * FRO..doctor..." />
-                <marker date="1384284457000" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..doctor..." />
-                <marker date="1384284457000" expanded="true" signature="4166:4252" placeholder="UPDATE Docto..." />
-                <marker date="1384284457000" expanded="true" signature="4662:4704" placeholder="DELETE FROM ..." />
-                <marker date="1384284457000" expanded="true" signature="4745:4796" placeholder="DELETE FROM ..." />
-                <marker date="1384284457000" expanded="true" signature="5415:5470" placeholder="INSERT INTO ..." />
-                <marker date="1384284457000" expanded="true" signature="5881:5903" placeholder="SELECT * FRO..Paciente..." />
-                <marker date="1384284457000" expanded="true" signature="6756:6804" placeholder="SELECT * FRO..Paciente..." />
-                <marker date="1384284457000" expanded="true" signature="7557:7649" placeholder="UPDATE pacie..." />
-                <marker date="1384284457000" expanded="true" signature="8061:8105" placeholder="DELETE FROM ..." />
-                <marker date="1384284457000" expanded="true" signature="8147:8198" placeholder="DELETE FROM ..." />
-                <marker date="1384284457000" expanded="true" signature="8240:8293" placeholder="DELETE FROM ..." />
-                <marker date="1384284457000" expanded="true" signature="8973:9035" placeholder="INSERT INTO ..." />
-                <marker date="1384284457000" expanded="true" signature="9451:9480" placeholder="SELECT * FRO..AnalisisClinico..." />
-                <marker date="1384284457000" expanded="true" signature="10260:10315" placeholder="SELECT * FRO..AnalisisClinico..." />
-                <marker date="1384284457000" expanded="true" signature="10966:11018" placeholder="SELECT * FRO..analisisClinico..." />
-                <marker date="1384284457000" expanded="true" signature="11835:11934" placeholder="UPDATE Anali..." />
-                <marker date="1384284457000" expanded="true" signature="12387:12438" placeholder="DELETE FROM ..." />
-                <marker date="1384284457000" expanded="true" signature="12479:12532" placeholder="DELETE FROM ..." />
-                <marker date="1384284457000" expanded="true" signature="13156:13213" placeholder="INSERT INTO ..." />
-                <marker date="1384284457000" expanded="true" signature="13700:13723" placeholder="SELECT * FRO..SeRealiza..." />
-                <marker date="1384284457000" expanded="true" signature="14643:14696" placeholder="INSERT INTO ..." />
-                <marker date="1384284457000" expanded="true" signature="15177:15198" placeholder="SELECT * FRO..Atiende..." />
-                <marker date="1384284457000" expanded="true" signature="16253:16569" placeholder="SELECT Pacie..Paciente..." />
-                <marker date="1384284457000" expanded="true" signature="17852:18408" placeholder="SELECT Pacie..Doctor..." />
-                <marker date="1384284457000" expanded="true" signature="19692:20311" placeholder="SELECT Pacie..Paciente..." />
-                <marker date="1384284457000" expanded="true" signature="21628:22247" placeholder="SELECT Pacie..AnalisisClinico..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="261" column="40" selection-start="11386" selection-end="11386" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reportesAnalisisPaciente.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp">
+      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+            <state line="7252" column="33" selection-start="202079" selection-end="202079" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rspAnalisisPaciente.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rspConsultarAnalisis.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rspConsultarAnalisisPaciente.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAnalisisPaciente.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rspConsultarAsignaciones.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAsignaciones.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rspConsultarDoctorGeneral.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarDoctorGeneral.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rspConsultarPacientes.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarPacientes.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="59" selection-start="243" selection-end="243" vertical-scroll-proportion="0.14442916">
               <folding />
             </state>
           </provider>
@@ -300,28 +309,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/forms/actualizarPaciente2.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/consultarAnalisis.jsp" />
-        <option value="$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/consultarClaveDoctores.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/consultarClaveAnalisis.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/consultarAnalisisTipo2.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/consultarAnalisisTipo.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
-        <option value="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" />
         <option value="$PROJECT_DIR$/src/actions/Generar.java" />
-        <option value="$PROJECT_DIR$/src/model/DBManager.java" />
+        <option value="$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/actualizarDoctor2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/actualizarPaciente2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarAnalisisTipo2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarClaveDoctores2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarClavePacientes2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/consultarEspecialidad2.jsp" />
+        <option value="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspConsultarAnalisisPaciente.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspConsultarAsignaciones.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspConsultarDoctorGeneral.jsp" />
+        <option value="$PROJECT_DIR$/web/Responses/rspConsultarPacientes.jsp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -405,6 +414,12 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:struts2-json-plugin-2.3.15.3)" />
+      <problem id="unused-library(library:project:struts2-json-plugin-2.3.15.3)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -418,6 +433,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -432,7 +448,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
+              <option name="myItemId" value="Hospital" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,7 +458,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
+              <option name="myItemId" value="Hospital" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -456,25 +472,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Responses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -492,7 +490,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
+              <option name="myItemId" value="Hospital" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -503,7 +501,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,11 +508,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.applicationServers" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LibraryManager-master" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/slf4j-log4j12-1.5.8.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -528,14 +524,20 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/forms" />
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JBoss Server.JBoss">
+  <component name="RunManager" selected="JBoss Server.JBoss 7.2.0.Final-redhat-8">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -625,13 +627,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -659,9 +654,8 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="false" name="JBoss" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2.0.Final-redhat-8">
+    <configuration default="false" name="JBoss 7.2.0.Final-redhat-8" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2.0.Final-redhat-8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Hospital" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Hospital:ear exploded">
           <settings />
@@ -677,7 +671,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52442" />
+        <option name="DEBUG_PORT" value="53710" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -734,7 +728,7 @@
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss" />
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.2.0.Final-redhat-8" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -781,17 +775,34 @@
       <created>1383975629884</created>
       <updated>1383975629884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correct DBManager Credentials">
+      <created>1383981426487</created>
+      <updated>1383981426487</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Photos.">
+      <created>1383984377639</created>
+      <updated>1383984377639</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Minor changes to struts.xml">
+      <created>1383984606410</created>
+      <updated>1383984606410</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added .gitignore">
+      <created>1384022909918</created>
+      <updated>1384022909918</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.2863248" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6708229" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -799,22 +810,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.67094016" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23095624" sideWeight="0.6823362" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31766382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67094016" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.6733167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32668328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -860,7 +869,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct DBManager Credentials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .gitignore" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -878,6 +887,9 @@
     <MESSAGE value="Complete model." />
     <MESSAGE value="Added actions." />
     <MESSAGE value="Correct DBManager Credentials" />
+    <MESSAGE value="Added Photos." />
+    <MESSAGE value="Minor changes to struts.xml" />
+    <MESSAGE value="Added .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -887,27 +899,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/Responses/rspPacientesAnalisis.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Responses/rspPacientesDoctor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/reportesDoctoresPaciente.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/forms/reportesPacientesAnalisis.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -922,115 +913,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/consultarAnalisis.jsp">
+    <entry file="file://$PROJECT_DIR$/web/estadoCaptura.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="981" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1176" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="40" selection-start="11386" selection-end="11386" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/consultarClavePacientes.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1130" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/consultarClaveAnalisis2.jsp">
+    <entry file="file://$PROJECT_DIR$/web/forms/actualizarAnalisis.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1277" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/forms/actualizarAnalisis2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.541666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/forms/actualizarDoctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/forms/actualizarDoctor2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7252" column="33" selection-start="202079" selection-end="202079" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Responses/rspAnalisisPaciente.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1432" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp">
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAnalisis.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="46" selection-start="667" selection-end="667" vertical-scroll-proportion="-10.625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAnalisisPaciente.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="60" selection-start="5232" selection-end="5232" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Generar.java">
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarAsignaciones.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="53" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/reportesAnalisisPaciente.jsp">
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarDoctorGeneral.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/DBManager.java">
+    <entry file="file://$PROJECT_DIR$/web/Responses/rspConsultarPacientes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="537" column="55" selection-start="21429" selection-end="21429" vertical-scroll-proportion="0.024205748">
-          <folding>
-            <element signature="e#1458#1466#0" expanded="true" />
-            <element signature="e#9539#9556#0" expanded="true" />
-            <marker date="1384284457000" expanded="true" signature="930:981" placeholder="INSERT INTO ..." />
-            <marker date="1384284457000" expanded="true" signature="1388:1408" placeholder="SELECT * FRO..Doctor..." />
-            <marker date="1384284457000" expanded="true" signature="2308:2354" placeholder="SELECT * FRO..doctor..." />
-            <marker date="1384284457000" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..doctor..." />
-            <marker date="1384284457000" expanded="true" signature="4166:4252" placeholder="UPDATE Docto..." />
-            <marker date="1384284457000" expanded="true" signature="4662:4704" placeholder="DELETE FROM ..." />
-            <marker date="1384284457000" expanded="true" signature="4745:4796" placeholder="DELETE FROM ..." />
-            <marker date="1384284457000" expanded="true" signature="5415:5470" placeholder="INSERT INTO ..." />
-            <marker date="1384284457000" expanded="true" signature="5881:5903" placeholder="SELECT * FRO..Paciente..." />
-            <marker date="1384284457000" expanded="true" signature="6756:6804" placeholder="SELECT * FRO..Paciente..." />
-            <marker date="1384284457000" expanded="true" signature="7557:7649" placeholder="UPDATE pacie..." />
-            <marker date="1384284457000" expanded="true" signature="8061:8105" placeholder="DELETE FROM ..." />
-            <marker date="1384284457000" expanded="true" signature="8147:8198" placeholder="DELETE FROM ..." />
-            <marker date="1384284457000" expanded="true" signature="8240:8293" placeholder="DELETE FROM ..." />
-            <marker date="1384284457000" expanded="true" signature="8973:9035" placeholder="INSERT INTO ..." />
-            <marker date="1384284457000" expanded="true" signature="9451:9480" placeholder="SELECT * FRO..AnalisisClinico..." />
-            <marker date="1384284457000" expanded="true" signature="10260:10315" placeholder="SELECT * FRO..AnalisisClinico..." />
-            <marker date="1384284457000" expanded="true" signature="10966:11018" placeholder="SELECT * FRO..analisisClinico..." />
-            <marker date="1384284457000" expanded="true" signature="11835:11934" placeholder="UPDATE Anali..." />
-            <marker date="1384284457000" expanded="true" signature="12387:12438" placeholder="DELETE FROM ..." />
-            <marker date="1384284457000" expanded="true" signature="12479:12532" placeholder="DELETE FROM ..." />
-            <marker date="1384284457000" expanded="true" signature="13156:13213" placeholder="INSERT INTO ..." />
-            <marker date="1384284457000" expanded="true" signature="13700:13723" placeholder="SELECT * FRO..SeRealiza..." />
-            <marker date="1384284457000" expanded="true" signature="14643:14696" placeholder="INSERT INTO ..." />
-            <marker date="1384284457000" expanded="true" signature="15177:15198" placeholder="SELECT * FRO..Atiende..." />
-            <marker date="1384284457000" expanded="true" signature="16253:16569" placeholder="SELECT Pacie..Paciente..." />
-            <marker date="1384284457000" expanded="true" signature="17852:18408" placeholder="SELECT Pacie..Doctor..." />
-            <marker date="1384284457000" expanded="true" signature="19692:20311" placeholder="SELECT Pacie..Paciente..." />
-            <marker date="1384284457000" expanded="true" signature="21628:22247" placeholder="SELECT Pacie..AnalisisClinico..." />
-          </folding>
+        <state line="7" column="59" selection-start="243" selection-end="243" vertical-scroll-proportion="0.14442916">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,7 +1090,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>struts2-2.3.15.3</last-edited>
+          <last-edited>struts2-json-plugin-2.3.15.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

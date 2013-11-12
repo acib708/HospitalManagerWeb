@@ -21,7 +21,7 @@
             <result name="success">consultarAnalisisTipo2.jsp</result>
         </action>
 
-        <!-- Consultas Atiende -->
+        <!-- Consultas thrift.Atiende -->
         <action name="consultarAtiendeGeneral" class="actions.Consultar" method="atiendeGeneral">
             <result name="success">../Responses/rspConsultarAsignaciones.jsp</result>
         </action>
@@ -56,22 +56,22 @@
             <result name="success">../estadoCaptura.jsp</result>
         </action>
 
-        <!-- Capturar Atiende -->
+        <!-- Capturar thrift.Atiende -->
         <action name="capturarAtiende" class="actions.Capturar" method="atiende">
             <result name="success">../estadoCaptura.jsp</result>
         </action>
 
-        <!-- Capturar Doctor -->
+        <!-- Capturar thrift.Doctor -->
         <action name="capturarDoctor" class="actions.Capturar" method="doctor">
             <result name="success">../estadoCaptura.jsp</result>
         </action>
 
-        <!-- Capturar Paciente -->
+        <!-- Capturar thrift.Paciente -->
         <action name="capturarPaciente" class="actions.Capturar" method="paciente">
             <result name="success">../estadoCaptura.jsp</result>
         </action>
 
-        <!-- Capturar SeRealiza -->
+        <!-- Capturar thrift.SeRealiza -->
         <action name="capturarSeRealiza" class="actions.Capturar" method="seRealiza">
             <result name="success">../estadoCaptura.jsp</result>
         </action>
@@ -82,12 +82,12 @@
             <result name="success">estadoCaptura.jsp</result>
         </action>
 
-        <!-- Actualizar Doctor -->
+        <!-- Actualizar thrift.Doctor -->
         <action name="actualizarDoctor" class="actions.Actualizar" method="doctor">
             <result name="success">estadoCaptura.jsp</result>
         </action>
 
-        <!-- Actualizar Paciente -->
+        <!-- Actualizar thrift.Paciente -->
         <action name="actualizarPaciente" class="actions.Actualizar" method="paciente">
             <result name="success">estadoCaptura.jsp</result>
         </action>
@@ -98,23 +98,23 @@
             <result name="success">../estadoCaptura.jsp</result>
         </action>
 
-        <!-- Borrar Doctor -->
+        <!-- Borrar thrift.Doctor -->
         <action name="borrarDoctor" class="actions.Borrar" method="doctor">
             <result name="success">../estadoCaptura.jsp</result>
         </action>
 
-        <!-- Borrar Paciente -->
+        <!-- Borrar thrift.Paciente -->
         <action name="borrarPaciente" class="actions.Borrar" method="paciente">
             <result name="success">../estadoCaptura.jsp</result>
         </action>
 
         <!--               GENERAR REPORTES               -->
-        <!-- Generar Reporte Analisis Paciente -->
+        <!-- Generar Reporte Analisis thrift.Paciente -->
         <action name="generarReporteAnalisisPaciente" class="actions.Generar" method="reporteAnalisisPaciente">
             <result name="success">reportesAnalisisPaciente2.jsp</result>
         </action>
 
-        <!-- Generar Reporte Doctores Paciente -->
+        <!-- Generar Reporte Doctores thrift.Paciente -->
         <action name="generarReporteDoctoresPaciente" class="actions.Generar" method="reporteDoctoresPaciente">
             <result name="success">../Responses/rspDoctoresPaciente.jsp</result>
         </action>
@@ -124,21 +124,21 @@
             <result name="success">../Responses/rspPacientesAnalisis.jsp</result>
         </action>
 
-        <!-- Generar Reporte Pacientes Doctor -->
+        <!-- Generar Reporte Pacientes thrift.Doctor -->
         <action name="generarReportePacientesDoctor" class="actions.Generar" method="reportePacientesDoctor">
             <result name="success">../Responses/rspPacientesDoctor.jsp</result>
         </action>
 
         <!--                OBTENER DATOS                  -->
-        <!-- Obtener Datos Doctor Clave -->
+        <!-- Obtener Datos thrift.Doctor Clave -->
         <action name="obtenerDatosDoctor" class="actions.Actualizar" method="getDataDoctor">
             <result name="success">actualizarDoctor2.jsp</result>
         </action>
-        <!-- Obtener Datos Doctor Paciente -->
+        <!-- Obtener Datos thrift.Doctor thrift.Paciente -->
         <action name="obtenerDatosPaciente" class="actions.Actualizar" method="getDataPaciente">
             <result name="success">actualizarPaciente2.jsp</result>
         </action>
-        <!-- Obtener Datos Doctor Analisis-->
+        <!-- Obtener Datos thrift.Doctor Analisis-->
         <action name="obtenerDatosAnalisis" class="actions.Actualizar" method="getDataAnalisis">
             <result name="success">actualizarAnalisis2.jsp</result>
         </action>

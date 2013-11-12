@@ -1,4 +1,4 @@
-<%@ page import="model.SeRealiza" %>
+<%@ page import="thrift.SeRealiza" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,7 @@
 <h4>An&aacute;lisis de pacientes</h4>
 <%
     //DBManager dbman = new DBManager();
-    //Doctor[] arrayDoctor = dbman.consultarDoctores();
+    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
     SeRealiza[] arraySeRealiza = (SeRealiza[])request.getAttribute("seRealiza");
 
     //Boolean state = (Boolean)request.getAttribute("ans");

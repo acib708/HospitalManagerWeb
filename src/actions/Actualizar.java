@@ -1,16 +1,14 @@
 package actions;
 
-import model.AnalisisClinico;
-import model.DBManager;
-import model.Doctor;
-import model.Paciente;
+
+import thrift.*;
 
 public class Actualizar {
     private DBManager dbManager = new DBManager();
     private Boolean   ans;
 
     private String          clave, nombre, direccion, especialidad, telefono, foto, tipo, descripcion;
-    private Doctor          doctor;
+    private Doctor doctor;
     private Paciente        paciente;
     private AnalisisClinico analisis;
 

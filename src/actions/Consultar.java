@@ -1,24 +1,24 @@
 package actions;
 
-import model.*;
+import thrift.*;
 
 public class Consultar {
     private DBManager   dbManager = new DBManager();
-    //Doctor
+    //thrift.Doctor
     private Doctor[]          doctores;
     private String            claveDoctor,especialidadDoctor;
-    //Paciente
+    //thrift.Paciente
     private Paciente[]        pacientes;
     private String            clavePaciente;
     //Analisis Clinico
     private AnalisisClinico[] analisis;
     private String            claveAnalisis,tipoAnalisis;
-    //SeRealiza
+    //thrift.SeRealiza
     private SeRealiza[]       seRealiza;
-    //Atiende
+    //thrift.Atiende
     private Atiende[]         atiende;
 
-    //Doctor
+    //thrift.Doctor
     public String doctorGeneral() throws Exception{
         doctores = dbManager.consultarDoctores();
         return "success";
@@ -38,7 +38,7 @@ public class Consultar {
         return "success";
     }
 
-    //Paciente
+    //thrift.Paciente
     public String pacienteGeneral() throws Exception{
         pacientes = dbManager.consultarPacientes();
         return "success";
@@ -74,13 +74,13 @@ public class Consultar {
         return "success";
     }
 
-    //SeRealiza
+    //thrift.SeRealiza
     public String seRealizaGeneral() throws Exception{
         seRealiza = dbManager.consultarSeRealiza();
         return "success";
     }
 
-    //Atiende
+    //thrift.Atiende
     public String atiendeGeneral() throws Exception{
         atiende = dbManager.consultarAtiende();
         return "success";

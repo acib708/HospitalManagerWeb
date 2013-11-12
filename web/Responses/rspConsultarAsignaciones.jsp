@@ -1,4 +1,4 @@
-<%@ page import="model.Atiende" %>
+<%@ page import="thrift.Atiende" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,7 @@
 <h4>Consultar Asignaciones</h4>
 <%
     //DBManager dbman = new DBManager();
-    //Doctor[] arrayDoctor = dbman.consultarDoctores();
+    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
     Atiende[] arrayAtiende = (Atiende[])request.getAttribute("atiende");
 
     //Boolean state = (Boolean)request.getAttribute("ans");

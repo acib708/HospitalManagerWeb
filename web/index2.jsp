@@ -90,10 +90,10 @@
 				<a href="consultarEspecialidad.jsp"> Consultar Especialidad </a>
 			</li>    		
 			<li id="modificarDoctores" class="disabled" onclick="changePillState(this);">
-				<a href="modificarDoctores.jsp"> Modificar Doctor</a>
+				<a href="modificarDoctores.jsp"> Modificar thrift.Doctor</a>
 			</li>    	
 			<li id="eliminarDoctores" class="disabled" onclick="changePillState(this);">
-				<a href="eliminarDoctores.jsp"> Eliminar Doctor</a>
+				<a href="eliminarDoctores.jsp"> Eliminar thrift.Doctor</a>
 			</li>    	
 			<li id="pac" class="disabled" onclick="changePillState(this);">
 				<a href="#pacientes.jsp"> Pacientes </a>

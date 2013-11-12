@@ -12,11 +12,11 @@
             return false;
         }
         else if (clavePaciente == null || clavePaciente == ""){
-            alertify.error("Debes proporcionar una clave de Paciente.");
+            alertify.error("Debes proporcionar una clave de thrift.Paciente.");
             return false;
         }
         else if (fotoPaciente == null || fotoPaciente== ""){
-            alertify.error("Debes proporcionar una foto del Paciente.");
+            alertify.error("Debes proporcionar una foto del thrift.Paciente.");
             return false;
         }
         else if (fechaAplicacion == null || fechaAplicacion == ""){
@@ -42,11 +42,11 @@
             <td><input style="width:200px;" type="text" name="claveAnalisis"></td>
         </tr>
         <tr>
-            <td class="text-right">Clave Paciente:</td>
+            <td class="text-right">Clave thrift.Paciente:</td>
             <td><input style="width:200px;" type="text" name="clavePaciente"></td>
         </tr>
         <tr>
-            <td class="text-right">Foto Paciente:</td>
+            <td class="text-right">Foto thrift.Paciente:</td>
             <td><input style="width:200px;" type="text" name="fotoPaciente"> </td>
         </tr>
         <tr>

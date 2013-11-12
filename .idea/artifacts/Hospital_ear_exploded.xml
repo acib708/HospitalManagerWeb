@@ -9,6 +9,7 @@
       <element id="directory" name="lib">
         <element id="library" level="project" name="postgresql-9.2-1002.jdbc4" />
         <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.15.3.jar" />
+        <element id="file-copy" path="$USER_HOME$/Downloads/thrift-0.9.1/lib/java/build/libthrift-0.9.1.jar" />
       </element>
     </root>
   </artifact>

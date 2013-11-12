@@ -1,4 +1,4 @@
-<%@ page import="model.Doctor" %>
+<%@ page import="thrift.Doctor" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,7 @@
 <h4>Consultar Doctores</h4>
 <%
     //DBManager dbman = new DBManager();
-    //Doctor[] arrayDoctor = dbman.consultarDoctores();
+    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
     Doctor[] arrayDoctor = (Doctor[])request.getAttribute("doctores");
 
     //Boolean state = (Boolean)request.getAttribute("ans");

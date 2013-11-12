@@ -1,6 +1,6 @@
 package actions;
 
-import model.*;
+import thrift.*;
 
 public class Generar {
     private DBManager dbManager = new DBManager();

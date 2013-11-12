@@ -1,4 +1,4 @@
-<%@ page import="model.Paciente" %>
+<%@ page import="thrift.Paciente" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,7 @@
 <h4>Consultar Pacientes</h4>
 <%
     //DBManager dbman = new DBManager();
-    //Doctor[] arrayPaciente = dbman.consultarDoctores();
+    //thrift.Doctor[] arrayPaciente = dbman.consultarDoctores();
     Paciente[] arrayPaciente = (Paciente[])request.getAttribute("pacientes");
 
     //Boolean state = (Boolean)request.getAttribute("ans");
@@ -33,7 +33,7 @@
 </ul>
 
 <%  } else { %>
-<h2 style="text-align: center;">El Paciente no existe.</h2>
+<h2 style="text-align: center;">El thrift.Paciente no existe.</h2>
 <%  } %>
 
 </body>
