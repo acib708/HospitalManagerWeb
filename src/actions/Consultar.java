@@ -2,6 +2,8 @@ package actions;
 
 import thrift.*;
 
+import java.util.HashMap;
+
 public class Consultar {
     private DBManager   dbManager = new DBManager();
     //thrift.Doctor
@@ -17,6 +19,9 @@ public class Consultar {
     private SeRealiza[]       seRealiza;
     //thrift.Atiende
     private Atiende[]         atiende;
+    //Hashes para saber nombre de doctores y pacientes en Atiende
+    private HashMap<String, String> hashDoctores;
+    private HashMap<String, String> hashPacientes;
 
     //thrift.Doctor
     public String doctorGeneral() throws Exception{
@@ -83,6 +88,14 @@ public class Consultar {
     //thrift.Atiende
     public String atiendeGeneral() throws Exception{
         atiende = dbManager.consultarAtiende();
+        hashDoctores  = new HashMap<String, String>();
+        hashPacientes = new HashMap<String, String>();
+        for(Atiende current : atiende ){
+            Paciente p = dbManager.consultarPacienteClave(current.getClavePaciente());
+            hashPacientes.put(p.getClave(), p.getNombre());
+            Doctor d   = dbManager.consultarDoctorClave(current.getClaveDoctor());
+            hashDoctores.put(d.getClave(), d.getNombre());
+        }
         return "success";
     }
 
@@ -124,5 +137,13 @@ public class Consultar {
 
     public void setTipoAnalisis(String tipoAnalisis) {
         this.tipoAnalisis = tipoAnalisis;
+    }
+
+    public HashMap<String, String> getHashDoctores() {
+        return hashDoctores;
+    }
+
+    public HashMap<String, String> getHashPacientes() {
+        return hashPacientes;
     }
 }
