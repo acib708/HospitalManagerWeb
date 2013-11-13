@@ -27,10 +27,12 @@ public class Consultar {
     //thrift.Doctor
     public String doctorGeneral() throws Exception{
         doctores = dbManager.consultarDoctores();
+        System.out.println("PROBANDO MANO: RECIBI DOCTORES CONSULTA GENERAL");
         return "success";
     }
     public String doctorClave() throws Exception{
         Doctor doctor = dbManager.consultarDoctorClave(claveDoctor);
+        System.out.println("PROBANDO MANO: RECIBI DOCTOR POR CLAVE DEL SERVIDOR");
         if(doctor != null){
             doctores    = new Doctor[1];
             doctores[0] = doctor;
