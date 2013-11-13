@@ -217,7 +217,7 @@
 							<a href="forms/consultarClavePacientes.jsp"> Consultar por Clave</a>
 						</li>    		
 						<li id="modificarPacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
-							<a href="forms/actualizarPaciente.jsp"> Modificar thrift.Paciente</a>
+							<a href="forms/actualizarPaciente.jsp"> Modificar Paciente</a>
 						</li>    	
 						<li id="borrarPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
 							<a href="forms/borrarDoctor.jsp"> Borrar Paciente</a>
