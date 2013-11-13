@@ -65,7 +65,7 @@ function validateFormCapturar(){
     <tr>
         <td></td>
         <td>
-            <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('../estadoCaptura.jsp'); showFrame();"/>
+            <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('../estadoCaptura.jsp'); resizeFrame(); showFrame();"/>
         </td>
     </tr>
 </table>
