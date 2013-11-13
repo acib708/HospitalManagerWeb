@@ -13,10 +13,7 @@
 	<script src="js/jquery.js"></script>
     <!-- Linking Bootstrap JS  -->
     <script src="bootstrap/js/bootstrap.js"></script>
-    <!-- Linking Bootstrap Hover Dropdown Plugin  -->
-    <script src="bootstrap/js/twitter-bootstrap-hover-dropdown.js"></script>
 
-	<script src="js/jquery.js" type="text/javascript"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
 /* 			Doctores */
@@ -173,7 +170,7 @@
 			  </li>
 <!-- 			  DROPDOWN DOCTORES -->
 			  <li id="doc" class="dropdown disabled">
-				    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">
+				    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 				    	Doctores <b class="caret"></b>
 				    </a>
 				    <ul class="dropdown-menu">

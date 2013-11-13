@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/twitter-bootstrap-hover-dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Consultar.java" afterPath="$PROJECT_DIR$/src/actions/Consultar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/DBManager.java" afterPath="$PROJECT_DIR$/src/thrift/DBManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384327495027" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384328313949" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383984558884" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
-    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384301574437" ignored="false" />
-    <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384298116291" ignored="false" />
+    <file path="/Consultar.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384330527816" ignored="false" />
+    <file path="/DBManager.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384331019247" ignored="false" />
     <file path="/Doctor.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964350283" ignored="false" />
     <file path="/AnalisisClinico.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964660394" ignored="false" />
     <file path="/Atiende.java" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383964648641" ignored="false" />
@@ -54,7 +55,7 @@
     <file path="$PROJECT_DIR$/../HospitalServer/src/gen-rb/hospital_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384030945700" ignored="false" />
     <file path="$PROJECT_DIR$/../HospitalServer/src/model/hospital_server.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031556293" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/web/index.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031078928" ignored="false" />
-    <file path="/index.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384328167813" ignored="false" />
+    <file path="/index.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384328667874" ignored="false" />
     <file path="$PROJECT_DIR$/../HospitalServer/src/gen-rb/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031708630" ignored="false" />
     <file path="/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384031698767" ignored="false" />
     <file path="$PROJECT_DIR$/../ThriftRuby101/.idea/workspace.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384035702380" ignored="false" />
@@ -167,10 +168,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="104" selection-start="6266" selection-end="6266" vertical-scroll-proportion="0.5425532">
+            <state line="171" column="108" selection-start="5984" selection-end="5984" vertical-scroll-proportion="-1.3265306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.2222223">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consultar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="75" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thrift/DBManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="410" column="9" selection-start="11448" selection-end="11448" vertical-scroll-proportion="1.1096774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actualizar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="50" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,8 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/forms/borrarDoctor.jsp" />
-        <option value="$PROJECT_DIR$/web/forms/asignarPaciente.jsp" />
         <option value="$PROJECT_DIR$/web/forms/consultarAsignaciones.jsp" />
         <option value="$PROJECT_DIR$/web/forms/consultarDoctorGeneral.jsp" />
         <option value="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
@@ -231,6 +269,8 @@
         <option value="$PROJECT_DIR$/web/forms/actualizarAnalisis.jsp" />
         <option value="$PROJECT_DIR$/web/forms/eliminarAnalisis.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/actions/Consultar.java" />
+        <option value="$PROJECT_DIR$/src/thrift/DBManager.java" />
       </list>
     </option>
   </component>
@@ -388,28 +428,6 @@
               <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -439,7 +457,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="thrift" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -776,7 +794,11 @@
       <created>1384327500113</created>
       <updated>1384327500113</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Frame Resize Fixed in Doctors Dropdown">
+      <created>1384328318711</created>
+      <updated>1384328318711</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -823,8 +845,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18314424" sideWeight="0.76210827" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23789173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18314424" sideWeight="0.73504275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26495728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -909,34 +931,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/forms/consultarDoctorGeneral.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="131" selection-end="674" vertical-scroll-proportion="0.4090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/capturarDoctores.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="180" selection-start="3169" selection-end="3169" vertical-scroll-proportion="-11.458333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/capturarPacientes.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="108" selection-end="108" vertical-scroll-proportion="0.06818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/forms/consultarClavePacientes2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="280" selection-end="315" vertical-scroll-proportion="0.2795031">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/forms/consultarClavePacientes.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="52" selection-start="734" selection-end="734" vertical-scroll-proportion="0.63829786">
@@ -1018,7 +1012,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="104" selection-start="6266" selection-end="6266" vertical-scroll-proportion="0.5425532">
+        <state line="171" column="108" selection-start="5984" selection-end="5984" vertical-scroll-proportion="-1.3265306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.2222223">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="50" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="75" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrift/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="410" column="9" selection-start="11448" selection-end="11448" vertical-scroll-proportion="1.1096774">
           <folding />
         </state>
       </provider>
