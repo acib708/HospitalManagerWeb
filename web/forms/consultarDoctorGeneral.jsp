@@ -9,7 +9,6 @@
                 var iframeWin  = iframe.contentWindow || iframe.contentDocument.parentWindow;
                 if (iframeWin.document.body) {
                     divResults.style.height = iframeWin.document.documentElement.scrollHeight + "px" || iframeWin.document.body.scrollHeight + "px";
-//                    alert(iframeWin.document.body.scrollHeight + "px");
                 }
             }, 250);
            showFrame();

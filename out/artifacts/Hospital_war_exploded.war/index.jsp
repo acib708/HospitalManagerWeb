@@ -3,87 +3,279 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="alertify/lib/alertify.js"></script>
-    <link rel="stylesheet" href="alertify/themes/alertify.core.css" />
+	<!-- Linking Alertify  -->
+	<script src="alertify/lib/alertify.js"></script>
+	<link rel="stylesheet" href="alertify/themes/alertify.core.css" />
     <link rel="stylesheet" href="alertify/themes/alertify.bootstrap.css" />
-    <meta charset="US-ASCII">
-    <title>Biblioteca Tec</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-    <script type="text/javascript">
-        function validateFormCapturar(){
-            var clave	   = document.forms["form_libro"]["clave"].value;
-            var titulo	   = document.forms["form_libro"]["titulo"].value;
-            var autor      = document.forms["form_libro"]["autor"].value;
-            var editorial  = document.forms["form_libro"]["editorial"].value;
-            var existencia = document.forms["form_libro"]["existencia"].value;
-            var imagen	   = document.forms["form_libro"]["imagen"].value;
+	<!-- Linking Bootstrap CSS  -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+	<!-- Linking jQuery  -->
+	<script src="js/jquery.js"></script>
+	<!-- Linking Bootstrap JS  -->
+	<script src="bootstrap/js/bootstrap.js"></script>
+	
+	<script src="js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+/* 			Doctores */
+			$('#capturarDoctores').click(function(){
+				$('#forms').load('forms/capturarDoctores.jsp');
+				return false;
+			});
+		    $('#consultarDoctorGeneral').click(function(){
+				$('#forms').load('forms/consultarDoctorGeneral.jsp');
+				return false;
+			});
+			$('#consultarClaveDoctores').click(function(){
+				$('#forms').load('forms/consultarClaveDoctores.jsp');
+				return false;
+			});
+			$('#consultarEspecialidad').click(function(){
+				$('#forms').load('forms/consultarEspecialidad.jsp');
+				return false;
+			});
+			$('#actualizarDoctor').click(function(){
+				$('#forms').load('forms/actualizarDoctor.jsp');
+				return false;
+			});
+			$('#borrarDoctor').click(function(){
+				$('#forms').load('forms/borrarDoctor.jsp');
+				return false;
+			});
+			$('#asignarPaciente').click(function(){
+				$('#forms').load('forms/asignarPaciente.jsp');
+				return false;
+			});
+			$('#consultarAsignaciones').click(function(){
+				$('#forms').load('forms/consultarAsignaciones.jsp');
+				return false;
+			});
 
-            if (clave == null || clave == ""){
-                alertify.error("Debes de proporcionar una clave.");
+/* 			Pacientes */
+			$('#capturarPacientes').click(function(){
+				$('#forms').load('forms/capturarPacientes.jsp');
+				return false;
+			});		
+			$('#consultarPacientes').click(function(){
+				$('#forms').load('forms/consultarPacientes.jsp');
+				return false;
+			});		
+			$('#consultarClavePacientes').click(function(){
+				$('#forms').load('forms/consultarClavePacientes.jsp');
+				return false;
+			});		
+			$('#modificarPacientes').click(function(){
+				$('#forms').load('forms/actualizarPaciente.jsp');
+				return false;
+			});
+			$('#borrarPaciente').click(function(){
+				$('#forms').load('forms/borrarPaciente.jsp');
+				return false;
+			});		
+			$('#asignarAnalisisPaciente').click(function(){
+				$('#forms').load('forms/asignarAnalisisPaciente.jsp');
+				return false;
+			});		
+			$('#consultarAnalisisPaciente').click(function(){
+				$('#forms').load('forms/consultarAnalisisPaciente.jsp');
+				return false;
+			});		
+
+/* 			Analisis */
+			$('#capturarAnalisis').click(function(){
+				$('#forms').load('forms/capturarAnalisis.jsp');
+				return false;
+			});		
+			$('#consultarAnalisis').click(function(){
+				$('#forms').load('forms/consultarAnalisis.jsp');
+				return false;
+			});		
+			$('#consultarClaveAnalisis').click(function(){
+				$('#forms').load('forms/consultarClaveAnalisis.jsp');
+				return false;
+			});		
+			$('#consultarTipoAnalisis').click(function(){
+				$('#forms').load('forms/consultarAnalisisTipo.jsp');
+				return false;
+			});		
+			$('#modificarAnalisis').click(function(){
+				$('#forms').load('forms/actualizarAnalisis.jsp');
+				return false;
+			});		
+			$('#eliminarAnalisis').click(function(){
+				$('#forms').load('forms/eliminarAnalisis.jsp');
+				return false;
+			});
+
+/* 			Reportes */
+            $('#reportesAnalisisPaciente').click(function(){
+                $('#forms').load('forms/reportesAnalisisPaciente.jsp');
                 return false;
-            }
-            else if (isNaN(clave)){
-                alertify.error("La clave debe de ser un valor numerico.");
+            });
+            $('#reportesDoctoresPaciente').click(function(){
+                $('#forms').load('forms/reportesDoctoresPaciente.jsp');
                 return false;
-            }
-            else if (titulo == null || titulo == ""){
-                alertify.error("Debes de proporcionar un titulo.");
+            });
+            $('#reportesPacientesAnalisis').click(function(){
+                $('#forms').load('forms/reportesPacientesAnalisis.jsp');
                 return false;
-            }
-            else if (autor == null || autor == ""){
-                alertify.error("Debes de proporcionar un autor.");
+            });
+            $('#reportesPacientesDoctor').click(function(){
+                $('#forms').load('forms/reportesPacientesDoctor.jsp');
                 return false;
-            }
-            else if (editorial == null || editorial == ""){
-                alertify.error("Debes de llenar la editorial.");
-                return false;
-            }
-            else if (existencia == null || existencia ==" "){
-                alertify.error("Debes de llenar la existencia.");
-                return false;
-            }
-            else if (isNaN(existencia)){
-                alertify.error("La existencia debe de ser un valor numerico.");
-                return false;
-            }
-            else if (imagen == null || imagen == ""){
-                alertify.error("Debes de llenar campo imagen.");
-                return false;
-            }
-            else return true;
+            });
+        });
+		
+		function changePillState(clicked){
+            var divResults = document.getElementById('results');
+            divResults.style.height = "0px";
+            document.getElementById('results_frame').style.display 	   = "none";
+			document.getElementById("hom").className 			  	   = "disabled";
+			document.getElementById("doc").className 			  	   = "dropdown disabled";
+			document.getElementById("pac").className 			  	   = "dropdown disabled";
+			document.getElementById("ana").className 			  	   = "dropdown disabled";
+			document.getElementById("rep").className 			  	   = "dropdown disabled";
+			clicked.className = "dropdown active";
+		}
+		
+		function showFrame(){
+        
+            document.getElementById('results_frame').style.display = "inherit";
         }
 
-        function validateFormClave(){
-            var clave = document.forms["form_libro"]["clave"].value;
-
-            if (clave == null || clave == ""){
-                alertify.error("Debes de llenar la clave.");
-                return false;
-            }
-            else if (isNaN(clave)){
-                alertify.error("La clave debe de ser un valor numerico.");
-                return false;
-            }
-            else return true;
+        function iframeGo(loc){
+            document.getElementById('results_frame').src = loc;
         }
-        function validateFormEditorial(){
-            var clave = document.forms["form_libro"]["editorial"].value;
 
-            if (clave == null || clave == ""){
-                alertify.error("Debes de llenar la editorial.");
-                return false;
-            }
-            else return true;
-        }
-    </script>
+	</script>	
 </head>
-<body style="text-align:center;">
-<h1>Biblioteca Tec</h1>
 
-<div class="well col-sm-10 col-sm-offset-1">
-    <s:form name="form_libro" action="consultar" method="GET" >
-        <input type="submit" class="btn btn-primary" value ="Consultar Libros" />
-    </s:form><br/>
-</div>
+<body>
+	<h1>Hospital Tec</h1>
+	<div class="well col-sm-10 col-sm-offset-1">
+		<div id="options">
+			<ul class="nav nav-pills">
+			  <li id="hom" class="active" onclick="changePillState(this);">
+					<a href="index.jsp"> P&aacute;gina Principal </a>
+			  </li>
+<!-- 			  DROPDOWN DOCTORES -->
+			  <li id="doc" class="dropdown disabled">
+				    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+				    	Doctores <b class="caret"></b>
+				    </a>
+				    <ul class="dropdown-menu">
+						<li id="capturarDoctores" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+							<a href="forms/capturarDoctores.jsp"> Capturar </a>
+						</li>
+                        <li id="consultarDoctorGeneral" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+                            <a href="forms/consultarDoctorGeneral.jsp"> Consultar</a>
+                        </li>
+						<li id="consultarClaveDoctores" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+							<a href="forms/consultarClaveDoctores.jsp"> Consultar por Clave</a>
+						</li>    		
+						<li id="consultarEspecialidad" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+							<a href="forms/consultarEspecialidad.jsp"> Consultar Especialidad </a>
+						</li>    		
+						<li id="actualizarDoctor" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+							<a href="forms/actualizarDoctor.jsp"> Modificar thrift.Doctor</a>
+						</li>    	
+						<li id="borrarDoctor" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+							<a href="forms/borrarDoctor.jsp"> Eliminar thrift.Doctor</a>
+						</li>    	
+						<li id="asignarPaciente" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+							<a href="forms/asignarPaciente.jsp"> Asignar thrift.Paciente</a>
+						</li>    	
+						<li id="consultarAsignaciones" class="disabled" onclick="changePillState(document.getElementById('doc'));">
+							<a href="forms/consultarAsignaciones.jsp"> Consultar Asignaciones</a>
+						</li>    	
+				    </ul>
+			  </li>
+<!-- 			  DROPDOWN PACIENTES -->
+			  <li id="pac" class="dropdown disabled">
+				    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+				    	Pacientes <b class="caret"></b>
+				    </a>
+				    <ul class="dropdown-menu">
+						<li id="capturarPacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
+							<a href="forms/capturarPacientes.jsp"> Capturar </a>
+						</li>    		
+						<li id="consultarPacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
+							<a href="forms/consultarPacientes.jsp"> Consultar</a>
+						</li>    		
+						<li id="consultarClavePacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
+							<a href="forms/consultarClavePacientes.jsp"> Consultar por Clave</a>
+						</li>    		
+						<li id="modificarPacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
+							<a href="forms/actualizarPaciente.jsp"> Modificar thrift.Paciente</a>
+						</li>    	
+						<li id="borrarPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
+							<a href="forms/borrarDoctor.jsp"> Borrar thrift.Paciente</a>
+						</li>    	
+						<li id="asignarAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
+							<a href="forms/asignarAnalisisPaciente.jsp"> Asignar Analisis a thrift.Paciente</a>
+						</li>    	
+						<li id="consultarAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
+							<a href="forms/consultarAnalisisPaciente.jsp"> Consultar Analisis</a>
+						</li>    	
+				    </ul>
+			  </li>
+<!-- 			  DROPDOWN ANALISIS -->
+			  <li id="ana" class="dropdown disabled">
+				    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+				    	Analisis <b class="caret"></b>
+				    </a>
+				    <ul class="dropdown-menu">
+						<li id="capturarAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
+							<a href="forms/capturarAnalisis.jsp"> Capturar </a>
+						</li>    		
+						<li id="consultarAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
+							<a href="forms/consultarAnalisis.jsp"> Consultar</a>
+						</li>    		
+						<li id="consultarClaveAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
+							<a href="forms/consultarClaveAnalisis.jsp"> Consultar por Clave</a>
+						</li>    		
+						<li id="consultarTipoAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
+							<a href="forms/consultarAnalisis.jsp"> Consultar por Tipo</a>
+						</li>    	
+						<li id="modificarAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
+							<a href="forms/actualizarAnalisis.jsp"> Modificar Analisis </a>
+						</li>    	
+						<li id="eliminarAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
+							<a href="forms/eliminarAnalisis.jsp"> Eliminar Analisis</a>
+						</li>
+				    </ul>
+			  </li>
+
+<!-- 			  DROPDOWN REPORTES -->
+                <li id="rep" class="dropdown disabled">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Reportes <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li id="reportesAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('rep'));">
+                            <a href="forms/reportesAnalisisPaciente.jsp"> Reporte Analisis thrift.Paciente </a>
+                        </li>
+                        <li id="reportesDoctoresPaciente" class="disabled" onclick="changePillState(document.getElementById('rep'));">
+                            <a href="forms/reportesDoctoresPaciente.jsp"> Reporte Doctores thrift.Paciente</a>
+                        </li>
+                        <li id="reportesPacientesAnalisis" class="disabled" onclick="changePillState(document.getElementById('rep'));">
+                            <a href="forms/reportesPacientesAnalisis.jsp"> Reporte Pacientes Analisis </a>
+                        </li>
+                        <li id="reportesPacientesDoctor" class="disabled" onclick="changePillState(document.getElementById('rep'));">
+                            <a href="forms/reportesPacientesDoctor.jsp"> Reporte Pacientes thrift.Doctor </a>
+                        </li>
+                    </ul>
+                </li>
+			</ul>
+		</div>
+		<div id="forms">
+		</div>
+		<br />
+		<div id="results">
+			<iframe src="" id="results_frame" name="results_frame">
+			</iframe>
+		</div>
+		</div>
+	</div>
 </body>
 </html>

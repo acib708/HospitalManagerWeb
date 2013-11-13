@@ -14,7 +14,7 @@
     }
 </script>
 
-<h4> Consulta Doctor: </h4>
+<h4>Consulta Doctor</h4>
 <s:form name="form_consultar_clave_doctor" action="consultarDoctorClave" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
@@ -24,7 +24,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('consultarClaveDoctores2.jsp'); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('consultarClaveDoctores2.jsp'); resizeFrame(); showFrame();"/>
             </td>
         </tr>
     </table>
