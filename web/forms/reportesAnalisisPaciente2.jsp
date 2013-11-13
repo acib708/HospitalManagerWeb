@@ -17,20 +17,46 @@
 
     if(arrayAnalisisPaciente != null){
 %>
-<table class="table table-striped">
-
-    <%
-
-        for(int i=0; i<arrayAnalisisPaciente.length; i++){
-            System.out.println(arrayAnalisisPaciente[i].getClaveAnalisis());
-    %>
-    <%
-        }
-    %>
-</table>
+<div class="row">
+    <ul class="thumbnails">
+        <li class="span3" >
+            <div class="thumbnail" >
+                <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayAnalisisPaciente[1].getClavePaciente()%>.jpg" alt="">
+                <h4><%=arrayAnalisisPaciente[1].getNombrePaciente()%></h4>
+                <h6>Clave: <%=arrayAnalisisPaciente[1].getClavePaciente()%></h6>
+            </div>
+        </li>
+        <li class="span9 ">
+            <div class="thumbnail">
+            <table class="table table-striped">
+                <tr>
+                    <th>Clave An&aacute;lisis</th>
+                    <th>Tipo</th>
+                    <th>Descripci&oacute;n</th>
+                    <th>Fecha Aplicaci&oacute;on</th>
+                    <th>Fecha Entrega</th>
+                </tr>
+                <%
+                    for (ReporteAnalisisPaciente repAnalisisPaciente: arrayAnalisisPaciente ){
+                %>
+                <tr>
+                    <td><%=repAnalisisPaciente.getClaveAnalisis()%></td>
+                    <td><%=repAnalisisPaciente.getTipo()%></td>
+                    <td><%=repAnalisisPaciente.getDescripcion()%></td>
+                    <td><%=repAnalisisPaciente.getFechaAplic()%></td>
+                    <td><%=repAnalisisPaciente.getFechaentrega()%></td>
+                </tr>
+                <%
+                    }
+                %>
+            </table>
+            </div>
+        </li>
+    </ul>
+</div>
 
 <%  } else { %>
-<h2 style="text-align: center;">No existen an&aacutelisis</h2>
+<h2 style="text-align: center;">No se encontro el paciente </h2>
 <%  } %>
 
 </body>
