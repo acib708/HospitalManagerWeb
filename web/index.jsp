@@ -163,7 +163,7 @@
 <body>
 	<h1>Hospital Tec</h1>
 	<div class="well col-sm-10 col-sm-offset-1">
-		<div id="options">
+		<div id="options" class="centered-pills">
 			<ul class="nav nav-pills">
 			  <li id="hom" class="active" onclick="changePillState(this);">
 					<a href="index.jsp"> P&aacute;gina Principal </a>
