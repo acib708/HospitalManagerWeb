@@ -36,13 +36,13 @@
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="JBoss 7.2.0.Final-redhat-8" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="JBoss" level="application_server_libraries" />
     <orderEntry type="library" name="struts2-2.3.15.3" level="project" />
     <orderEntry type="library" name="postgresql-9.2-1002.jdbc4" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/slf4j-log4j12-1.5.8.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.15.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -52,6 +52,15 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/slf4j-api-1.5.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/slf4j-log4j12-1.5.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

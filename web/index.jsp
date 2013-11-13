@@ -127,6 +127,8 @@
         });
 		
 		function changePillState(clicked){
+            var divResults = document.getElementById('results');
+            divResults.style.height = "0px";
             document.getElementById('results_frame').style.display 	   = "none";
 			document.getElementById("hom").className 			  	   = "disabled";
 			document.getElementById("doc").className 			  	   = "dropdown disabled";

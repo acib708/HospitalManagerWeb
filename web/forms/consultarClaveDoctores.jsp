@@ -14,7 +14,7 @@
     }
 </script>
 
-<h4> Consulta Doctor: </h4>
+<h4>Consulta Doctor</h4>
 <s:form name="form_consultar_clave_doctor" action="consultarDoctorClave" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
