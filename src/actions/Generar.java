@@ -2,20 +2,21 @@ package actions;
 
 import thrift.*;
 
+import java.util.HashMap;
+
 public class Generar {
     private DBManager dbManager = new DBManager();
     private ReporteAnalisisPaciente[]  reportesAnalisisPaciente;
     private ReporteDoctoresPaciente[]  reportesDoctoresPaciente;
     private ReportePacientesAnalisis[] reportesPacientesAnalisis;
     private ReportePacientesDoctor[]   reportesPacientesDoctor;
+
     String claveDoctor;
-    String  claveAnalisis;
-    String  clavePaciente;
+    String claveAnalisis;
+    String clavePaciente;
 
     public String reporteAnalisisPaciente() throws Exception{
         reportesAnalisisPaciente = dbManager.generarReporteAnalisisPaciente(clavePaciente);
-        System.out.println(reportesAnalisisPaciente);
-
         return "success";
     }
 
@@ -50,15 +51,18 @@ public class Generar {
         return reportesAnalisisPaciente;
     }
 
-    public void setClavePaciente(String clavePaciente) {
-        this.clavePaciente = clavePaciente;
+    //getter and setters
+    public void setClaveDoctor(String claveDoctor){
+        this.claveDoctor = claveDoctor;
     }
 
     public void setClaveAnalisis(String claveAnalisis) {
         this.claveAnalisis = claveAnalisis;
     }
 
-    public void setClaveDoctor(String claveDoctor) {
-        this.claveDoctor = claveDoctor;
+    public void setClavePaciente(String clavePaciente) {
+        this.clavePaciente = clavePaciente;
     }
 }
+
+

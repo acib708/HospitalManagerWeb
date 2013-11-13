@@ -19,9 +19,10 @@ public class Consultar {
     private SeRealiza[]       seRealiza;
     //thrift.Atiende
     private Atiende[]         atiende;
-    //Hashes para saber nombre de doctores y pacientes en Atiende
+    //Hashes para saber nombre de analisis, doctores y pacientes
     private HashMap<String, String> hashDoctores;
     private HashMap<String, String> hashPacientes;
+    private HashMap<String, String> hashAnalisis;
 
     //thrift.Doctor
     public String doctorGeneral() throws Exception{
@@ -82,6 +83,14 @@ public class Consultar {
     //thrift.SeRealiza
     public String seRealizaGeneral() throws Exception{
         seRealiza = dbManager.consultarSeRealiza();
+        hashPacientes = new HashMap<String, String>();
+        hashAnalisis = new HashMap<String, String>();
+        for(SeRealiza current : seRealiza){
+            Paciente p = dbManager.consultarPacienteClave(current.getClavePaciente());
+            hashPacientes.put(p.getClave(), p.getNombre());
+            AnalisisClinico a = dbManager.consultarAnalisisClave(current.getClaveAnalisis());
+            hashAnalisis.put(a.getClave(), a.getTipo());
+        }
         return "success";
     }
 
@@ -145,5 +154,9 @@ public class Consultar {
 
     public HashMap<String, String> getHashPacientes() {
         return hashPacientes;
+    }
+
+    public HashMap<String, String> getHashAnalisis() {
+        return hashAnalisis;
     }
 }

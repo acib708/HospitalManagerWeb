@@ -14,7 +14,7 @@
     }
 </script>
 
-<h4> Eliminar thrift.Paciente: </h4>
+<h4> Eliminar Paciente: </h4>
 <s:form name="form_eliminar_paciente" action="borrarPaciente" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>

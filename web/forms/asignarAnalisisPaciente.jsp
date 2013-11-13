@@ -3,7 +3,7 @@
     function validateFormCapturar(){
         var claveAnalisis   = $("input[name = claveAnalisis]").val();
         var clavePaciente   = $("input[name = clavePaciente]").val();
-        var fotoPaciente    = $("input[name = fotoPaciente]").val();
+        //var fotoPaciente    = $("input[name = fotoPaciente]").val();
         var fechaAplicacion = $("input[name = fechaAplicacion]").val();
         var fechaEntrega    = $("input[name = fechaEntrega]").val();
 
@@ -15,10 +15,10 @@
             alertify.error("Debes proporcionar una clave de thrift.Paciente.");
             return false;
         }
-        else if (fotoPaciente == null || fotoPaciente== ""){
+        /*else if (fotoPaciente == null || fotoPaciente== ""){
             alertify.error("Debes proporcionar una foto del thrift.Paciente.");
             return false;
-        }
+        } */
         else if (fechaAplicacion == null || fechaAplicacion == ""){
             alertify.error("Debes proporcionar una fecha de aplicacion.");
             return false;
@@ -28,6 +28,8 @@
             return false;
         }
         else{
+            iframeGo('../estadoCaptura.jsp');
+            showFrame();
             //document.getElementById('results_frame').style.display = "inherit";
             return true;
         }
@@ -42,13 +44,13 @@
             <td><input style="width:200px;" type="text" name="claveAnalisis"></td>
         </tr>
         <tr>
-            <td class="text-right">Clave thrift.Paciente:</td>
+            <td class="text-right">Clave Paciente:</td>
             <td><input style="width:200px;" type="text" name="clavePaciente"></td>
         </tr>
-        <tr>
+        <!--tr>
             <td class="text-right">Foto thrift.Paciente:</td>
             <td><input style="width:200px;" type="text" name="fotoPaciente"> </td>
-        </tr>
+        </tr-->
         <tr>
             <td class="text-right">Fecha de Aplicaci&oacute;n:</td>
             <td><input style="width:200px;" type="text" name="fechaAplicacion"> </td>
@@ -60,7 +62,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('../estadoCaptura.jsp'); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar(); "/>
             </td>
         </tr>
     </table>

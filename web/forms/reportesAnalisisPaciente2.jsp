@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
 </head>
 <body style="background: #f5f5f5;">
-<h4>An&aacute;lisis clinicos</h4>
+<h4>An&aacute;lisis clinicos de un paciente</h4>
 <%
     //DBManager dbman = new DBManager();
     //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
@@ -15,28 +15,15 @@
 
     //Boolean state = (Boolean)request.getAttribute("ans");
 
-    System.out.println(arrayAnalisisPaciente[1]);
     if(arrayAnalisisPaciente != null){
 %>
 <table class="table table-striped">
-    <tr>
-        <th>Clave An&aacute;lisis</th>
-        <th>Tipo</th>
-        <th>Descripci&oacute;n</th>
-        <th>Fecha de aplicacion</th>
-        <th>Fecha de entrega</th>
-    </tr>
-    <%
-        for(int i=0; i<arrayAnalisisPaciente.length; i++){
-    %>
-    <tr>
-        <td><%=arrayAnalisisPaciente[i].getClaveAnalisis()%></td>
-        <td><%=arrayAnalisisPaciente[i].getTipo()%></td>
-        <td><%=arrayAnalisisPaciente[i].getDescripcion()%></td>
-        <td><%=arrayAnalisisPaciente[i].getFechaAplic()%></td>
-        <td><%=arrayAnalisisPaciente[i].getFechaEntrega()%></td>
 
-    </tr>
+    <%
+
+        for(int i=0; i<arrayAnalisisPaciente.length; i++){
+            System.out.println(arrayAnalisisPaciente[i].getClaveAnalisis());
+    %>
     <%
         }
     %>

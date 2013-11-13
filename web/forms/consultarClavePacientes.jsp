@@ -14,7 +14,7 @@
     }
 </script>
 
-<h4> Consulta thrift.Paciente: </h4>
+<h4> Consulta Paciente: </h4>
 <s:form name="form_consultar_clave_paciente" action="consultarPacienteClave" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>

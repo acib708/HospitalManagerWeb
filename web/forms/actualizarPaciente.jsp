@@ -14,7 +14,7 @@
     }
 </script>
 
-<h4> Acturalizar Pacientes: </h4>
+<h4> Actualizar Pacientes: </h4>
 <s:form name="form_actualizar_paciente" action="obtenerDatosPaciente" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>

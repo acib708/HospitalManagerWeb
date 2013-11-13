@@ -21,7 +21,7 @@
             var nombre	     = $("input[name = nombre]").val();
             var direccion    = $("input[name = direccion]").val();
             var telefono 	 = $("input[name = telefono]").val();
-            var foto	     = $("input[name = foto]").val();
+            //var foto	     = $("input[name = foto]").val();
 
             if (clave == null || clave == ""){
                 alertify.error("Debes proporcionar una clave.");
@@ -43,10 +43,10 @@
                 alertify.error("El telefono debe de ser numerico.");
                 return false;
             }
-            else if (foto == null || foto == ""){
-                alertify.error("Debes proporcionar el campo imagen.");
-                return false;
-            }
+            //else if (foto == null || foto == ""){
+            //    alertify.error("Debes proporcionar el campo imagen.");
+            //    return false;
+            //}
             else{
                 //document.getElementById('results_frame').style.display = "inherit";
                 return true;
@@ -79,10 +79,10 @@
             <td class="text-right">Tel&eacute;fono:</td>
             <td><input style="width:200px;" type="text" name="telefono" value="<%= paciente.getTelefono()%>"></td>
         </tr>
-        <tr>
+        <!--tr>
             <td class="text-right">Foto:</td>
             <td><input style="width:200px;" type="text" name="foto" value="<%= paciente.getFoto()%>"></td>
-        </tr>
+        </tr-->
         <tr>
             <td></td>
             <td>

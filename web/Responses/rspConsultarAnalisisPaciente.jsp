@@ -1,4 +1,5 @@
 <%@ page import="thrift.SeRealiza" %>
+<%@ page import="java.util.HashMap" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -12,6 +13,8 @@
     //DBManager dbman = new DBManager();
     //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
     SeRealiza[] arraySeRealiza = (SeRealiza[])request.getAttribute("seRealiza");
+    HashMap<String,String> nombresPacientes = (HashMap<String,String>)request.getAttribute("hashPacientes");
+    HashMap<String,String> tipoAnalisis     = (HashMap<String,String>)request.getAttribute("hashAnalisis");
 
     //Boolean state = (Boolean)request.getAttribute("ans");
 
@@ -19,14 +22,16 @@
 %>
 <ul class="thumbnails">
     <%
-        for(int i=0; i<arraySeRealiza.length; i++){
+        for (SeRealiza theArraySeRealiza : arraySeRealiza){
+        //for(int i=0; i<arraySeRealiza.length; i++){
     %>
     <li class="span3" >
         <div class="thumbnail" >
-            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arraySeRealiza[i].getFotoPaciente()%>" alt="">
-            <h5><%=arraySeRealiza[i].getClavePaciente()%></h5>
-            <h5>Fecha Aplicaci&oacute;n: <%=arraySeRealiza[i].getFechaAplic()%></h5>
-            <h5>Fecha de Entrega: <%=arraySeRealiza[i].getFechaEntrega()%></h5>
+            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=theArraySeRealiza.getClavePaciente()%>.jpg" alt="">
+            <h4><%= nombresPacientes.get(theArraySeRealiza.getClavePaciente())%></h4>
+            <h6><%= tipoAnalisis.get(theArraySeRealiza.getClaveAnalisis())%></h6>
+            <h6>Fecha Aplicaci&oacute;n: <%=theArraySeRealiza.getFechaAplic()%></h6>
+            <h6>Fecha de Entrega: <%=theArraySeRealiza.getFechaEntrega()%></h6>
         </div>
     </li>
     <%

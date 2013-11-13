@@ -27,13 +27,11 @@
         <div class="thumbnail">
             <img class="img-polaroid" style="width: 170px; height: 170px;"
                  src="../img/<%=anArrayAtiende.getClaveDoctor()%>.jpg" alt="">
-            <h5><%= nombresDoctores.get(anArrayAtiende.getClaveDoctor()) %>
-            </h5>
+            <h5><%= nombresDoctores.get(anArrayAtiende.getClaveDoctor()) %> </h5>
             <h6> atiende a:</h6>
             <img class="img-polaroid" style="width: 170px; height: 170px;"
                  src="../img/<%=anArrayAtiende.getClavePaciente()%>.jpg" alt="">
-            <h5><%= nombresPacientes.get(anArrayAtiende.getClavePaciente()) %>
-            </h5>
+            <h5><%= nombresPacientes.get(anArrayAtiende.getClavePaciente()) %> </h5>
 
 
         </div>
