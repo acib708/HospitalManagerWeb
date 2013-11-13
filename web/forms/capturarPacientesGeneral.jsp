@@ -19,7 +19,7 @@ function validateFormCapturar(){
         alertify.error("Debes proporcionar una direccion.");
         return false;
     }
-    else if (telefono == null || telefono ==" "){
+    else if (telefono == null || telefono ==""){
         alertify.error("Debes proporcionar un telefono.");
         return false;
     }
@@ -32,14 +32,16 @@ function validateFormCapturar(){
     //    return false;
     //}  */
     else{
-        //document.getElementById('results_frame').style.display = "inherit";
+        iframeGo('../estadoCaptura.jsp');
+        resizeFrame();
+        showFrame();
         return true;
     }
 }
 
 </script>
 
-<h4> Capturar Pacientes: </h4>
+<h3> Capturar Pacientes </h3>
 <s:form name="form_capturar_paciente" action="capturarPaciente" method="GET" target="results_frame">
 <table  style="width:30%; margin:auto;">
     <tr>
@@ -65,7 +67,7 @@ function validateFormCapturar(){
     <tr>
         <td></td>
         <td>
-            <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('../estadoCaptura.jsp'); resizeFrame(); showFrame();"/>
+            <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
         </td>
     </tr>
 </table>

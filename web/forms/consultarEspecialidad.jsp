@@ -8,13 +8,15 @@
             return false;
         }
         else{
-            //document.getElementById('results_frame').style.display = "inherit";
+            iframeGo('consultarClaveDoctores2.jsp');
+            resizeFrame();
+            showFrame();
             return true;
         }
     }
 </script>
 
-<h4> Consulta Doctor por Especialidad: </h4>
+<h3> Consulta Doctor por Especialidad </h3>
 <s:form name="form_consultar_especialidad" action="consultarDoctorEspecialidad" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
@@ -24,7 +26,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('consultarClaveDoctores2.jsp'); resizeFrame(); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>

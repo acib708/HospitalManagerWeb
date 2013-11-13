@@ -12,11 +12,11 @@
             return false;
         }
         else if (clavePaciente == null || clavePaciente == ""){
-            alertify.error("Debes proporcionar una clave de thrift.Paciente.");
+            alertify.error("Debes proporcionar una clave de Paciente.");
             return false;
         }
         else if (fotoPaciente == null || fotoPaciente== ""){
-            alertify.error("Debes proporcionar una foto del thrift.Paciente.");
+            alertify.error("Debes proporcionar una foto del Paciente.");
             return false;
         }
         else if (fechaAplicacion == null || fechaAplicacion == ""){
@@ -28,13 +28,15 @@
             return false;
         }
         else{
-            //document.getElementById('results_frame').style.display = "inherit";
+            iframeGo('../estadoCaptura.jsp');
+            resizeFrame();
+            showFrame();
             return true;
         }
     }
 </script>
 
-<h4> Asignar An&aacute;lisis a Pacientes: </h4>
+<h3> Asignar An&aacute;lisis a Pacientes </h3>
 <s:form name="form_capturar_seRealiza" action="capturarSeRealiza" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
@@ -42,11 +44,11 @@
             <td><input style="width:200px;" type="text" name="claveAnalisis"></td>
         </tr>
         <tr>
-            <td class="text-right">Clave thrift.Paciente:</td>
+            <td class="text-right">Clave Paciente:</td>
             <td><input style="width:200px;" type="text" name="clavePaciente"></td>
         </tr>
         <tr>
-            <td class="text-right">Foto thrift.Paciente:</td>
+            <td class="text-right">Foto Paciente:</td>
             <td><input style="width:200px;" type="text" name="fotoPaciente"> </td>
         </tr>
         <tr>
@@ -60,7 +62,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('../estadoCaptura.jsp'); resizeFrame(); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>

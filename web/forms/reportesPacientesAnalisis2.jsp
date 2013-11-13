@@ -15,7 +15,15 @@
 
     //Boolean state = (Boolean)request.getAttribute("ans");
 
-    if(arrayPacientesAnalisis != null){
+    if(arrayPacientesAnalisis == null ){
+%>
+        <h2 style="text-align: center;">Error al consultar el servidor</h2>
+<%
+    }else if( arrayPacientesAnalisis.length<=0 ){
+%>
+        <h2 style="text-align: center;">No se encontro el an&aacute;lisis</h2>
+<%
+    }else{
 %>
 <div class="row">
     <div class="span1"></div>
@@ -49,8 +57,6 @@
     </ul>
 </div>
 
-<%  } else { %>
-<h2 style="text-align: center;">No se encontro el paciente </h2>
 <%  } %>
 
 </body>

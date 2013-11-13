@@ -35,7 +35,7 @@
                 alertify.error("Debes proporcionar una direccion.");
                 return false;
             }
-            else if (telefono == null || telefono ==" "){
+            else if (telefono == null || telefono ==""){
                 alertify.error("Debes proporcionar un telefono.");
                 return false;
             }
@@ -48,13 +48,14 @@
             //    return false;
             //}
             else{
-                //document.getElementById('results_frame').style.display = "inherit";
+                iframeGo('estadoCaptura.jsp');
+                showFrame();
                 return true;
             }
         }
     </script>
 </head>
-<body>
+<body style="background: #f5f5f5;">
 <h4> Capturar Pacientes: </h4>
 <% Paciente paciente = (Paciente)request.getAttribute("paciente");
     if(paciente != null){
@@ -86,7 +87,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('estadoCaptura.jsp'); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>

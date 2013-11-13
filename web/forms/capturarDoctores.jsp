@@ -24,7 +24,7 @@
                 alertify.error("Debes proporcionar una especialidad.");
                 return false;
             }
-            else if (telefono == null || telefono ==" "){
+            else if (telefono == null || telefono ==""){
                 alertify.error("Debes proporcionar un telefono.");
                 return false;
             }
@@ -36,14 +36,17 @@
             //    alertify.error("Debes proporcionar el campo imagen.");
             //    return false;
             //}
-            else{ 
+            else{
+                iframeGo('../estadoCaptura.jsp');
+                resizeFrame();
+                showFrame();
             	//document.getElementById('results_frame').style.display = "inherit";
             	return true;
             }
         }
 </script>
 
-<h4> Capturar Doctores: </h4>
+<h3> Capturar Doctores </h3>
 <s:form name="form_capturar_doctor" action="capturarDoctor" method="GET" target="results_frame">
 	<table  style="width:30%; margin:auto;">
 		<tr>
@@ -73,7 +76,7 @@
         <tr>
         	<td></td>
         	<td>
-				<input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar(); iframeGo('../estadoCaptura.jsp'); resizeFrame(); showFrame();"/>
+				<input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();" />
         	</td>
         </tr>
      </table>

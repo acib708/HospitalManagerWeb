@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
 </head>
 <body style="background: #f5f5f5;">
-<h4>An&aacute;lisis de pacientes</h4>
+<h3>An&aacute;lisis de Pacientes</h3>
 <%
     //DBManager dbman = new DBManager();
     //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();

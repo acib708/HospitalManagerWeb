@@ -8,13 +8,15 @@
             return false;
         }
         else{
-            //document.getElementById('results_frame').style.display = "inherit";
+            iframeGo('actualizarPaciente2.jsp');
+            resizeFrame();
+            showFrame();
             return true;
         }
     }
 </script>
 
-<h4> Actualizar Pacientes: </h4>
+<h3> Actualizar Pacientes </h3>
 <s:form name="form_actualizar_paciente" action="obtenerDatosPaciente" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
@@ -24,7 +26,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('actualizarPaciente2.jsp'); resizeFrame(); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>
