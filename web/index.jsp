@@ -147,6 +147,17 @@
             document.getElementById('results_frame').src = loc;
         }
 
+        function resizeFrame(){
+            setTimeout(function resize (){
+                var divResults = document.getElementById('results');
+                var iframe     = document.getElementById('results_frame');
+                var iframeWin  = iframe.contentWindow || iframe.contentDocument.parentWindow;
+                if (iframeWin.document.body) {
+                    divResults.style.height = iframeWin.document.documentElement.scrollHeight + "px" || iframeWin.document.body.scrollHeight + "px";
+                }
+            }, 250);
+            showFrame();
+        }
 	</script>	
 </head>
 
