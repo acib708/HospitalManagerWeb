@@ -18,15 +18,16 @@
     if(arrayAnalisisPaciente != null){
 %>
 <div class="row">
+    <div class="span1"></div>
     <ul class="thumbnails">
-        <li class="span3" >
+        <li class="span3 offset1" >
             <div class="thumbnail" >
                 <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayAnalisisPaciente[1].getClavePaciente()%>.jpg" alt="">
                 <h4><%=arrayAnalisisPaciente[1].getNombrePaciente()%></h4>
                 <h6>Clave: <%=arrayAnalisisPaciente[1].getClavePaciente()%></h6>
             </div>
         </li>
-        <li class="span9 ">
+        <li class="span10 ">
             <div class="thumbnail">
             <table class="table table-striped">
                 <tr>
