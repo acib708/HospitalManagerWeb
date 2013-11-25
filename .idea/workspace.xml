@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Hospital_ear_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Hospital_ear_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/ServerInterface.java" afterPath="$PROJECT_DIR$/src/thrift/ServerInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385409083743" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385409429341" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383984558884" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
@@ -68,7 +66,7 @@
     <file path="/testc_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384042607890" ignored="false" />
     <file path="$PROJECT_DIR$/../HospitalManagerServer/src/thrift_files/actions.thrift" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384045556983" ignored="false" />
     <file path="/actions.thrift" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384056779129" ignored="false" />
-    <file path="$PROJECT_DIR$/../HospitalManagerServer/.idea/workspace.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385409410817" ignored="false" />
+    <file path="$PROJECT_DIR$/../HospitalManagerServer/.idea/workspace.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385409923690" ignored="false" />
     <file path="$PROJECT_DIR$/../HospitalManagerServer/src/db_manager.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384286739779" ignored="false" />
     <file path="$PROJECT_DIR$/../HospitalManagerServer/src/thrift_files/actions.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384045765344" ignored="false" />
     <file path="$PROJECT_DIR$/../HospitalManagerServer/src/hospital_client.rb" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1384109918170" ignored="false" />
@@ -190,7 +188,7 @@
       <file leaf-file-name="ServerInterface.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/thrift/ServerInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="513" selection-end="513" vertical-scroll-proportion="0.546875">
+            <state line="18" column="15" selection-start="490" selection-end="490" vertical-scroll-proportion="0.3115727">
               <folding />
             </state>
           </provider>
@@ -422,20 +420,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HospitalManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -443,7 +427,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
@@ -778,7 +762,11 @@
       <created>1385408369489</created>
       <updated>1385408369489</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated thrift implementation with new actions">
+      <created>1385409434559</created>
+      <updated>1385409434559</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -803,7 +791,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -825,8 +813,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29092383" sideWeight="0.5868946" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4131054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29092383" sideWeight="0.5868946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4131054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1004,7 +992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thrift/ServerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="513" selection-end="513" vertical-scroll-proportion="0.546875">
+        <state line="18" column="15" selection-start="490" selection-end="490" vertical-scroll-proportion="0.3115727">
           <folding />
         </state>
       </provider>
