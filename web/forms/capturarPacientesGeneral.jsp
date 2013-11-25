@@ -5,7 +5,7 @@ function validateFormCapturar(){
     var nombre	      = $("input[name = nombre]").val();
     var direccion     = $("input[name = direccion]").val();
     var telefono 	  = $("input[name = telefono]").val();
-    var fotoPaciente  = $("input[name = fotoPaciente]").val();
+    //var fotoPaciente  = $("input[name = fotoPaciente]").val();
 
     if (clavePaciente == null || clavePaciente == ""){
         alertify.error("Debes proporcionar una clave.");
@@ -19,26 +19,29 @@ function validateFormCapturar(){
         alertify.error("Debes proporcionar una direccion.");
         return false;
     }
-    else if (telefono == null || telefono ==" "){
+    else if (telefono == null || telefono ==""){
         alertify.error("Debes proporcionar un telefono.");
         return false;
     }
-    else if (isNaN(telefono)){
+    /*else if (isNaN(telefono)){
         alertify.error("El telefono debe de ser numerico.");
         return false;
     }
-    else if (fotoPaciente == null || fotoPaciente == ""){
-        alertify.error("Debes proporcionar el campo imagen.");
-        return false;
-    }
+    //else if (fotoPaciente == null || fotoPaciente == ""){
+    //    alertify.error("Debes proporcionar el campo imagen.");
+    //    return false;
+    //}  */
     else{
-        //document.getElementById('results_frame').style.display = "inherit";
+        iframeGo('../estadoCaptura.jsp');
+        resizeFrame();
+        showFrame();
         return true;
     }
 }
+
 </script>
 
-<h4> Capturar Pacientes: </h4>
+<h3> Capturar Pacientes </h3>
 <s:form name="form_capturar_paciente" action="capturarPaciente" method="GET" target="results_frame">
 <table  style="width:30%; margin:auto;">
     <tr>
@@ -57,14 +60,14 @@ function validateFormCapturar(){
         <td class="text-right">Tel&eacute;fono:</td>
         <td><input style="width:200px;" type="text" name="telefono"></td>
     </tr>
-    <tr>
+    <!--tr>
         <td class="text-right">Foto:</td>
         <td><input style="width:200px;" type="text" name="fotoPaciente"></td>
-    </tr>
+    </tr-->
     <tr>
         <td></td>
         <td>
-            <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('../estadoCaptura.jsp'); resizeFrame(); showFrame();"/>
+            <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
         </td>
     </tr>
 </table>

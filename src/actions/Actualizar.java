@@ -8,7 +8,7 @@ public class Actualizar {
     private Boolean   ans;
 
     private String          clave, nombre, direccion, especialidad, telefono, foto, tipo, descripcion;
-    private Doctor doctor;
+    private Doctor          doctor;
     private Paciente        paciente;
     private AnalisisClinico analisis;
 

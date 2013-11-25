@@ -40,7 +40,7 @@
             alertify.error("Debes proporcionar una especialidad.");
             return false;
         }
-        else if (telefono == null || telefono ==" "){
+        else if (telefono == null || telefono ==""){
             alertify.error("Debes proporcionar un telefono.");
             return false;
         }
@@ -53,6 +53,7 @@
         //    return false;
         //}
         else{
+            iframeGo('estadoCaptura.jsp'); showFrame();
             //document.getElementById('results_frame').style.display = "inherit";
             return true;
         }
@@ -95,7 +96,7 @@
             <tr>
                 <td></td>
                 <td>
-                    <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('estadoCaptura.jsp'); showFrame();"/>
+                    <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
                 </td>
             </tr>
         </table>

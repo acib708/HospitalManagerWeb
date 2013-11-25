@@ -34,13 +34,14 @@
                 return false;
             }
             else{
+                iframeGo('estadoCaptura.jsp'); showFrame();
                 //document.getElementById('results_frame').style.display = "inherit";
                 return true;
             }
         }
     </script>
 </head>
-<body>
+<body  style="background: #f5f5f5;">
 <h4> Actualizar An&aacute;lisis: </h4>
 <% AnalisisClinico analisis = (AnalisisClinico)request.getAttribute("analisis");
     if(analisis != null){
@@ -64,7 +65,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('estadoCaptura.jsp'); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>

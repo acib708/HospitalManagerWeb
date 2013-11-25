@@ -13,10 +13,7 @@
 	<script src="js/jquery.js"></script>
     <!-- Linking Bootstrap JS  -->
     <script src="bootstrap/js/bootstrap.js"></script>
-    <!-- Linking Bootstrap Hover Dropdown Plugin  -->
-    <script src="bootstrap/js/twitter-bootstrap-hover-dropdown.js"></script>
 
-	<script src="js/jquery.js" type="text/javascript"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
 /* 			Doctores */
@@ -55,7 +52,7 @@
 
 /* 			Pacientes */
 			$('#capturarPacientes').click(function(){
-				$('#forms').load('forms/capturarPacientes.jsp');
+				$('#forms').load('forms/capturarPacientesGeneral.jsp');
 				return false;
 			});		
 			$('#consultarPacientes').click(function(){
@@ -166,14 +163,14 @@
 <body>
 	<h1>Hospital Tec</h1>
 	<div class="well col-sm-10 col-sm-offset-1">
-		<div id="options">
+		<div id="options" class="centered-pills">
 			<ul class="nav nav-pills">
 			  <li id="hom" class="active" onclick="changePillState(this);">
 					<a href="index.jsp"> P&aacute;gina Principal </a>
 			  </li>
 <!-- 			  DROPDOWN DOCTORES -->
 			  <li id="doc" class="dropdown disabled">
-				    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">
+				    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 				    	Doctores <b class="caret"></b>
 				    </a>
 				    <ul class="dropdown-menu">
@@ -210,7 +207,7 @@
 				    </a>
 				    <ul class="dropdown-menu">
 						<li id="capturarPacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
-							<a href="forms/capturarPacientes.jsp"> Capturar </a>
+							<a href="forms/capturarPacientesGeneral.jsp"> Capturar </a>
 						</li>    		
 						<li id="consultarPacientes" class="disabled" onclick="changePillState(document.getElementById('pac'));">
 							<a href="forms/consultarPacientes.jsp"> Consultar</a>
@@ -225,10 +222,10 @@
 							<a href="forms/borrarDoctor.jsp"> Borrar Paciente</a>
 						</li>    	
 						<li id="asignarAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
-							<a href="forms/asignarAnalisisPaciente.jsp"> Asignar Analisis a Paciente</a>
+							<a href="forms/asignarAnalisisPaciente.jsp"> Asignar An&aacute;lisis a Paciente</a>
 						</li>    	
 						<li id="consultarAnalisisPaciente" class="disabled" onclick="changePillState(document.getElementById('pac'));">
-							<a href="forms/consultarAnalisisPaciente.jsp"> Consultar Analisis</a>
+							<a href="forms/consultarAnalisisPaciente.jsp"> Consultar An&aacute;lisis de Pacientes</a>
 						</li>    	
 				    </ul>
 			  </li>

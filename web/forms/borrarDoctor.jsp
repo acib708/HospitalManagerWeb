@@ -8,12 +8,15 @@
             return false;
         }
         else{
+            iframeGo('estadoCaptura.jsp');
+            resizeFrame();
+            showFrame();
             return true;
         }
     }
 </script>
 
-<h4> Eliminar Doctores: </h4>
+<h3> Eliminar Doctores </h3>
 <s:form name="form_eliminar_doctor" action="borrarDoctor" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
@@ -23,7 +26,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('estadoCaptura.jsp'); resizeFrame(); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>

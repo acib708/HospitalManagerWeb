@@ -18,10 +18,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.capturarDoctor(doctor);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -32,10 +34,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<Doctor>(client.consultarDoctores());
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new Doctor[ans.size()]);
     }
@@ -46,10 +50,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.consultarDoctorClave(clave);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -60,10 +66,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<Doctor>(client.consultarDoctoresEspecialidad(especialidad));
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new Doctor[ans.size()]);
     }
@@ -74,10 +82,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.actualizarDoctor(doctor);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -88,10 +98,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.borrarDoctor(clave);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -102,10 +114,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.capturarPaciente(paciente);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -116,10 +130,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<Paciente>(client.consultarPacientes());
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new Paciente[ans.size()]);
     }
@@ -130,10 +146,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.consultarPacienteClave(clave);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -144,10 +162,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.actualizarPaciente(paciente);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -158,10 +178,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.borrarPaciente(clave);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -172,10 +194,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.capturarAnalisis(analisis);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -186,10 +210,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<AnalisisClinico>(client.consultarAnalisis());
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new AnalisisClinico[ans.size()]);
     }
@@ -200,10 +226,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.consultarAnalisisClave(clave);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -214,10 +242,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList(client.consultarAnalisisTipo(tipo));
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new AnalisisClinico[ans.size()]);
     }
@@ -228,10 +258,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.actualizarAnalisis(analisis);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -242,10 +274,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.borrarAnalisis(clave);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -256,10 +290,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.capturarSeRealiza(seRealiza);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -270,10 +306,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<SeRealiza>(client.consultarSeRealiza());
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new SeRealiza[ans.size()]);
     }
@@ -284,10 +322,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = client.capturarAtiende(atiende);
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans;
     }
@@ -298,10 +338,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<Atiende>(client.consultarAtiende());
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new Atiende[ans.size()]);
     }
@@ -312,10 +354,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<ReporteDoctoresPaciente>(client.generarReporteDoctoresPaciente(clavePaciente));
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new ReporteDoctoresPaciente[ans.size()]);
     }
@@ -326,10 +370,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<ReportePacientesDoctor>(client.generarReportePacientesDoctor(claveDoctor));
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new ReportePacientesDoctor[ans.size()]);
     }
@@ -340,10 +386,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<ReporteAnalisisPaciente>(client.generarReporteAnalisisPaciente(clavePaciente));
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new ReporteAnalisisPaciente[ans.size()]);
     }
@@ -354,10 +402,12 @@ public class DBManager {
             si.connect();
             client = si.getClient();
             ans = new ArrayList<ReportePacientesAnalisis>(client.generarReportePacientesAnalisis(claveAnalisis));
-            si.disconnect();
         }
         catch (TException e){
             System.out.print("Thrift Server exception.");
+        }
+        finally {
+            si.disconnect();
         }
         return ans.toArray(new ReportePacientesAnalisis[ans.size()]);
     }

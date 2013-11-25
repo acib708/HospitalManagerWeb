@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
 </head>
 <body style="background: #f5f5f5;">
-<h4>Consultar Asignaciones</h4>
+<h3>Consultar Asignaciones</h3>
 <%
     //DBManager dbman = new DBManager();                                          h
     //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
@@ -27,13 +27,11 @@
         <div class="thumbnail">
             <img class="img-polaroid" style="width: 170px; height: 170px;"
                  src="../img/<%=anArrayAtiende.getClaveDoctor()%>.jpg" alt="">
-            <h5><%= nombresDoctores.get(anArrayAtiende.getClaveDoctor()) %>
-            </h5>
+            <h5><%= nombresDoctores.get(anArrayAtiende.getClaveDoctor()) %> </h5>
             <h6> atiende a:</h6>
             <img class="img-polaroid" style="width: 170px; height: 170px;"
                  src="../img/<%=anArrayAtiende.getClavePaciente()%>.jpg" alt="">
-            <h5><%= nombresPacientes.get(anArrayAtiende.getClavePaciente()) %>
-            </h5>
+            <h5><%= nombresPacientes.get(anArrayAtiende.getClavePaciente()) %> </h5>
 
 
         </div>

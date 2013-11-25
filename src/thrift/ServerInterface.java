@@ -18,7 +18,7 @@ public class ServerInterface {
     // Debug variables
     private static final String LOG_TAG = "ServerInterface";
     // Parameters for connecting to the thrift server
-    public static final String host = "192.168.0.109";
+    public static final String host = "10.25.194.206";
     public static final int    port = 7911;
     // Communication variables
     private TTransport     transport;

@@ -21,7 +21,7 @@
             var nombre	     = $("input[name = nombre]").val();
             var direccion    = $("input[name = direccion]").val();
             var telefono 	 = $("input[name = telefono]").val();
-            var foto	     = $("input[name = foto]").val();
+            //var foto	     = $("input[name = foto]").val();
 
             if (clave == null || clave == ""){
                 alertify.error("Debes proporcionar una clave.");
@@ -35,7 +35,7 @@
                 alertify.error("Debes proporcionar una direccion.");
                 return false;
             }
-            else if (telefono == null || telefono ==" "){
+            else if (telefono == null || telefono ==""){
                 alertify.error("Debes proporcionar un telefono.");
                 return false;
             }
@@ -43,18 +43,19 @@
                 alertify.error("El telefono debe de ser numerico.");
                 return false;
             }
-            else if (foto == null || foto == ""){
-                alertify.error("Debes proporcionar el campo imagen.");
-                return false;
-            }
+            //else if (foto == null || foto == ""){
+            //    alertify.error("Debes proporcionar el campo imagen.");
+            //    return false;
+            //}
             else{
-                //document.getElementById('results_frame').style.display = "inherit";
+                iframeGo('estadoCaptura.jsp');
+                showFrame();
                 return true;
             }
         }
     </script>
 </head>
-<body>
+<body style="background: #f5f5f5;">
 <h4> Capturar Pacientes: </h4>
 <% Paciente paciente = (Paciente)request.getAttribute("paciente");
     if(paciente != null){
@@ -79,14 +80,14 @@
             <td class="text-right">Tel&eacute;fono:</td>
             <td><input style="width:200px;" type="text" name="telefono" value="<%= paciente.getTelefono()%>"></td>
         </tr>
-        <tr>
+        <!--tr>
             <td class="text-right">Foto:</td>
             <td><input style="width:200px;" type="text" name="foto" value="<%= paciente.getFoto()%>"></td>
-        </tr>
+        </tr-->
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('estadoCaptura.jsp'); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>

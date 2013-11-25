@@ -116,17 +116,17 @@
 
         <!-- Generar Reporte Doctores thrift.Paciente -->
         <action name="generarReporteDoctoresPaciente" class="actions.Generar" method="reporteDoctoresPaciente">
-            <result name="success">../Responses/rspDoctoresPaciente.jsp</result>
+            <result name="success">reportesDoctoresPaciente2.jsp</result>
         </action>
 
         <!-- Generar Reporte Pacientes Analisis -->
         <action name="generarReportePacientesAnalisis" class="actions.Generar" method="reportePacientesAnalisis">
-            <result name="success">../Responses/rspPacientesAnalisis.jsp</result>
+            <result name="success">reportesPacientesAnalisis2.jsp</result>
         </action>
 
         <!-- Generar Reporte Pacientes thrift.Doctor -->
         <action name="generarReportePacientesDoctor" class="actions.Generar" method="reportePacientesDoctor">
-            <result name="success">../Responses/rspPacientesDoctor.jsp</result>
+            <result name="success">reportesPacientesDoctor2.jsp</result>
         </action>
 
         <!--                OBTENER DATOS                  -->

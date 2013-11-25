@@ -8,13 +8,14 @@
             return false;
         }
         else{
+            iframeGo('actualizarAnalisis2.jsp'); resizeFrame(); showFrame();
             //document.getElementById('results_frame').style.display = "inherit";
             return true;
         }
     }
 </script>
 
-<h4> Acturalizar An&aacute;lisis: </h4>
+<h3> Actualizar An&aacute;lisis </h3>
 <s:form name="form_actualizar_analisis" action="obtenerDatosAnalisis" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
@@ -24,7 +25,7 @@
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="validateFormCapturar();  iframeGo('actualizarAnalisis2.jsp'); resizeFrame(); showFrame();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
             </td>
         </tr>
     </table>
