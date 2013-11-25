@@ -51,29 +51,19 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/slf4j-api-1.5.8.jar!/" />
+          <root url="file://$USER_HOME$/Development/thrift-0.9.1/lib/java/build/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Development/thrift-0.9.1/lib/java/build/lib" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/slf4j-log4j12-1.5.8.jar!/" />
+          <root url="jar://$USER_HOME$/Development/thrift-0.9.1/lib/java/build/libthrift-0.9.1.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/libthrift-0.9.1.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/libthrift-0.9.1-javadoc.jar!/" />
-        </JAVADOC>
         <SOURCES />
       </library>
     </orderEntry>

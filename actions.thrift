@@ -1,5 +1,5 @@
 /* Model */
-struct thrift.Doctor{
+struct Doctor{
  	1: string clave,
  	2: string nombre,
  	3: string direccion,
@@ -8,13 +8,13 @@ struct thrift.Doctor{
  	6: string foto
 }
 
-struct thrift.AnalisisClinico{
+struct AnalisisClinico{
     1: string clave,
     2: string tipo,
     3: string descripcion
 }
 
-struct thrift.Atiende{
+struct Atiende{
     1: string claveDoctor,
     2: string clavePaciente,
     3: string fecha,
@@ -24,7 +24,7 @@ struct thrift.Atiende{
     7: string fotoPaciente
 }
 
-struct thrift.Paciente{
+struct Paciente{
     1: string clave,
     2: string nombre,
     3: string direccion,
@@ -32,7 +32,7 @@ struct thrift.Paciente{
     5: string foto
 }
 
-struct thrift.SeRealiza{
+struct SeRealiza{
     1: string claveAnalisis,
     2: string clavePaciente,
     3: string fechaAplic,
@@ -41,18 +41,18 @@ struct thrift.SeRealiza{
 }
 
 /* Reportes */
-struct thrift.ReporteAnalisisPaciente{
+struct ReporteAnalisisPaciente{
     1: string clavePaciente,
     2: string claveAnalisis,
     3: string fechaAplic,
     4: string nombrePaciente,
-    5: string fechaentrega,
+    5: string fechaEntrega,
     6: string tipo,
-    7: string descripcion
+    7: string descripcion,
     8: string fotoPaciente
 }
 
-struct thrift.ReporteDoctoresPaciente{
+struct ReporteDoctoresPaciente{
     1: string clavePaciente,
     2: string claveDoctor,
     3: string nombrePaciente,
@@ -64,18 +64,18 @@ struct thrift.ReporteDoctoresPaciente{
     9: string fotoPaciente
 }
 
-struct thrift.ReportePacientesAnalisis{
+struct ReportePacientesAnalisis{
     1: string clavePaciente,
     2: string claveAnalisis,
-    3: string fechaAplica,
+    3: string fechaAplic,
     4: string nombrePaciente,
-    5: string fechaentrega,
+    5: string fechaEntrega,
     6: string tipo,
     7: string descripcion,
     8: string fotoPaciente
 }
 
-struct thrift.ReportePacientesDoctor{
+struct ReportePacientesDoctor{
     1: string clavePaciente,
     2: string claveDoctor,
     3: string nombrePaciente,
@@ -88,11 +88,11 @@ struct thrift.ReportePacientesDoctor{
 }
 
 /* Methods */
-service thrift.Actions{
+service Actions{
     //Actualizar
-    bool actualizarAnalisis(1: thrift.AnalisisClinico analisis),
-    bool actualizarDoctor(1: thrift.Doctor doctor),
-    bool actualizarPaciente(1: thrift.Paciente paciente),
+    bool actualizarAnalisis(1: AnalisisClinico analisis),
+    bool actualizarDoctor(1: Doctor doctor),
+    bool actualizarPaciente(1: Paciente paciente),
 
     //Borrar
     bool borrarAnalisis(1: string claveAnalisis),
@@ -100,31 +100,34 @@ service thrift.Actions{
     bool borrarPaciente(1: string clavePaciente),
 
     //Capturar
-    bool capturarAnalisis(1: thrift.AnalisisClinico analisis),
-    bool capturarDoctor(1: thrift.Doctor doctor),
-    bool capturarPaciente(1: thrift.Paciente paciente),
-    bool capturarAtiende(1: thrift.Atiende atiende),
-    bool capturarSeRealiza(1: thrift.SeRealiza seRealiza),
+    bool capturarAnalisis(1: AnalisisClinico analisis),
+    bool capturarDoctor(1: Doctor doctor),
+    bool capturarPaciente(1: Paciente paciente),
+    bool capturarAtiende(1: Atiende atiende),
+    bool capturarSeRealiza(1: SeRealiza seRealiza),
 
     //Consultas Generales
-    list<thrift.AnalisisClinico> consultarAnalisis(),
-    list<thrift.Atiende> consultarAtiende(),
-    list<thrift.Doctor> consultarDoctores(),
-    list<thrift.Paciente> consultarPacientes(),
-    list<thrift.SeRealiza> consultarSeRealiza(),
+    list<AnalisisClinico> consultarAnalisis(),
+    list<Atiende> consultarAtiende(),
+    list<Doctor> consultarDoctores(),
+    list<Paciente> consultarPacientes(),
+    list<SeRealiza> consultarSeRealiza(),
 
     //Consultas por Clave
-    thrift.AnalisisClinico consultarAnalisisClave(1: string clave),
-    thrift.Paciente consultarPacienteClave(1: string clave),
-    thrift.Doctor consultarDoctorClave(1: string clave),
+    AnalisisClinico consultarAnalisisClave(1: string clave),
+    Paciente consultarPacienteClave(1: string clave),
+    Doctor consultarDoctorClave(1: string clave),
 
     //Consultas Tipo/Especialidad
-    list<thrift.AnalisisClinico> consultarAnalisisTipo(1: string tipo),
-    list<thrift.Doctor> consultarDoctoresEspecialidad(1: string especialidad),
+    list<AnalisisClinico> consultarAnalisisTipo(1: string tipo),
+    list<Doctor> consultarDoctoresEspecialidad(1: string especialidad),
 
     //Reportes
-    list<thrift.ReporteAnalisisPaciente> generarReporteAnalisisPaciente(1: string clavePaciente),
-    list<thrift.ReportePacientesAnalisis> generarReportePacientesAnalisis(1: string claveAnalisis),
-    list<thrift.ReporteDoctoresPaciente> generarReporteDoctoresPaciente(1: string clavePaciente),
-    list<thrift.ReportePacientesDoctor> generarReportePacientesDoctor(1: string claveDoctor)
+    list<ReporteAnalisisPaciente> generarReporteAnalisisPaciente(1: string clavePaciente),
+    list<ReportePacientesAnalisis> generarReportePacientesAnalisis(1: string claveAnalisis),
+    list<ReporteDoctoresPaciente> generarReporteDoctoresPaciente(1: string clavePaciente),
+    list<ReportePacientesDoctor> generarReportePacientesDoctor(1: string claveDoctor),
+
+    //Consultas auxiliares
+    list<string> consultarEspecialidades()
 }
