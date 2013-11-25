@@ -1,7 +1,6 @@
 package thrift;
 import org.apache.thrift.TException;
 
-import java.sql.*;
 import java.util.ArrayList;
 
 public class DBManager {
@@ -13,6 +12,7 @@ public class DBManager {
     }
 
     public boolean capturarDoctor(Doctor doctor){
+
         boolean ans = false;
         try{
             si.connect();
