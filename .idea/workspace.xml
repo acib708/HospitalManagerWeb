@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hospital.iml" afterPath="$PROJECT_DIR$/Hospital.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions.thrift" afterPath="$PROJECT_DIR$/actions.thrift" />
+    <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="Updated actions.thrift">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/actions.thrift" afterPath="$PROJECT_DIR$/src/thrift/actions.thrift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/Actions.java" afterPath="$PROJECT_DIR$/src/thrift/Actions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/AnalisisClinico.java" afterPath="$PROJECT_DIR$/src/thrift/AnalisisClinico.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/Atiende.java" afterPath="$PROJECT_DIR$/src/thrift/Atiende.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/Doctor.java" afterPath="$PROJECT_DIR$/src/thrift/Doctor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/Paciente.java" afterPath="$PROJECT_DIR$/src/thrift/Paciente.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/ReporteAnalisisPaciente.java" afterPath="$PROJECT_DIR$/src/thrift/ReporteAnalisisPaciente.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/ReporteDoctoresPaciente.java" afterPath="$PROJECT_DIR$/src/thrift/ReporteDoctoresPaciente.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/ReportePacientesAnalisis.java" afterPath="$PROJECT_DIR$/src/thrift/ReportePacientesAnalisis.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/ReportePacientesDoctor.java" afterPath="$PROJECT_DIR$/src/thrift/ReportePacientesDoctor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thrift/SeRealiza.java" afterPath="$PROJECT_DIR$/src/thrift/SeRealiza.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385407775619" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385407942948" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383984558884" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
@@ -189,7 +198,7 @@
       <file leaf-file-name="Actualizar.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="29" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.6231454">
+            <state line="47" column="90" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-0.5801187">
               <folding />
             </state>
           </provider>
@@ -439,6 +448,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/thrift" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -721,7 +731,11 @@
       <created>1384327500113</created>
       <updated>1384327500113</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Frame Resize Fixed in Doctors Dropdown">
+      <created>1385407930672</created>
+      <updated>1385407930672</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -760,6 +774,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -767,13 +782,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30794165" sideWeight="0.4957265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30794165" sideWeight="0.67236465" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50427353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -879,13 +893,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thrift/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-4.2435703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Consultar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="17" selection-start="937" selection-end="937" vertical-scroll-proportion="0.6454006">
@@ -909,13 +916,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="78" selection-start="6428" selection-end="6428" vertical-scroll-proportion="3.12983">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thrift/ReporteAnalisisPaciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="154" selection-end="220" vertical-scroll-proportion="0.06807867">
           <folding />
         </state>
       </provider>
@@ -950,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/Actualizar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.6231454">
+        <state line="47" column="90" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-0.5801187">
           <folding />
         </state>
       </provider>

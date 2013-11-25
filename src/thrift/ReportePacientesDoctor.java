@@ -10,16 +10,28 @@ import org.apache.thrift.scheme.StandardScheme;
 
 import org.apache.thrift.scheme.TupleScheme;
 import org.apache.thrift.protocol.TTupleProtocol;
-
+import org.apache.thrift.protocol.TProtocolException;
+import org.apache.thrift.EncodingUtils;
+import org.apache.thrift.TException;
+import org.apache.thrift.async.AsyncMethodCallback;
+import org.apache.thrift.server.AbstractNonblockingServer.*;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.EnumMap;
+import java.util.Set;
+import java.util.HashSet;
 import java.util.EnumSet;
 import java.util.Collections;
 import java.util.BitSet;
+import java.nio.ByteBuffer;
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class ReportePacientesDoctor implements org.apache.thrift.TBase<ReportePacientesDoctor, ReportePacientesDoctor._Fields>, java.io.Serializable, Cloneable, Comparable<ReportePacientesDoctor> {
-  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("thrift.ReportePacientesDoctor");
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("ReportePacientesDoctor");
 
   private static final org.apache.thrift.protocol.TField CLAVE_PACIENTE_FIELD_DESC = new org.apache.thrift.protocol.TField("clavePaciente", org.apache.thrift.protocol.TType.STRING, (short)1);
   private static final org.apache.thrift.protocol.TField CLAVE_DOCTOR_FIELD_DESC = new org.apache.thrift.protocol.TField("claveDoctor", org.apache.thrift.protocol.TType.STRING, (short)2);
@@ -803,7 +815,7 @@ public class ReportePacientesDoctor implements org.apache.thrift.TBase<ReportePa
 
   @Override
   public String toString() {
-    StringBuilder sb = new StringBuilder("thrift.ReportePacientesDoctor(");
+    StringBuilder sb = new StringBuilder("ReportePacientesDoctor(");
     boolean first = true;
 
     sb.append("clavePaciente:");

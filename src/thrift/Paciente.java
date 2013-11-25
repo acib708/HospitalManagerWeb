@@ -31,7 +31,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Paciente implements org.apache.thrift.TBase<Paciente, Paciente._Fields>, java.io.Serializable, Cloneable, Comparable<Paciente> {
-  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("thrift.Paciente");
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("Paciente");
 
   private static final org.apache.thrift.protocol.TField CLAVE_FIELD_DESC = new org.apache.thrift.protocol.TField("clave", org.apache.thrift.protocol.TType.STRING, (short)1);
   private static final org.apache.thrift.protocol.TField NOMBRE_FIELD_DESC = new org.apache.thrift.protocol.TField("nombre", org.apache.thrift.protocol.TType.STRING, (short)2);
@@ -539,7 +539,7 @@ public class Paciente implements org.apache.thrift.TBase<Paciente, Paciente._Fie
 
   @Override
   public String toString() {
-    StringBuilder sb = new StringBuilder("thrift.Paciente(");
+    StringBuilder sb = new StringBuilder("Paciente(");
     boolean first = true;
 
     sb.append("clave:");

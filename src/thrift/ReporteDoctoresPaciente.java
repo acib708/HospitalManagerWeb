@@ -31,7 +31,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ReporteDoctoresPaciente implements org.apache.thrift.TBase<ReporteDoctoresPaciente, ReporteDoctoresPaciente._Fields>, java.io.Serializable, Cloneable, Comparable<ReporteDoctoresPaciente> {
-  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("thrift.ReporteDoctoresPaciente");
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("ReporteDoctoresPaciente");
 
   private static final org.apache.thrift.protocol.TField CLAVE_PACIENTE_FIELD_DESC = new org.apache.thrift.protocol.TField("clavePaciente", org.apache.thrift.protocol.TType.STRING, (short)1);
   private static final org.apache.thrift.protocol.TField CLAVE_DOCTOR_FIELD_DESC = new org.apache.thrift.protocol.TField("claveDoctor", org.apache.thrift.protocol.TType.STRING, (short)2);
@@ -815,7 +815,7 @@ public class ReporteDoctoresPaciente implements org.apache.thrift.TBase<ReporteD
 
   @Override
   public String toString() {
-    StringBuilder sb = new StringBuilder("thrift.ReporteDoctoresPaciente(");
+    StringBuilder sb = new StringBuilder("ReporteDoctoresPaciente(");
     boolean first = true;
 
     sb.append("clavePaciente:");

@@ -31,7 +31,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Atiende implements org.apache.thrift.TBase<Atiende, Atiende._Fields>, java.io.Serializable, Cloneable, Comparable<Atiende> {
-  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("thrift.Atiende");
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("Atiende");
 
   private static final org.apache.thrift.protocol.TField CLAVE_DOCTOR_FIELD_DESC = new org.apache.thrift.protocol.TField("claveDoctor", org.apache.thrift.protocol.TType.STRING, (short)1);
   private static final org.apache.thrift.protocol.TField CLAVE_PACIENTE_FIELD_DESC = new org.apache.thrift.protocol.TField("clavePaciente", org.apache.thrift.protocol.TType.STRING, (short)2);
@@ -677,7 +677,7 @@ public class Atiende implements org.apache.thrift.TBase<Atiende, Atiende._Fields
 
   @Override
   public String toString() {
-    StringBuilder sb = new StringBuilder("thrift.Atiende(");
+    StringBuilder sb = new StringBuilder("Atiende(");
     boolean first = true;
 
     sb.append("claveDoctor:");

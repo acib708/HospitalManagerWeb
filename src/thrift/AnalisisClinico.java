@@ -31,7 +31,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AnalisisClinico implements org.apache.thrift.TBase<AnalisisClinico, AnalisisClinico._Fields>, java.io.Serializable, Cloneable, Comparable<AnalisisClinico> {
-  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("thrift.AnalisisClinico");
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("AnalisisClinico");
 
   private static final org.apache.thrift.protocol.TField CLAVE_FIELD_DESC = new org.apache.thrift.protocol.TField("clave", org.apache.thrift.protocol.TType.STRING, (short)1);
   private static final org.apache.thrift.protocol.TField TIPO_FIELD_DESC = new org.apache.thrift.protocol.TField("tipo", org.apache.thrift.protocol.TType.STRING, (short)2);
@@ -401,7 +401,7 @@ public class AnalisisClinico implements org.apache.thrift.TBase<AnalisisClinico,
 
   @Override
   public String toString() {
-    StringBuilder sb = new StringBuilder("thrift.AnalisisClinico(");
+    StringBuilder sb = new StringBuilder("AnalisisClinico(");
     boolean first = true;
 
     sb.append("clave:");

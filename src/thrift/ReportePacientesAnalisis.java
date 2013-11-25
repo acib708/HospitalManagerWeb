@@ -10,22 +10,34 @@ import org.apache.thrift.scheme.StandardScheme;
 
 import org.apache.thrift.scheme.TupleScheme;
 import org.apache.thrift.protocol.TTupleProtocol;
-
+import org.apache.thrift.protocol.TProtocolException;
+import org.apache.thrift.EncodingUtils;
+import org.apache.thrift.TException;
+import org.apache.thrift.async.AsyncMethodCallback;
+import org.apache.thrift.server.AbstractNonblockingServer.*;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.EnumMap;
+import java.util.Set;
+import java.util.HashSet;
 import java.util.EnumSet;
 import java.util.Collections;
 import java.util.BitSet;
+import java.nio.ByteBuffer;
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class ReportePacientesAnalisis implements org.apache.thrift.TBase<ReportePacientesAnalisis, ReportePacientesAnalisis._Fields>, java.io.Serializable, Cloneable, Comparable<ReportePacientesAnalisis> {
-  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("thrift.ReportePacientesAnalisis");
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("ReportePacientesAnalisis");
 
   private static final org.apache.thrift.protocol.TField CLAVE_PACIENTE_FIELD_DESC = new org.apache.thrift.protocol.TField("clavePaciente", org.apache.thrift.protocol.TType.STRING, (short)1);
   private static final org.apache.thrift.protocol.TField CLAVE_ANALISIS_FIELD_DESC = new org.apache.thrift.protocol.TField("claveAnalisis", org.apache.thrift.protocol.TType.STRING, (short)2);
-  private static final org.apache.thrift.protocol.TField FECHA_APLICA_FIELD_DESC = new org.apache.thrift.protocol.TField("fechaAplica", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField FECHA_APLIC_FIELD_DESC = new org.apache.thrift.protocol.TField("fechaAplic", org.apache.thrift.protocol.TType.STRING, (short)3);
   private static final org.apache.thrift.protocol.TField NOMBRE_PACIENTE_FIELD_DESC = new org.apache.thrift.protocol.TField("nombrePaciente", org.apache.thrift.protocol.TType.STRING, (short)4);
-  private static final org.apache.thrift.protocol.TField FECHAENTREGA_FIELD_DESC = new org.apache.thrift.protocol.TField("fechaentrega", org.apache.thrift.protocol.TType.STRING, (short)5);
+  private static final org.apache.thrift.protocol.TField FECHA_ENTREGA_FIELD_DESC = new org.apache.thrift.protocol.TField("fechaEntrega", org.apache.thrift.protocol.TType.STRING, (short)5);
   private static final org.apache.thrift.protocol.TField TIPO_FIELD_DESC = new org.apache.thrift.protocol.TField("tipo", org.apache.thrift.protocol.TType.STRING, (short)6);
   private static final org.apache.thrift.protocol.TField DESCRIPCION_FIELD_DESC = new org.apache.thrift.protocol.TField("descripcion", org.apache.thrift.protocol.TType.STRING, (short)7);
   private static final org.apache.thrift.protocol.TField FOTO_PACIENTE_FIELD_DESC = new org.apache.thrift.protocol.TField("fotoPaciente", org.apache.thrift.protocol.TType.STRING, (short)8);
@@ -38,9 +50,9 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
 
   public String clavePaciente; // required
   public String claveAnalisis; // required
-  public String fechaAplica; // required
+  public String fechaAplic; // required
   public String nombrePaciente; // required
-  public String fechaentrega; // required
+  public String fechaEntrega; // required
   public String tipo; // required
   public String descripcion; // required
   public String fotoPaciente; // required
@@ -49,9 +61,9 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
   public enum _Fields implements org.apache.thrift.TFieldIdEnum {
     CLAVE_PACIENTE((short)1, "clavePaciente"),
     CLAVE_ANALISIS((short)2, "claveAnalisis"),
-    FECHA_APLICA((short)3, "fechaAplica"),
+    FECHA_APLIC((short)3, "fechaAplic"),
     NOMBRE_PACIENTE((short)4, "nombrePaciente"),
-    FECHAENTREGA((short)5, "fechaentrega"),
+    FECHA_ENTREGA((short)5, "fechaEntrega"),
     TIPO((short)6, "tipo"),
     DESCRIPCION((short)7, "descripcion"),
     FOTO_PACIENTE((short)8, "fotoPaciente");
@@ -73,12 +85,12 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
           return CLAVE_PACIENTE;
         case 2: // CLAVE_ANALISIS
           return CLAVE_ANALISIS;
-        case 3: // FECHA_APLICA
-          return FECHA_APLICA;
+        case 3: // FECHA_APLIC
+          return FECHA_APLIC;
         case 4: // NOMBRE_PACIENTE
           return NOMBRE_PACIENTE;
-        case 5: // FECHAENTREGA
-          return FECHAENTREGA;
+        case 5: // FECHA_ENTREGA
+          return FECHA_ENTREGA;
         case 6: // TIPO
           return TIPO;
         case 7: // DESCRIPCION
@@ -132,11 +144,11 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
     tmpMap.put(_Fields.CLAVE_ANALISIS, new org.apache.thrift.meta_data.FieldMetaData("claveAnalisis", org.apache.thrift.TFieldRequirementType.DEFAULT, 
         new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
-    tmpMap.put(_Fields.FECHA_APLICA, new org.apache.thrift.meta_data.FieldMetaData("fechaAplica", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+    tmpMap.put(_Fields.FECHA_APLIC, new org.apache.thrift.meta_data.FieldMetaData("fechaAplic", org.apache.thrift.TFieldRequirementType.DEFAULT, 
         new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
     tmpMap.put(_Fields.NOMBRE_PACIENTE, new org.apache.thrift.meta_data.FieldMetaData("nombrePaciente", org.apache.thrift.TFieldRequirementType.DEFAULT, 
         new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
-    tmpMap.put(_Fields.FECHAENTREGA, new org.apache.thrift.meta_data.FieldMetaData("fechaentrega", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+    tmpMap.put(_Fields.FECHA_ENTREGA, new org.apache.thrift.meta_data.FieldMetaData("fechaEntrega", org.apache.thrift.TFieldRequirementType.DEFAULT, 
         new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
     tmpMap.put(_Fields.TIPO, new org.apache.thrift.meta_data.FieldMetaData("tipo", org.apache.thrift.TFieldRequirementType.DEFAULT, 
         new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
@@ -154,9 +166,9 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
   public ReportePacientesAnalisis(
     String clavePaciente,
     String claveAnalisis,
-    String fechaAplica,
+    String fechaAplic,
     String nombrePaciente,
-    String fechaentrega,
+    String fechaEntrega,
     String tipo,
     String descripcion,
     String fotoPaciente)
@@ -164,9 +176,9 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
     this();
     this.clavePaciente = clavePaciente;
     this.claveAnalisis = claveAnalisis;
-    this.fechaAplica = fechaAplica;
+    this.fechaAplic = fechaAplic;
     this.nombrePaciente = nombrePaciente;
-    this.fechaentrega = fechaentrega;
+    this.fechaEntrega = fechaEntrega;
     this.tipo = tipo;
     this.descripcion = descripcion;
     this.fotoPaciente = fotoPaciente;
@@ -182,14 +194,14 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
     if (other.isSetClaveAnalisis()) {
       this.claveAnalisis = other.claveAnalisis;
     }
-    if (other.isSetFechaAplica()) {
-      this.fechaAplica = other.fechaAplica;
+    if (other.isSetFechaAplic()) {
+      this.fechaAplic = other.fechaAplic;
     }
     if (other.isSetNombrePaciente()) {
       this.nombrePaciente = other.nombrePaciente;
     }
-    if (other.isSetFechaentrega()) {
-      this.fechaentrega = other.fechaentrega;
+    if (other.isSetFechaEntrega()) {
+      this.fechaEntrega = other.fechaEntrega;
     }
     if (other.isSetTipo()) {
       this.tipo = other.tipo;
@@ -210,9 +222,9 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
   public void clear() {
     this.clavePaciente = null;
     this.claveAnalisis = null;
-    this.fechaAplica = null;
+    this.fechaAplic = null;
     this.nombrePaciente = null;
-    this.fechaentrega = null;
+    this.fechaEntrega = null;
     this.tipo = null;
     this.descripcion = null;
     this.fotoPaciente = null;
@@ -266,27 +278,27 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
     }
   }
 
-  public String getFechaAplica() {
-    return this.fechaAplica;
+  public String getFechaAplic() {
+    return this.fechaAplic;
   }
 
-  public ReportePacientesAnalisis setFechaAplica(String fechaAplica) {
-    this.fechaAplica = fechaAplica;
+  public ReportePacientesAnalisis setFechaAplic(String fechaAplic) {
+    this.fechaAplic = fechaAplic;
     return this;
   }
 
-  public void unsetFechaAplica() {
-    this.fechaAplica = null;
+  public void unsetFechaAplic() {
+    this.fechaAplic = null;
   }
 
-  /** Returns true if field fechaAplica is set (has been assigned a value) and false otherwise */
-  public boolean isSetFechaAplica() {
-    return this.fechaAplica != null;
+  /** Returns true if field fechaAplic is set (has been assigned a value) and false otherwise */
+  public boolean isSetFechaAplic() {
+    return this.fechaAplic != null;
   }
 
-  public void setFechaAplicaIsSet(boolean value) {
+  public void setFechaAplicIsSet(boolean value) {
     if (!value) {
-      this.fechaAplica = null;
+      this.fechaAplic = null;
     }
   }
 
@@ -314,27 +326,27 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
     }
   }
 
-  public String getFechaentrega() {
-    return this.fechaentrega;
+  public String getFechaEntrega() {
+    return this.fechaEntrega;
   }
 
-  public ReportePacientesAnalisis setFechaentrega(String fechaentrega) {
-    this.fechaentrega = fechaentrega;
+  public ReportePacientesAnalisis setFechaEntrega(String fechaEntrega) {
+    this.fechaEntrega = fechaEntrega;
     return this;
   }
 
-  public void unsetFechaentrega() {
-    this.fechaentrega = null;
+  public void unsetFechaEntrega() {
+    this.fechaEntrega = null;
   }
 
-  /** Returns true if field fechaentrega is set (has been assigned a value) and false otherwise */
-  public boolean isSetFechaentrega() {
-    return this.fechaentrega != null;
+  /** Returns true if field fechaEntrega is set (has been assigned a value) and false otherwise */
+  public boolean isSetFechaEntrega() {
+    return this.fechaEntrega != null;
   }
 
-  public void setFechaentregaIsSet(boolean value) {
+  public void setFechaEntregaIsSet(boolean value) {
     if (!value) {
-      this.fechaentrega = null;
+      this.fechaEntrega = null;
     }
   }
 
@@ -428,11 +440,11 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
       }
       break;
 
-    case FECHA_APLICA:
+    case FECHA_APLIC:
       if (value == null) {
-        unsetFechaAplica();
+        unsetFechaAplic();
       } else {
-        setFechaAplica((String)value);
+        setFechaAplic((String)value);
       }
       break;
 
@@ -444,11 +456,11 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
       }
       break;
 
-    case FECHAENTREGA:
+    case FECHA_ENTREGA:
       if (value == null) {
-        unsetFechaentrega();
+        unsetFechaEntrega();
       } else {
-        setFechaentrega((String)value);
+        setFechaEntrega((String)value);
       }
       break;
 
@@ -487,14 +499,14 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
     case CLAVE_ANALISIS:
       return getClaveAnalisis();
 
-    case FECHA_APLICA:
-      return getFechaAplica();
+    case FECHA_APLIC:
+      return getFechaAplic();
 
     case NOMBRE_PACIENTE:
       return getNombrePaciente();
 
-    case FECHAENTREGA:
-      return getFechaentrega();
+    case FECHA_ENTREGA:
+      return getFechaEntrega();
 
     case TIPO:
       return getTipo();
@@ -520,12 +532,12 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
       return isSetClavePaciente();
     case CLAVE_ANALISIS:
       return isSetClaveAnalisis();
-    case FECHA_APLICA:
-      return isSetFechaAplica();
+    case FECHA_APLIC:
+      return isSetFechaAplic();
     case NOMBRE_PACIENTE:
       return isSetNombrePaciente();
-    case FECHAENTREGA:
-      return isSetFechaentrega();
+    case FECHA_ENTREGA:
+      return isSetFechaEntrega();
     case TIPO:
       return isSetTipo();
     case DESCRIPCION:
@@ -567,12 +579,12 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         return false;
     }
 
-    boolean this_present_fechaAplica = true && this.isSetFechaAplica();
-    boolean that_present_fechaAplica = true && that.isSetFechaAplica();
-    if (this_present_fechaAplica || that_present_fechaAplica) {
-      if (!(this_present_fechaAplica && that_present_fechaAplica))
+    boolean this_present_fechaAplic = true && this.isSetFechaAplic();
+    boolean that_present_fechaAplic = true && that.isSetFechaAplic();
+    if (this_present_fechaAplic || that_present_fechaAplic) {
+      if (!(this_present_fechaAplic && that_present_fechaAplic))
         return false;
-      if (!this.fechaAplica.equals(that.fechaAplica))
+      if (!this.fechaAplic.equals(that.fechaAplic))
         return false;
     }
 
@@ -585,12 +597,12 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         return false;
     }
 
-    boolean this_present_fechaentrega = true && this.isSetFechaentrega();
-    boolean that_present_fechaentrega = true && that.isSetFechaentrega();
-    if (this_present_fechaentrega || that_present_fechaentrega) {
-      if (!(this_present_fechaentrega && that_present_fechaentrega))
+    boolean this_present_fechaEntrega = true && this.isSetFechaEntrega();
+    boolean that_present_fechaEntrega = true && that.isSetFechaEntrega();
+    if (this_present_fechaEntrega || that_present_fechaEntrega) {
+      if (!(this_present_fechaEntrega && that_present_fechaEntrega))
         return false;
-      if (!this.fechaentrega.equals(that.fechaentrega))
+      if (!this.fechaEntrega.equals(that.fechaEntrega))
         return false;
     }
 
@@ -657,12 +669,12 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         return lastComparison;
       }
     }
-    lastComparison = Boolean.valueOf(isSetFechaAplica()).compareTo(other.isSetFechaAplica());
+    lastComparison = Boolean.valueOf(isSetFechaAplic()).compareTo(other.isSetFechaAplic());
     if (lastComparison != 0) {
       return lastComparison;
     }
-    if (isSetFechaAplica()) {
-      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.fechaAplica, other.fechaAplica);
+    if (isSetFechaAplic()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.fechaAplic, other.fechaAplic);
       if (lastComparison != 0) {
         return lastComparison;
       }
@@ -677,12 +689,12 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         return lastComparison;
       }
     }
-    lastComparison = Boolean.valueOf(isSetFechaentrega()).compareTo(other.isSetFechaentrega());
+    lastComparison = Boolean.valueOf(isSetFechaEntrega()).compareTo(other.isSetFechaEntrega());
     if (lastComparison != 0) {
       return lastComparison;
     }
-    if (isSetFechaentrega()) {
-      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.fechaentrega, other.fechaentrega);
+    if (isSetFechaEntrega()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.fechaEntrega, other.fechaEntrega);
       if (lastComparison != 0) {
         return lastComparison;
       }
@@ -734,7 +746,7 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
 
   @Override
   public String toString() {
-    StringBuilder sb = new StringBuilder("thrift.ReportePacientesAnalisis(");
+    StringBuilder sb = new StringBuilder("ReportePacientesAnalisis(");
     boolean first = true;
 
     sb.append("clavePaciente:");
@@ -753,11 +765,11 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
     }
     first = false;
     if (!first) sb.append(", ");
-    sb.append("fechaAplica:");
-    if (this.fechaAplica == null) {
+    sb.append("fechaAplic:");
+    if (this.fechaAplic == null) {
       sb.append("null");
     } else {
-      sb.append(this.fechaAplica);
+      sb.append(this.fechaAplic);
     }
     first = false;
     if (!first) sb.append(", ");
@@ -769,11 +781,11 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
     }
     first = false;
     if (!first) sb.append(", ");
-    sb.append("fechaentrega:");
-    if (this.fechaentrega == null) {
+    sb.append("fechaEntrega:");
+    if (this.fechaEntrega == null) {
       sb.append("null");
     } else {
-      sb.append(this.fechaentrega);
+      sb.append(this.fechaEntrega);
     }
     first = false;
     if (!first) sb.append(", ");
@@ -859,10 +871,10 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
               org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
             }
             break;
-          case 3: // FECHA_APLICA
+          case 3: // FECHA_APLIC
             if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
-              struct.fechaAplica = iprot.readString();
-              struct.setFechaAplicaIsSet(true);
+              struct.fechaAplic = iprot.readString();
+              struct.setFechaAplicIsSet(true);
             } else { 
               org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
             }
@@ -875,10 +887,10 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
               org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
             }
             break;
-          case 5: // FECHAENTREGA
+          case 5: // FECHA_ENTREGA
             if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
-              struct.fechaentrega = iprot.readString();
-              struct.setFechaentregaIsSet(true);
+              struct.fechaEntrega = iprot.readString();
+              struct.setFechaEntregaIsSet(true);
             } else { 
               org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
             }
@@ -932,9 +944,9 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         oprot.writeString(struct.claveAnalisis);
         oprot.writeFieldEnd();
       }
-      if (struct.fechaAplica != null) {
-        oprot.writeFieldBegin(FECHA_APLICA_FIELD_DESC);
-        oprot.writeString(struct.fechaAplica);
+      if (struct.fechaAplic != null) {
+        oprot.writeFieldBegin(FECHA_APLIC_FIELD_DESC);
+        oprot.writeString(struct.fechaAplic);
         oprot.writeFieldEnd();
       }
       if (struct.nombrePaciente != null) {
@@ -942,9 +954,9 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         oprot.writeString(struct.nombrePaciente);
         oprot.writeFieldEnd();
       }
-      if (struct.fechaentrega != null) {
-        oprot.writeFieldBegin(FECHAENTREGA_FIELD_DESC);
-        oprot.writeString(struct.fechaentrega);
+      if (struct.fechaEntrega != null) {
+        oprot.writeFieldBegin(FECHA_ENTREGA_FIELD_DESC);
+        oprot.writeString(struct.fechaEntrega);
         oprot.writeFieldEnd();
       }
       if (struct.tipo != null) {
@@ -986,13 +998,13 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
       if (struct.isSetClaveAnalisis()) {
         optionals.set(1);
       }
-      if (struct.isSetFechaAplica()) {
+      if (struct.isSetFechaAplic()) {
         optionals.set(2);
       }
       if (struct.isSetNombrePaciente()) {
         optionals.set(3);
       }
-      if (struct.isSetFechaentrega()) {
+      if (struct.isSetFechaEntrega()) {
         optionals.set(4);
       }
       if (struct.isSetTipo()) {
@@ -1011,14 +1023,14 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
       if (struct.isSetClaveAnalisis()) {
         oprot.writeString(struct.claveAnalisis);
       }
-      if (struct.isSetFechaAplica()) {
-        oprot.writeString(struct.fechaAplica);
+      if (struct.isSetFechaAplic()) {
+        oprot.writeString(struct.fechaAplic);
       }
       if (struct.isSetNombrePaciente()) {
         oprot.writeString(struct.nombrePaciente);
       }
-      if (struct.isSetFechaentrega()) {
-        oprot.writeString(struct.fechaentrega);
+      if (struct.isSetFechaEntrega()) {
+        oprot.writeString(struct.fechaEntrega);
       }
       if (struct.isSetTipo()) {
         oprot.writeString(struct.tipo);
@@ -1044,16 +1056,16 @@ public class ReportePacientesAnalisis implements org.apache.thrift.TBase<Reporte
         struct.setClaveAnalisisIsSet(true);
       }
       if (incoming.get(2)) {
-        struct.fechaAplica = iprot.readString();
-        struct.setFechaAplicaIsSet(true);
+        struct.fechaAplic = iprot.readString();
+        struct.setFechaAplicIsSet(true);
       }
       if (incoming.get(3)) {
         struct.nombrePaciente = iprot.readString();
         struct.setNombrePacienteIsSet(true);
       }
       if (incoming.get(4)) {
-        struct.fechaentrega = iprot.readString();
-        struct.setFechaentregaIsSet(true);
+        struct.fechaEntrega = iprot.readString();
+        struct.setFechaEntregaIsSet(true);
       }
       if (incoming.get(5)) {
         struct.tipo = iprot.readString();
