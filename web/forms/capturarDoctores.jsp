@@ -1,10 +1,30 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
+<%
+    //DBManager dbman = new DBManager();
+    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
+    String[] arrayEspecialidad = (String[])request.getAttribute("especialidad");
+    //System.out.println("HOLA"+arrayEspecialidad);
+    //Boolean state = (Boolean)request.getAttribute("ans");
+%>
+
+<head>
+    <!-- Linking jQuery  -->
+    <script src="../js/jquery.js"></script>
+    <!-- Linking Alertify  -->
+    <script src="../alertify/lib/alertify.js"></script>
+    <link rel="stylesheet" href="../alertify/themes/alertify.core.css" />
+    <link rel="stylesheet" href="../alertify/themes/alertify.bootstrap.css" />
+    <!-- Linking Bootstrap JS  -->
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
+
 <script type="text/javascript">
         function validateFormCapturar(){
 			var claveDoctor  = $("input[name = claveDoctor]").val();
+            //var claveDoctor = document.forms["form_capturar_doctor"]["claveDoctor"].value;
             var nombre	     = $("input[name = nombre]").val();
             var direccion    = $("input[name = direccion]").val();
-            var especialidad = $("input[name = especialidad]").val();
+            var especialidad = $("select[name = especialidad]").val();
             var telefono 	 = $("input[name = telefono]").val();
             //var fotoDoctor	 = $("input[name = fotoDoctor]").val();
             
@@ -45,8 +65,10 @@
             }
         }
 </script>
+</head>
 
 <h3> Capturar Doctores </h3>
+
 <s:form name="form_capturar_doctor" action="capturarDoctor" method="GET" target="results_frame">
 	<table  style="width:30%; margin:auto;">
 		<tr>
@@ -63,7 +85,15 @@
         </tr>
         <tr>
         	<td class="text-right">Especialidad:</td>
-            <td><input style="width:200px;" type="text" name="especialidad"> </td>
+            <td><select style="width:200px;" name="especialidad">
+                <% for (String arrayEsp: arrayEspecialidad ){
+                    //System.out.println(arrayEsp);%>
+                <option value="<%=arrayEsp %>"><%=arrayEsp%></option>
+                <%
+                    }
+                %>
+            </select></td>
+            <!--<td><input style="width:200px;" type="text" name="especialidad"> </td>   -->
         </tr>
         <tr>
         	<td class="text-right">Tel&eacute;fono:</td>

@@ -329,6 +329,7 @@ public class DBManager {
         finally{
             si.disconnect();
         }
+        //System.out.println(ans.toArray(new String[ans.size()]));
         return ans.toArray(new String[ans.size()]);             
     }
 

@@ -18,7 +18,7 @@
 		$(document).ready(function(){
 /* 			Doctores */
 			$('#capturarDoctores').click(function(){
-				$('#forms').load('forms/capturarDoctores.jsp');
+				$('#forms').load('forms/consultarDocsEsp.jsp');
 				return false;
 			});
 		    $('#consultarDoctorGeneral').click(function(){
@@ -175,7 +175,7 @@
 				    </a>
 				    <ul class="dropdown-menu">
 						<li id="capturarDoctores" class="disabled" onclick="changePillState(document.getElementById('doc'));">
-							<a href="forms/capturarDoctores.jsp"> Capturar </a>
+							<a href="forms/consultarDocsEsp.jsp"> Capturar </a>
 						</li>
                         <li id="consultarDoctorGeneral" class="disabled" onclick="changePillState(document.getElementById('doc'));">
                             <a href="forms/consultarDoctorGeneral.jsp"> Consultar</a>

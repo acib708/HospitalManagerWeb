@@ -63,7 +63,7 @@
 
         <!-- Capturar thrift.Doctor -->
         <action name="capturarDoctor" class="actions.Capturar" method="doctor">
-            <result name="success">../estadoCaptura.jsp</result>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar thrift.Paciente -->
@@ -141,6 +141,11 @@
         <!-- Obtener Datos thrift.Doctor Analisis-->
         <action name="obtenerDatosAnalisis" class="actions.Actualizar" method="getDataAnalisis">
             <result name="success">actualizarAnalisis2.jsp</result>
+        </action>
+
+        <!-- Obtener especialidades DROPDOWN-->
+        <action name="consultarEsp" class="actions.Consultar" method="consultarEsp">
+            <result name="success">capturarDoctores.jsp</result>
         </action>
 
     </package>

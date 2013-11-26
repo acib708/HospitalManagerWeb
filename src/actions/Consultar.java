@@ -12,6 +12,7 @@ public class Consultar {
     //thrift.Paciente
     private Paciente[]        pacientes;
     private String            clavePaciente;
+    private String[]          especialidad;
     //Analisis Clinico
     private AnalisisClinico[] analisis;
     private String            claveAnalisis,tipoAnalisis;
@@ -24,12 +25,21 @@ public class Consultar {
     private HashMap<String, String> hashPacientes;
     private HashMap<String, String> hashAnalisis;
 
+
+    public String consultarEsp() throws Exception{
+        System.out.println("PROBANDO MANO: RECIBI DOCTORES CONSULTA ESPECIALIDADES");
+        especialidad = dbManager.consultarEspecialidades();
+        //System.out.println(especialidad[0]);
+        return "success";
+    }
+
     //thrift.Doctor
     public String doctorGeneral() throws Exception{
         doctores = dbManager.consultarDoctores();
         System.out.println("PROBANDO MANO: RECIBI DOCTORES CONSULTA GENERAL");
         return "success";
     }
+
     public String doctorClave() throws Exception{
         Doctor doctor = dbManager.consultarDoctorClave(claveDoctor);
         System.out.println("PROBANDO MANO: RECIBI DOCTOR POR CLAVE DEL SERVIDOR");
@@ -130,6 +140,10 @@ public class Consultar {
         return atiende;
     }
 
+    public String[] getEspecialidad(){
+        return especialidad;
+    }
+
     public void setEspecialidadDoctor(String especialidadDoctor) {
         this.especialidadDoctor = especialidadDoctor;
     }
@@ -161,4 +175,5 @@ public class Consultar {
     public HashMap<String, String> getHashAnalisis() {
         return hashAnalisis;
     }
+
 }
