@@ -20,7 +20,7 @@ public class DBManager {
             ans = client.capturarDoctor(doctor);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -36,7 +36,7 @@ public class DBManager {
             ans = new ArrayList<Doctor>(client.consultarDoctores());
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -52,7 +52,7 @@ public class DBManager {
             ans = client.consultarDoctorClave(clave);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -68,7 +68,7 @@ public class DBManager {
             ans = new ArrayList<Doctor>(client.consultarDoctoresEspecialidad(especialidad));
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -84,7 +84,7 @@ public class DBManager {
             ans = client.actualizarDoctor(doctor);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -100,7 +100,7 @@ public class DBManager {
             ans = client.borrarDoctor(clave);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -116,7 +116,7 @@ public class DBManager {
             ans = client.capturarPaciente(paciente);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -132,7 +132,7 @@ public class DBManager {
             ans = new ArrayList<Paciente>(client.consultarPacientes());
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -148,7 +148,7 @@ public class DBManager {
             ans = client.consultarPacienteClave(clave);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -164,7 +164,7 @@ public class DBManager {
             ans = client.actualizarPaciente(paciente);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -180,7 +180,7 @@ public class DBManager {
             ans = client.borrarPaciente(clave);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -196,7 +196,7 @@ public class DBManager {
             ans = client.capturarAnalisis(analisis);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -212,7 +212,7 @@ public class DBManager {
             ans = new ArrayList<AnalisisClinico>(client.consultarAnalisis());
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -228,7 +228,7 @@ public class DBManager {
             ans = client.consultarAnalisisClave(clave);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -244,7 +244,7 @@ public class DBManager {
             ans = new ArrayList(client.consultarAnalisisTipo(tipo));
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -260,7 +260,7 @@ public class DBManager {
             ans = client.actualizarAnalisis(analisis);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -276,7 +276,7 @@ public class DBManager {
             ans = client.borrarAnalisis(clave);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -292,7 +292,7 @@ public class DBManager {
             ans = client.capturarSeRealiza(seRealiza);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -308,12 +308,28 @@ public class DBManager {
             ans = new ArrayList<SeRealiza>(client.consultarSeRealiza());
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
         }
         return ans.toArray(new SeRealiza[ans.size()]);
+    }
+
+    public String[] consultarEspecialidades(){
+        ArrayList<String> ans = null;
+        try{
+            si.connect();
+            client = si.getClient();
+            ans = new ArrayList<String>(client.consultarEspecialidades());
+        }
+        catch (TException e){
+            System.out.print("Thrift server exception.");
+        }
+        finally{
+            si.disconnect();
+        }
+        return ans.toArray(new String[ans.size()]);             
     }
 
     public boolean capturarAtiende(Atiende atiende){
@@ -324,7 +340,7 @@ public class DBManager {
             ans = client.capturarAtiende(atiende);
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -340,7 +356,7 @@ public class DBManager {
             ans = new ArrayList<Atiende>(client.consultarAtiende());
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -356,7 +372,7 @@ public class DBManager {
             ans = new ArrayList<ReporteDoctoresPaciente>(client.generarReporteDoctoresPaciente(clavePaciente));
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -372,7 +388,7 @@ public class DBManager {
             ans = new ArrayList<ReportePacientesDoctor>(client.generarReportePacientesDoctor(claveDoctor));
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -388,7 +404,7 @@ public class DBManager {
             ans = new ArrayList<ReporteAnalisisPaciente>(client.generarReporteAnalisisPaciente(clavePaciente));
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
@@ -404,7 +420,7 @@ public class DBManager {
             ans = new ArrayList<ReportePacientesAnalisis>(client.generarReportePacientesAnalisis(claveAnalisis));
         }
         catch (TException e){
-            System.out.print("Thrift Server exception.");
+            System.out.println("Thrift Server exception: " + e.getMessage());
         }
         finally {
             si.disconnect();
