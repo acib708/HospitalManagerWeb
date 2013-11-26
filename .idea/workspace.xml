@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/Consultar.java" afterPath="$PROJECT_DIR$/src/actions/Consultar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hospital.iml" afterPath="$PROJECT_DIR$/Hospital.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/asignarAnalisisPaciente.jsp" afterPath="$PROJECT_DIR$/web/forms/asignarAnalisisPaciente.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/asignarPaciente.jsp" afterPath="$PROJECT_DIR$/web/forms/asignarPaciente.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/capturarDoctores.jsp" afterPath="$PROJECT_DIR$/web/forms/capturarDoctores.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/consultarEspecialidad.jsp" afterPath="$PROJECT_DIR$/web/forms/consultarEspecialidad.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" afterPath="$PROJECT_DIR$/web/forms/reportesAnalisisPaciente2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms/reportesPacientesAnalisis2.jsp" afterPath="$PROJECT_DIR$/web/forms/reportesPacientesAnalisis2.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385410221716" ignored="false" />
+    <file path="/Dummy.txt" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1385432160477" ignored="false" />
     <file path="/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383984558884" ignored="false" />
     <file path="$PROJECT_DIR$/../Practica Parcial 3/src/struts.xml" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962123993" ignored="false" />
     <file path="/consulta.jsp" changelist="437ebf8f-7817-4e7a-af9d-5a41dd34f09f" time="1383962273363" ignored="false" />
@@ -822,7 +814,11 @@
       <created>1385409434559</created>
       <updated>1385409434559</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update Dates fields in forms">
+      <created>1385432172487</created>
+      <updated>1385432172487</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -920,7 +916,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated thrift implementation with new actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Dates fields in forms" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -948,6 +944,7 @@
     <MESSAGE value="Frame Resize Fixed in Doctors Dropdown" />
     <MESSAGE value="Reportes NullPointerException Fixed&#10;Web Platform completed" />
     <MESSAGE value="Updated thrift implementation with new actions" />
+    <MESSAGE value="Update Dates fields in forms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
