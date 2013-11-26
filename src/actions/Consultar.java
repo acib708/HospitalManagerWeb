@@ -89,6 +89,7 @@ public class Consultar {
         hashAnalisis = new HashMap<String, String>();
         for(SeRealiza current : seRealiza){
             Paciente p = dbManager.consultarPacienteClave(current.getClavePaciente());
+            System.out.println("Lo que recibo en el paciente es: " +p);
             hashPacientes.put(p.getClave(), p.getNombre());
             AnalisisClinico a = dbManager.consultarAnalisisClave(current.getClaveAnalisis());
             hashAnalisis.put(a.getClave(), a.getTipo());

@@ -45,8 +45,8 @@
                         <img class="img-polaroid" style="width: 100px; height: 100px;" src="../img/<%=repPacientesAnalisis.getClavePaciente()%>.jpg" alt="">
                         <h6><%=repPacientesAnalisis.getNombrePaciente()%></h6>
                         <p class="little">Clave: <%=repPacientesAnalisis.getClavePaciente()%></p>
-                        <p class="little">Fecha Aplicacion: <%=repPacientesAnalisis.getFechaAplica()%></p>
-                        <p class="little">Fecha Entrega: <%=repPacientesAnalisis.getFechaentrega()%></p>
+                        <p class="little">Fecha Aplicacion: <%=repPacientesAnalisis.getFechaAplic()%></p>
+                        <p class="little">Fecha Entrega: <%=repPacientesAnalisis.getFechaEntrega()%></p>
                     </div>
                 </li>
                 <%

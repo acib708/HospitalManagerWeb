@@ -3,9 +3,11 @@
     function validateFormCapturar(){
         var claveAnalisis   = $("input[name = claveAnalisis]").val();
         var clavePaciente   = $("input[name = clavePaciente]").val();
-        var fotoPaciente    = $("input[name = fotoPaciente]").val();
+        //var fotoPaciente    = $("input[name = fotoPaciente]").val();
         var fechaAplicacion = $("input[name = fechaAplicacion]").val();
         var fechaEntrega    = $("input[name = fechaEntrega]").val();
+        var fechaAplic      = new Date(fechaAplicacion);
+        var fechaEntre      = new Date(fechaEntrega);
 
         if (claveAnalisis == null || claveAnalisis == ""){
             alertify.error("Debes proporcionar una clave de Analisis.");
@@ -15,16 +17,21 @@
             alertify.error("Debes proporcionar una clave de Paciente.");
             return false;
         }
-        else if (fotoPaciente == null || fotoPaciente== ""){
+        /*else if (fotoPaciente == null || fotoPaciente== ""){
             alertify.error("Debes proporcionar una foto del Paciente.");
             return false;
-        }
+        }*/
         else if (fechaAplicacion == null || fechaAplicacion == ""){
             alertify.error("Debes proporcionar una fecha de aplicacion.");
             return false;
         }
         else if (fechaEntrega == null || fechaEntrega == ""){
             alertify.error("Debes proporcionar una fecha de entrega.");
+            return false;
+        }
+        else if (fechaEntre < fechaAplic){
+            alertify.error("La fecha de Aplicaci" +
+                    "on debe ser posterior a la fecha de Entrega");
             return false;
         }
         else{
@@ -47,17 +54,17 @@
             <td class="text-right">Clave Paciente:</td>
             <td><input style="width:200px;" type="text" name="clavePaciente"></td>
         </tr>
-        <tr>
+        <!--tr>
             <td class="text-right">Foto Paciente:</td>
             <td><input style="width:200px;" type="text" name="fotoPaciente"> </td>
-        </tr>
+        </tr-->
         <tr>
             <td class="text-right">Fecha de Aplicaci&oacute;n:</td>
-            <td><input style="width:200px;" type="text" name="fechaAplicacion"> </td>
+            <td><input style="width:200px;" type="date" name="fechaAplicacion"> </td>
         </tr>
         <tr>
             <td class="text-right">Fecha de Entrega:</td>
-            <td><input style="width:200px;" type="text" name="fechaEntrega"> </td>
+            <td><input style="width:200px;" type="date" name="fechaEntrega"> </td>
         </tr>
         <tr>
             <td></td>

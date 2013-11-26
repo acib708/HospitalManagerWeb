@@ -20,7 +20,7 @@
 <s:form name="form_consultar_especialidad" action="consultarDoctorEspecialidad" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
-            <td class="text-right">Clave:</td>
+            <td class="text-right">Especialidad:</td>
             <td><input style="width:200px;" type="text" name="especialidadDoctor"></td>
         </tr>
         <tr>

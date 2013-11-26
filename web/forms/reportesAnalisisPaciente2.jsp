@@ -53,7 +53,7 @@
                     <td><%=repAnalisisPaciente.getTipo()%></td>
                     <td><%=repAnalisisPaciente.getDescripcion()%></td>
                     <td><%=repAnalisisPaciente.getFechaAplic()%></td>
-                    <td><%=repAnalisisPaciente.getFechaentrega()%></td>
+                    <td><%=repAnalisisPaciente.getFechaEntrega()%></td>
                 </tr>
                 <%
                     }

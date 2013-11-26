@@ -59,7 +59,7 @@
         </tr>
         <tr>
             <td class="text-right">Fecha:</td>
-            <td><input style="width:200px;" type="text" name="fechaAtiende"> </td>
+            <td><input style="width:200px;" type="date" name="fechaAtiende"> </td>
         </tr>
         <tr>
             <td class="text-right">Diagn&oacute;stico:</td>
