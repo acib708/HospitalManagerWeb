@@ -28,10 +28,11 @@
 
         <!-- Consultas Doctores -->
         <action name="consultarDoctorClave" class="actions.Consultar" method="doctorClave">
-            <result name="success">consultarClaveDoctores2.jsp</result>
+            <result name="success">forms/consultarClaveDoctores2.jsp</result>
         </action>
         <action name="consultarDoctorEspecialidad" class="actions.Consultar" method="doctorEspecialidad">
-            <result name="success">consultarClaveDoctores2.jsp</result>
+            <param name = "especialidadDoctor"></param>
+            <result name="success">forms/consultarEspecialidad2.jsp</result>
         </action>
         <action name="consultarDoctorGeneral" class="actions.Consultar" method="doctorGeneral">
             <result name="success">../Responses/rspConsultarDoctorGeneral.jsp</result>
@@ -58,11 +59,22 @@
 
         <!-- Capturar thrift.Atiende -->
         <action name="capturarAtiende" class="actions.Capturar" method="atiende">
-            <result name="success">../estadoCaptura.jsp</result>
+            <param name = "claveDoctor"></param>
+            <param name = "clavePaciente"></param>
+            <param name = "fechaAtiende"></param>
+            <param name = "diagnostico"></param>
+            <param name = "tratamiento"></param>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar thrift.Doctor -->
         <action name="capturarDoctor" class="actions.Capturar" method="doctor">
+            <param name = "claveDoctor"></param>
+            <param name = "nombre"></param>
+            <param name = "direccion"></param>
+            <param name = "especialidad"></param>
+            <param name = "telefono"></param>
+
             <result name="success">estadoCaptura.jsp</result>
         </action>
 
@@ -84,6 +96,11 @@
 
         <!-- Actualizar thrift.Doctor -->
         <action name="actualizarDoctor" class="actions.Actualizar" method="doctor">
+            <param name = "clave"></param>
+            <param name = "nombre"></param>
+            <param name = "direccion"></param>
+            <param name = "especialidad"></param>
+            <param name = "telefono"></param>
             <result name="success">estadoCaptura.jsp</result>
         </action>
 
@@ -100,7 +117,8 @@
 
         <!-- Borrar thrift.Doctor -->
         <action name="borrarDoctor" class="actions.Borrar" method="doctor">
-            <result name="success">../estadoCaptura.jsp</result>
+            <param name = "clave"></param>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Borrar thrift.Paciente -->
@@ -132,7 +150,7 @@
         <!--                OBTENER DATOS                  -->
         <!-- Obtener Datos thrift.Doctor Clave -->
         <action name="obtenerDatosDoctor" class="actions.Actualizar" method="getDataDoctor">
-            <result name="success">actualizarDoctor2.jsp</result>
+            <result name="success">forms/actualizarDoctor2.jsp</result>
         </action>
         <!-- Obtener Datos thrift.Doctor thrift.Paciente -->
         <action name="obtenerDatosPaciente" class="actions.Actualizar" method="getDataPaciente">
@@ -143,9 +161,29 @@
             <result name="success">actualizarAnalisis2.jsp</result>
         </action>
 
-        <!-- Obtener especialidades DROPDOWN-->
+        <!-- Obtener  DROPDOWN-->
         <action name="consultarEsp" class="actions.Consultar" method="consultarEsp">
+            <result name="success">consultarEspecialidad.jsp</result>
+        </action>
+
+        <action name="consultarEspCap" class="actions.Consultar" method="consultarEsp">
             <result name="success">capturarDoctores.jsp</result>
+        </action>
+
+        <action name="consultarDoctorGeneralClave" class="actions.Consultar" method="doctorGeneral">
+            <result name="success">consultarClaveDoctores.jsp</result>
+        </action>
+
+        <action name="modificarDoctorClave" class="actions.Consultar" method="doctorGeneral">
+            <result name="success">actualizarDoctor.jsp</result>
+        </action>
+
+        <action name="borrarDoctorClave" class="actions.Consultar" method="doctorGeneral">
+            <result name="success">borrarDoctor.jsp</result>
+        </action>
+
+        <action name="asignacionDoctorPaciente" class="actions.Consultar" method="dropDoctorPaciente">
+            <result name="success">asignarPaciente.jsp</result>
         </action>
 
     </package>

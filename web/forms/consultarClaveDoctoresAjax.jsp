@@ -11,9 +11,17 @@
     System.out.println(doc.getClave());
     }*/
 %>
+<!-- Linking AJAX_QUERY-->
+<script src="js/Ajax_query.js" type="text/javascript"></script>
+
+    <script language="JavaScript" type="text/javascript" src="../bootstrap/js/myScriptFunction.js"></script>
+    <!-- Linking Bootstrap JS  -->
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
 
 <h3>Consulta Doctor</h3>   <br/>
-<!--<form name="form_consultar_clave_doctor" method="POST" target="rAjax">-->
+<!-- s:form name="form_consultar_clave_doctor" action="consultarDoctorClave" method="GET" target="results_frame"> -->
+<s:form name="form_consultar_clave_doctor" method="GET">
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Clave:</td>
@@ -33,4 +41,4 @@
             </td>
         </tr>
     </table>
-<!--</form>    -->
+</s:form>

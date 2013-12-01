@@ -3,6 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <!-- Linking AJAX_QUERY-->
+    <script src="js/Ajax_query.js" type="text/javascript"></script>
+    <script src="js/validaciones.js" type="text/javascript"></script>
+
 	<!-- Linking Alertify  -->
 	<script src="alertify/lib/alertify.js"></script>
 	<link rel="stylesheet" href="alertify/themes/alertify.core.css" />
@@ -18,35 +23,43 @@
 		$(document).ready(function(){
 /* 			Doctores */
 			$('#capturarDoctores').click(function(){
-				$('#forms').load('forms/consultarDocsEsp.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarEspCap.action');
 				return false;
 			});
 		    $('#consultarDoctorGeneral').click(function(){
-				$('#forms').load('forms/consultarDoctorGeneral.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarDoctorGeneral.action');
 				return false;
 			});
 			$('#consultarClaveDoctores').click(function(){
-				$('#forms').load('forms/consultarClavesDoctores.jsp?name=form_consultar_doctor_clave&method=consultarDoctorGeneralClave');
+                clearDiv();
+				$('#forms').load('forms/consultarDoctorGeneralClave.action');
 				return false;
 			});
 			$('#consultarEspecialidad').click(function(){
-				$('#forms').load('forms/consultarEspecialidad.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarEsp.action');
 				return false;
 			});
 			$('#actualizarDoctor').click(function(){
-				$('#forms').load('forms/actualizarDoctor.jsp');
+                clearDiv();
+				$('#forms').load('forms/modificarDoctorClave.action');
 				return false;
 			});
 			$('#borrarDoctor').click(function(){
-				$('#forms').load('forms/borrarDoctor.jsp');
+                clearDiv();
+				$('#forms').load('forms/borrarDoctorClave.action');
 				return false;
 			});
 			$('#asignarPaciente').click(function(){
-				$('#forms').load('forms/asignarPaciente.jsp');
+                clearDiv();
+				$('#forms').load('forms/asignacionDoctorPaciente.action');
 				return false;
 			});
 			$('#consultarAsignaciones').click(function(){
-				$('#forms').load('forms/consultarAsignaciones.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarAtiendeGeneral.action');
 				return false;
 			});
 
@@ -281,9 +294,14 @@
 		<div id="forms">
 		</div>
 		<br />
+
+        <div id="rAjax">
+        </div>
+
 		<div id="results">
-			<iframe src="" id="results_frame" name="results_frame">
-			</iframe>
+
+            <!--<iframe src="" id="results_frame" name="results_frame">
+			</iframe> -->
 		</div>
 		</div>
 	</div>

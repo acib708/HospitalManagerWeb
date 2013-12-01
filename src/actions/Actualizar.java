@@ -12,6 +12,8 @@ public class Actualizar {
     private Paciente        paciente;
     private AnalisisClinico analisis;
 
+    private String[]          especialidadArray;
+
     public String doctor() throws Exception{
         doctor = new Doctor();
         doctor.setClave(clave);
@@ -47,6 +49,8 @@ public class Actualizar {
     public String getDataDoctor(){
         System.out.println("la clave es: " +clave);
         doctor = dbManager.consultarDoctorClave(clave);
+        especialidadArray  = dbManager.consultarEspecialidades();
+        //System.out.println(Array[0]);
         return "success";
     }
 
@@ -108,5 +112,9 @@ public class Actualizar {
 
     public Doctor getDoctor() {
         return doctor;
+    }
+
+    public String[] getEspecialidadArray(){
+        return especialidadArray;
     }
 }

@@ -3,13 +3,15 @@ package actions;
 import java.lang.String;
 import thrift.*;
 
-public class Capturar {
+public class    Capturar {
     private DBManager dbManager = new DBManager();
     private Boolean ans;
     private String  claveDoctor, clavePaciente, claveAnalisis, nombre, direccion, especialidad, telefono, fotoPaciente, fotoDoctor, tipo, descripcion, fechaAplicacion, fechaEntrega, diagnostico, fechaAtiende, tratamiento;
 
 
   public String doctor() throws Exception{
+
+        System.out.println(claveDoctor+nombre+direccion+especialidad+telefono);
         Doctor doctor = new Doctor();
         doctor.setFoto(fotoDoctor);
         doctor.setClave(claveDoctor);

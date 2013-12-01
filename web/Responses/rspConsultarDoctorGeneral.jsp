@@ -1,11 +1,5 @@
 <%@ page import="thrift.Doctor" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Linking Bootstrap CSS  -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
-    </head>
 <body style="background: #f5f5f5;">
 <h3>Consultar Doctores</h3>
 <%
@@ -23,7 +17,7 @@
         %>
         <li class="span3" >
             <div class="thumbnail" >
-                <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayDoctor[i].getClave()%>.jpg" alt="">
+                <img class="img-polaroid" style="width: 170px; height: 170px;" src="img/<%=arrayDoctor[i].getClave()%>.jpg" alt="">
                 <h4><%=arrayDoctor[i].getNombre()%></h4>
                 <h6>Especialidad: <%=arrayDoctor[i].getEspecialidad()%></h6>
                 <h6>Telefono: <%=arrayDoctor[i].getTelefono()%></h6>

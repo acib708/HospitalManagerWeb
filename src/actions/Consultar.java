@@ -29,13 +29,21 @@ public class Consultar {
     public String consultarEsp() throws Exception{
         System.out.println("PROBANDO MANO: RECIBI DOCTORES CONSULTA ESPECIALIDADES");
         especialidad = dbManager.consultarEspecialidades();
-        //System.out.println(especialidad[0]);
+         System.out.println(especialidad[0]);
         return "success";
     }
 
     //thrift.Doctor
     public String doctorGeneral() throws Exception{
         doctores = dbManager.consultarDoctores();
+        System.out.println("PROBANDO MANO: RECIBI DOCTORES CONSULTA GENERAL");
+        return "success";
+    }
+
+
+    public String dropDoctorPaciente() throws Exception{
+        doctores  = dbManager.consultarDoctores();
+        pacientes = dbManager.consultarPacientes();
         System.out.println("PROBANDO MANO: RECIBI DOCTORES CONSULTA GENERAL");
         return "success";
     }
@@ -52,6 +60,7 @@ public class Consultar {
         return "success";
     }
     public String doctorEspecialidad() throws Exception{
+        System.out.println("Consutla por especialidad"+especialidadDoctor);
         doctores = dbManager.consultarDoctoresEspecialidad(especialidadDoctor);
         return "success";
     }

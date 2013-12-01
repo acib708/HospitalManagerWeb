@@ -1,31 +1,27 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
-<script type="text/javascript">
-    function validateFormCapturar(){
-        var clave  = $("input[name = clave]").val();
-
-        if (clave == null || clave == ""){
-            alertify.error("Debes proporcionar una clave.");
-            return false;
-        }
-        else{
-            iframeGo('actualizarDoctor2.jsp'); resizeFrame(); showFrame();
-            return true;
-        }
-    }
-</script>
+<%@ page import="thrift.Doctor" %>
+<%
+    Doctor[] arrayDoctor = (Doctor[])request.getAttribute("doctores");
+%>
 
 <h3> Actualizar Doctores </h3>
-<s:form name="form_actualizar_doctor" action="obtenerDatosDoctor" method="GET" target="results_frame">
+<!--s:form name="form_actualizar_doctor" action="obtenerDatosDoctor" method="GET" target="results_frame">  -->
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Clave:</td>
-            <td><input style="width:200px;" type="text" name="clave"></td>
+            <td><select id="clave" name="clave">
+                <% for (Doctor doc: arrayDoctor){  %>
+                <option value="<%=doc.getClave()%>"><%=doc.getClave()%></option>
+                <%
+                    } %>
+            </select></td>
+            <!--<td><input style="width:200px;" type="text" name="clave"></td>-->
         </tr>
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="ajax_DocActualizar();"/>
             </td>
         </tr>
     </table>
-</s:form>
+<!--/s:form>  -->
