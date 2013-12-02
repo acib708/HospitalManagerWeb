@@ -1,23 +1,11 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
-<script type="text/javascript">
-    function validateFormCapturar(){
-        var tipoAnalisis  = $("input[name = tipoAnalisis]").val();
-
-        if (tipoAnalisis == null || tipoAnalisis == ""){
-            alertify.error("Debes proporcionar un tipo de an&aacute;lisis.");
-            return false;
-        }
-        else{
-            iframeGo('consultarAnalisisTipo2.jsp');
-            resizeFrame();
-            showFrame();
-            return true;
-        }
-    }
-</script>
+<%@ page import="thrift.Paciente" %>
+<%
+    Paciente[] arrayPaciente = (Paciente[])request.getAttribute("pacientes");
+%>
 
 <h3> Consulta An&aacute;lisis por tipo </h3>
-<s:form name="form_consultar_tipo_analisis" action="consultarAnalisisTipo" method="GET" target="results_frame">
+<!--s:form name="form_consultar_tipo_analisis" action="consultarAnalisisTipo" method="GET" target="results_frame">  -->
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Tipo:</td>
@@ -30,4 +18,4 @@
             </td>
         </tr>
     </table>
-</s:form>
+<!--/s:form>    -->

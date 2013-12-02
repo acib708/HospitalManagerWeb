@@ -1,11 +1,6 @@
 <%@ page import="thrift.AnalisisClinico" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Linking Bootstrap CSS  -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
-</head>
+
 <body style="background: #f5f5f5;">
 <h3>An&aacute;lisis Clinicos</h3>
 <%

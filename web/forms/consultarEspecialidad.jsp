@@ -1,19 +1,9 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
-<%@ page import="thrift.Doctor" %>
 <%
-    //DBManager dbman = new DBManager();
-    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
-    //Doctor[] arrayDoctor = (Doctor[])request.getAttribute("doctores");
     String[] arrayEsp = (String[])request.getAttribute("especialidad");
-    //Boolean state = (Boolean)request.getAttribute("ans");
-
-    /*for (Doctor doc: arrayDoctor){
-    System.out.println(doc.getClave());
-    }*/
 %>
 
 <h3> Consulta Doctor por Especialidad </h3>
-<!--s:form name="form_consultar_especialidad" action="consultarDoctorEspecialidad" method="GET" target="results_frame"> -->
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Especialidad:</td>
@@ -35,4 +25,3 @@
             </td>
         </tr>
     </table>
-<!--/s:form> -->

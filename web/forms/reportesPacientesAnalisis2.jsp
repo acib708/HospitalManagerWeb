@@ -1,11 +1,6 @@
 <%@ page import="thrift.ReportePacientesAnalisis" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Linking Bootstrap CSS  -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
-</head>
+
 <body style="background: #f5f5f5;">
 <h4>An&aacute;lisis clinicos de un paciente</h4>
 <%
@@ -30,9 +25,9 @@
     <ul class="thumbnails">
         <li class="span3 offset1" >
             <div class="thumbnail" >
-                <h4><%=arrayPacientesAnalisis[1].getTipo()%></h4>
-                <h6>Clave: <%=arrayPacientesAnalisis[1].getClaveAnalisis()%></h6>
-                <h6>Descripci&oacute;n: <%=arrayPacientesAnalisis[1].getDescripcion()%></h6>
+                <h4><%=arrayPacientesAnalisis[0].getTipo()%></h4>
+                <h6>Clave: <%=arrayPacientesAnalisis[0].getClaveAnalisis()%></h6>
+                <h6>Descripci&oacute;n: <%=arrayPacientesAnalisis[0].getDescripcion()%></h6>
             </div>
         </li>
         <li class="span10 ">
@@ -42,7 +37,7 @@
                 %>
                 <li class="span2 offset1">
                     <div class="thumbnail">
-                        <img class="img-polaroid" style="width: 100px; height: 100px;" src="../img/<%=repPacientesAnalisis.getClavePaciente()%>.jpg" alt="">
+                        <img class="img-polaroid" style="width: 100px; height: 100px;" src="img/<%=repPacientesAnalisis.getClavePaciente()%>.jpg" alt="">
                         <h6><%=repPacientesAnalisis.getNombrePaciente()%></h6>
                         <p class="little">Clave: <%=repPacientesAnalisis.getClavePaciente()%></p>
                         <p class="little">Fecha Aplicacion: <%=repPacientesAnalisis.getFechaAplic()%></p>

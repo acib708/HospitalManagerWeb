@@ -1,12 +1,7 @@
 <%@ page import="thrift.SeRealiza" %>
 <%@ page import="java.util.HashMap" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Linking Bootstrap CSS  -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
-</head>
+
 <body style="background: #f5f5f5;">
 <h3>An&aacute;lisis de Pacientes</h3>
 <%
@@ -27,7 +22,7 @@
     %>
     <li class="span3" >
         <div class="thumbnail" >
-            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=theArraySeRealiza.getClavePaciente()%>.jpg" alt="">
+            <img class="img-polaroid" style="width: 170px; height: 170px;" src="img/<%=theArraySeRealiza.getClavePaciente()%>.jpg" alt="">
             <h4><%= nombresPacientes.get(theArraySeRealiza.getClavePaciente())%></h4>
             <h6><%= tipoAnalisis.get(theArraySeRealiza.getClaveAnalisis())%></h6>
             <h6>Fecha Aplicaci&oacute;n: <%=theArraySeRealiza.getFechaAplic()%></h6>

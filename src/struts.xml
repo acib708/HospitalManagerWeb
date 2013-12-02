@@ -12,7 +12,7 @@
         <!--               CONSULTAR               -->
         <!-- Consultas Analisis -->
         <action name="consultarAnalisisClave" class="actions.Consultar"  method="analisisClave">
-            <result name="success">consultarClaveAnalisis2.jsp</result>
+            <result name="success">forms/consultarClaveAnalisis2.jsp</result>
         </action>
         <action name="consultarAnalisisGeneral" class="actions.Consultar" method="analisisGeneral">
             <result name="success">../Responses/rspConsultarAnalisis.jsp</result>
@@ -40,7 +40,7 @@
 
         <!-- Consultas Pacientes -->
         <action name="consultarPacienteClave" class="actions.Consultar" method="pacienteClave">
-            <result name="success">consultarClavePacientes2.jsp</result>
+            <result name="success">forms/consultarClavePacientes2.jsp</result>
         </action>
         <action name="consultarPacienteGeneral" class="actions.Consultar" method="pacienteGeneral">
             <result name="success">../Responses/rspConsultarPacientes.jsp</result>
@@ -54,7 +54,10 @@
         <!--               CAPTURAR               -->
         <!-- Capturar Analisis -->
         <action name="capturarAnalisis" class="actions.Capturar" method="analisis">
-            <result name="success">../estadoCaptura.jsp</result>
+            <param name = "claveAnalisis"></param>
+            <param name = "tipo"></param>
+            <param name = "descripcion"></param>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar thrift.Atiende -->
@@ -80,17 +83,29 @@
 
         <!-- Capturar thrift.Paciente -->
         <action name="capturarPaciente" class="actions.Capturar" method="paciente">
-            <result name="success">../estadoCaptura.jsp</result>
+            <param name = "clavePaciente"></param>
+            <param name = "nombre"></param>
+            <param name = "direccion"></param>
+            <param name = "telefono"></param>
+
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Capturar thrift.SeRealiza -->
         <action name="capturarSeRealiza" class="actions.Capturar" method="seRealiza">
-            <result name="success">../estadoCaptura.jsp</result>
+            <param name = "clavePaciente"></param>
+            <param name = "claveAnalisis"></param>
+            <param name = "fechaAplicacion"></param>
+            <param name = "fechaEntrega"></param>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!--               ACTUALIZAR               -->
         <!-- Actualizar Analisis -->
         <action name="actualizarAnalisis" class="actions.Actualizar" method="analisis">
+            <param name = "clave"></param>
+            <param name = "tipo"></param>
+            <param name = "descripcion"></param>
             <result name="success">estadoCaptura.jsp</result>
         </action>
 
@@ -106,13 +121,17 @@
 
         <!-- Actualizar thrift.Paciente -->
         <action name="actualizarPaciente" class="actions.Actualizar" method="paciente">
+            <param name = "clave"></param>
+            <param name = "nombre"></param>
+            <param name = "direccion"></param>
+            <param name = "telefono"></param>
             <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!--               BORRAR               -->
         <!-- Borrar Analisis -->
         <action name="borrarAnalisis" class="actions.Borrar" method="analisis">
-            <result name="success">../estadoCaptura.jsp</result>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!-- Borrar thrift.Doctor -->
@@ -123,28 +142,29 @@
 
         <!-- Borrar thrift.Paciente -->
         <action name="borrarPaciente" class="actions.Borrar" method="paciente">
-            <result name="success">../estadoCaptura.jsp</result>
+            <param name = "clave"></param>
+            <result name="success">estadoCaptura.jsp</result>
         </action>
 
         <!--               GENERAR REPORTES               -->
         <!-- Generar Reporte Analisis thrift.Paciente -->
         <action name="generarReporteAnalisisPaciente" class="actions.Generar" method="reporteAnalisisPaciente">
-            <result name="success">reportesAnalisisPaciente2.jsp</result>
+            <result name="success">forms/reportesAnalisisPaciente2.jsp</result>
         </action>
 
         <!-- Generar Reporte Doctores thrift.Paciente -->
         <action name="generarReporteDoctoresPaciente" class="actions.Generar" method="reporteDoctoresPaciente">
-            <result name="success">reportesDoctoresPaciente2.jsp</result>
+            <result name="success">forms/reportesDoctoresPaciente2.jsp</result>
         </action>
 
         <!-- Generar Reporte Pacientes Analisis -->
         <action name="generarReportePacientesAnalisis" class="actions.Generar" method="reportePacientesAnalisis">
-            <result name="success">reportesPacientesAnalisis2.jsp</result>
+            <result name="success">forms/reportesPacientesAnalisis2.jsp</result>
         </action>
 
         <!-- Generar Reporte Pacientes thrift.Doctor -->
         <action name="generarReportePacientesDoctor" class="actions.Generar" method="reportePacientesDoctor">
-            <result name="success">reportesPacientesDoctor2.jsp</result>
+            <result name="success">forms/reportesPacientesDoctor2.jsp</result>
         </action>
 
         <!--                OBTENER DATOS                  -->
@@ -154,11 +174,11 @@
         </action>
         <!-- Obtener Datos thrift.Doctor thrift.Paciente -->
         <action name="obtenerDatosPaciente" class="actions.Actualizar" method="getDataPaciente">
-            <result name="success">actualizarPaciente2.jsp</result>
+            <result name="success">forms/actualizarPaciente2.jsp</result>
         </action>
         <!-- Obtener Datos thrift.Doctor Analisis-->
         <action name="obtenerDatosAnalisis" class="actions.Actualizar" method="getDataAnalisis">
-            <result name="success">actualizarAnalisis2.jsp</result>
+            <result name="success">forms/actualizarAnalisis2.jsp</result>
         </action>
 
         <!-- Obtener  DROPDOWN-->
@@ -184,6 +204,50 @@
 
         <action name="asignacionDoctorPaciente" class="actions.Consultar" method="dropDoctorPaciente">
             <result name="success">asignarPaciente.jsp</result>
+        </action>
+
+        <action name="consultarPacienteGeneralClave" class="actions.Consultar" method="pacienteGeneral">
+            <result name="success">reportesAnalisisPaciente.jsp</result>
+        </action>
+
+        <action name="reportesDocPaciente" class="actions.Consultar" method="pacienteGeneral">
+            <result name="success">reportesDoctoresPaciente.jsp</result>
+        </action>
+
+        <action name="reportesPacienteAnalisis" class="actions.Consultar" method="analisisGeneral">
+            <result name="success">reportesPacientesAnalisis.jsp</result>
+        </action>
+
+        <action name="consultarReportesDoctor" class="actions.Consultar" method="doctorGeneral">
+            <result name="success">reportesPacientesDoctor.jsp</result>
+        </action>
+
+        <action name="consultaClavePaciente" class="actions.Consultar" method="pacienteGeneral">
+            <result name="success">consultarClavePacientes.jsp</result>
+        </action>
+
+        <action name="borrarClavePaciente" class="actions.Consultar" method="pacienteGeneral">
+            <result name="success">borrarPaciente.jsp</result>
+        </action>
+
+        <action name="asignacionClavePaciente" class="actions.Consultar" method="dropAnalisisPaciente">
+            <result name="success">asignarAnalisisPaciente.jsp</result>
+        </action>
+
+        <action name="actualizarClavePaciente" class="actions.Consultar" method="pacienteGeneral">
+            <result name="success">actualizarPaciente.jsp</result>
+        </action>
+
+        <action name="consultarAnalisisClaveDrop" class="actions.Consultar" method="analisisGeneral">
+            <result name="success">consultarClaveAnalisis.jsp</result>
+        </action>
+
+        <action name="borrarAnalisisClaveDrop" class="actions.Consultar" method="analisisGeneral">
+            <result name="success">eliminarAnalisis.jsp</result>
+        </action>
+
+        <action name="modificarAnalisisClaveDrop" class="actions.Consultar" method="analisisGeneral">
+            <result name="success">actualizarAnalisis.jsp</result>
         </action>
 
     </package>

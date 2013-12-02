@@ -1,17 +1,11 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <%
-    //DBManager dbman = new DBManager();
-    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
     String[] arrayEspecialidad = (String[])request.getAttribute("especialidad");
-    //System.out.println("HOLA"+arrayEspecialidad);
-    //Boolean state = (Boolean)request.getAttribute("ans");
 %>
 
 
 <h3> Capturar Doctores </h3>
 
-
-<!-- s:form name="form_capturar_doctor" action="capturarDoctor" method="GET" target="results_frame">  -->
 	<table  style="width:30%; margin:auto;">
 		<tr>
 			<td class="text-right">Clave:</td>
@@ -35,16 +29,11 @@
                     }
                 %>
             </select></td>
-            <!--<td><input style="width:200px;" type="text" name="especialidad"> </td>   -->
         </tr>
         <tr>
         	<td class="text-right">Tel&eacute;fono:</td>
             <td><input style="width:200px;" type="text" name="telefono" id="telefono"></td>
         </tr>
-        <!--tr>
-  	      <td class="text-right">Foto:</td>
-          <td><input style="width:200px;" type="text" name="fotoDoctor"></td>
-        </tr-->
         <tr>
         	<td></td>
         	<td>
@@ -52,4 +41,3 @@
         	</td>
         </tr>
      </table>
-<!-- /s:form>-->

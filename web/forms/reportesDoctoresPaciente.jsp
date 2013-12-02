@@ -1,33 +1,24 @@
  <%@ taglib prefix="s" uri="/struts-tags" %>
-<script type="text/javascript">
-    function validateFormCapturar(){
-        var clavePaciente  = $("input[name = clavePaciente]").val();
+ <%@ page import="thrift.Paciente" %>
+ <%
+     Paciente[] arrayPaciente = (Paciente[])request.getAttribute("pacientes");
+ %>
 
-        if (clavePaciente == null || clavePaciente == ""){
-            alertify.error("Debes proporcionar una clave.");
-            return false;
-        }
-        else{
-            iframeGo('reportesDoctoresPaciente2.jsp');
-            resizeFrame();
-            showFrame();
-            return true;
-        }
-    }
-</script>
-
-<h3> Generar Reporte Doctores de un Paciente </h3>
-<s:form name="form_generar_reporte_doctores_paciente" action="generarReporteDoctoresPaciente" method="GET" target="results_frame">
+ <h3> Generar Reporte Doctores de un Paciente </h3>
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Clave del Paciente:</td>
-            <td><input style="width:200px;" type="text" name="clavePaciente"></td>
+            <td><select id="clavePaciente" name="clavePaciente">
+                <% for (Paciente pacientes: arrayPaciente){  %>
+                <option value="<%=pacientes.getClave()%>"><%=pacientes.getClave()%></option>
+                <%
+                    } %>
+            </select></td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar" onClick="ajax_RepDocPaciente();"/>
             </td>
         </tr>
     </table>
-</s:form>

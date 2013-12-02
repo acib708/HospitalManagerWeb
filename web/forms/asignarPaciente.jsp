@@ -7,7 +7,6 @@
 %>
 
 <h3> Asignar Pacientes </h3>
-<!--s:form name="form_capturar_atiende" action="capturarAtiende" method="GET" target="results_frame"> -->
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Clave Doctor:</td>
@@ -17,7 +16,6 @@
                 <%
                     } %>
             </select></td>
-            <!--<td><input style="width:200px;" type="text" name="claveDoctor"></td>-->
         </tr>
         <tr>
             <td class="text-right">Clave Paciente:</td>
@@ -27,7 +25,6 @@
                 <%
                     } %>
             </select></td>
-            <!--<td><input style="width:200px;" type="text" name="clavePaciente"></td> -->
         </tr>
         <tr>
             <td class="text-right">Fecha:</td>
@@ -41,14 +38,6 @@
             <td class="text-right">Tratamiento:</td>
             <td><input style="width:200px;" type="text" id="tratamiento" name="tratamiento"> </td>
         </tr>
-        <!--tr>
-            <td class="text-right">Foto thrift.Doctor:</td>
-            <td><input style="width:200px;" type="text" name="fotoDoctor"> </td>
-        </tr>
-        <tr>
-            <td class="text-right">Foto thrift.Paciente:</td>
-            <td><input style="width:200px;" type="text" name="fotoPaciente"> </td>
-        </tr-->
         <tr>
             <td></td>
             <td>
@@ -56,4 +45,3 @@
             </td>
         </tr>
     </table>
-<!--/s:form>-->

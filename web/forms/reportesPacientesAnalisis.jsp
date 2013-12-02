@@ -1,33 +1,34 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
-<script type="text/javascript">
-    function validateFormCapturar(){
-        var claveAnalisis  = $("input[name = claveAnalisis]").val();
+<%@ page import="thrift.AnalisisClinico" %>
+<%
+    if(request.getAttribute("analisis") == null){
+        System.out.println("llegates null"); %>
+    <h2 style="text-align: center;">Error al consultar el servidor</h2>
+    <h2 style="text-align: center;">No se encontro el paciente </h2>
+   <% }
 
-        if (claveAnalisis == null || claveAnalisis == ""){
-            alertify.error("Debes proporcionar una clave.");
-            return false;
-        }
-        else{
-            iframeGo('reportesPacientesAnalisis2.jsp');
-            resizeFrame();
-            showFrame();
-            return true;
-        }
-    }
-</script>
+    else{
+    AnalisisClinico[] arrayAnalisis = (AnalisisClinico[])request.getAttribute("analisis");
 
+%>
 <h3> Generar Reporte Paciente </h3>
-<s:form name="form_generar_reporte_pacientes_analisis" action="generarReportePacientesAnalisis" method="GET" target="results_frame">
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Clave del An&aacute;lisis:</td>
-            <td><input style="width:200px;" type="text" name="claveAnalisis"></td>
+            <td><select id="claveAnalisis" name="claveAnalisis">
+                <% for (AnalisisClinico analisis: arrayAnalisis){  %>
+                <option value="<%=analisis.getClave()%>"><%=analisis.getClave()%></option>
+                <%
+                    } %>
+            </select></td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="return validateFormCapturar();"/>
+                <input type="submit" class="btn btn-primary" style="width:200px;" value ="Enviar"  onClick="ajax_RepPacAnalisis();"/>
             </td>
         </tr>
     </table>
-</s:form>
+<%
+    }
+%>

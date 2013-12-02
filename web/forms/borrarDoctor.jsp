@@ -5,7 +5,6 @@
 %>
 
 <h3> Eliminar Doctores </h3>
-<!--s:form name="form_eliminar_doctor" action="borrarDoctor" method="GET" target="results_frame">  -->
     <table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Clave:</td>
@@ -16,7 +15,6 @@
                 <%
                     } %>
             </select></td>
-            <!--<td><input style="width:200px;" type="text" name="clave"></td>-->
         </tr>
         <tr>
             <td></td>
@@ -25,4 +23,3 @@
             </td>
         </tr>
     </table>
-<!--/s:form>-->

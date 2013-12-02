@@ -2,11 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%
-    //DBManager dbman = new DBManager();
-    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
     Doctor[] arrayDoctor = (Doctor[])request.getAttribute("doctores");
-
-    //Boolean state = (Boolean)request.getAttribute("ans");
 
     if(arrayDoctor != null){
 %>

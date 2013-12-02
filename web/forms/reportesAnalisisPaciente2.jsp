@@ -30,9 +30,9 @@
     <ul class="thumbnails">
         <li class="span3 offset1" >
             <div class="thumbnail" >
-                <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayAnalisisPaciente[1].getClavePaciente()%>.jpg" alt="">
-                <h4><%=arrayAnalisisPaciente[1].getNombrePaciente()%></h4>
-                <h6>Clave: <%=arrayAnalisisPaciente[1].getClavePaciente()%></h6>
+                <img class="img-polaroid" style="width: 170px; height: 170px;" src="img/<%=arrayAnalisisPaciente[0].getClavePaciente()%>.jpg" alt="">
+                <h4><%=arrayAnalisisPaciente[0].getNombrePaciente()%></h4>
+                <h6>Clave: <%=arrayAnalisisPaciente[0].getClavePaciente()%></h6>
             </div>
         </li>
         <li class="span10 ">

@@ -48,6 +48,13 @@ public class Consultar {
         return "success";
     }
 
+    public String dropAnalisisPaciente() throws Exception{
+        analisis = dbManager.consultarAnalisis();
+        pacientes = dbManager.consultarPacientes();
+        System.out.println("PROBANDO MANO: RECIBI DOCTORES CONSULTA GENERAL");
+        return "success";
+    }
+
     public String doctorClave() throws Exception{
         Doctor doctor = dbManager.consultarDoctorClave(claveDoctor);
         System.out.println("PROBANDO MANO: RECIBI DOCTOR POR CLAVE DEL SERVIDOR");

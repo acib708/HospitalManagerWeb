@@ -9,12 +9,7 @@
 <script language="JavaScript" type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
 <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
 <%
-    //DBManager dbman = new DBManager();
-    //thrift.Doctor[] arrayDoctor = dbman.consultarDoctores();
     Doctor[] arrayDoctor = (Doctor[])request.getAttribute("doctores");
-
-    //Boolean state = (Boolean)request.getAttribute("ans");
-
     if(arrayDoctor != null){
 %>
 

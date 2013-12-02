@@ -22,7 +22,7 @@
     %>
     <li class="span3" >
         <div class="thumbnail" >
-            <img class="img-polaroid" style="width: 170px; height: 170px;" src="../img/<%=arrayPaciente[i].getClave()%>.jpg" alt="">
+            <img class="img-polaroid" style="width: 170px; height: 170px;" src="img/<%=arrayPaciente[i].getClave()%>.jpg" alt="">
             <h4><%=arrayPaciente[i].getNombre()%></h4>
             <h6>Telefono: <%=arrayPaciente[i].getTelefono()%></h6>
             <h6>Direccion: <%=arrayPaciente[i].getDireccion()%></h6>

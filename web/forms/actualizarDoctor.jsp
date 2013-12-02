@@ -5,8 +5,7 @@
 %>
 
 <h3> Actualizar Doctores </h3>
-<!--s:form name="form_actualizar_doctor" action="obtenerDatosDoctor" method="GET" target="results_frame">  -->
-    <table  style="width:30%; margin:auto;">
+<table  style="width:30%; margin:auto;">
         <tr>
             <td class="text-right">Clave:</td>
             <td><select id="clave" name="clave">
@@ -15,7 +14,6 @@
                 <%
                     } %>
             </select></td>
-            <!--<td><input style="width:200px;" type="text" name="clave"></td>-->
         </tr>
         <tr>
             <td></td>
@@ -24,4 +22,3 @@
             </td>
         </tr>
     </table>
-<!--/s:form>  -->

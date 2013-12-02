@@ -7,6 +7,9 @@
     <!-- Linking AJAX_QUERY-->
     <script src="js/Ajax_query.js" type="text/javascript"></script>
     <script src="js/validaciones.js" type="text/javascript"></script>
+    <script src="js/Ajax_reportes.js" type="text/javascript"></script>
+    <script src="js/Ajax_pacientes.js" type="text/javascript"></script>
+    <script src="js/Ajax_analisis.js" type="text/javascript"></script>
 
 	<!-- Linking Alertify  -->
 	<script src="alertify/lib/alertify.js"></script>
@@ -65,45 +68,55 @@
 
 /* 			Pacientes */
 			$('#capturarPacientes').click(function(){
+                clearDiv();
 				$('#forms').load('forms/capturarPacientesGeneral.jsp');
 				return false;
 			});		
 			$('#consultarPacientes').click(function(){
-				$('#forms').load('forms/consultarPacientes.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarPacienteGeneral.action');
 				return false;
 			});		
 			$('#consultarClavePacientes').click(function(){
-				$('#forms').load('forms/consultarClavePacientes.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultaClavePaciente.action');
 				return false;
 			});		
 			$('#modificarPacientes').click(function(){
-				$('#forms').load('forms/actualizarPaciente.jsp');
+                clearDiv();
+				$('#forms').load('forms/actualizarClavePaciente.action');
 				return false;
 			});
 			$('#borrarPaciente').click(function(){
-				$('#forms').load('forms/borrarPaciente.jsp');
+                clearDiv();
+				$('#forms').load('forms/borrarClavePaciente.action');
 				return false;
 			});		
 			$('#asignarAnalisisPaciente').click(function(){
-				$('#forms').load('forms/asignarAnalisisPaciente.jsp');
+                clearDiv();
+				$('#forms').load('forms/asignacionClavePaciente.action');
 				return false;
 			});		
 			$('#consultarAnalisisPaciente').click(function(){
-				$('#forms').load('forms/consultarAnalisisPaciente.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarSeRealizaGeneral.action');
 				return false;
 			});		
 
 /* 			Analisis */
 			$('#capturarAnalisis').click(function(){
+                clearDiv();
 				$('#forms').load('forms/capturarAnalisis.jsp');
 				return false;
 			});		
 			$('#consultarAnalisis').click(function(){
-				$('#forms').load('forms/consultarAnalisis.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarAnalisisGeneral.action');
 				return false;
 			});		
 			$('#consultarClaveAnalisis').click(function(){
-				$('#forms').load('forms/consultarClaveAnalisis.jsp');
+                clearDiv();
+				$('#forms').load('forms/consultarAnalisisClaveDrop.action');
 				return false;
 			});		
 			$('#consultarTipoAnalisis').click(function(){
@@ -111,29 +124,35 @@
 				return false;
 			});		
 			$('#modificarAnalisis').click(function(){
-				$('#forms').load('forms/actualizarAnalisis.jsp');
+                clearDiv();
+				$('#forms').load('forms/modificarAnalisisClaveDrop.action');
 				return false;
 			});		
 			$('#eliminarAnalisis').click(function(){
-				$('#forms').load('forms/eliminarAnalisis.jsp');
+                clearDiv();
+				$('#forms').load('forms/borrarAnalisisClaveDrop.action');
 				return false;
 			});
 
 /* 			Reportes */
             $('#reportesAnalisisPaciente').click(function(){
-                $('#forms').load('forms/reportesAnalisisPaciente.jsp');
+                clearDiv();
+                $('#forms').load('forms/consultarPacienteGeneralClave.action');
                 return false;
             });
             $('#reportesDoctoresPaciente').click(function(){
-                $('#forms').load('forms/reportesDoctoresPaciente.jsp');
+                clearDiv();
+                $('#forms').load('forms/reportesDocPaciente.action');
                 return false;
             });
             $('#reportesPacientesAnalisis').click(function(){
-                $('#forms').load('forms/reportesPacientesAnalisis.jsp');
+                clearDiv();
+                $('#forms').load('forms/reportesPacienteAnalisis.action');
                 return false;
             });
             $('#reportesPacientesDoctor').click(function(){
-                $('#forms').load('forms/reportesPacientesDoctor.jsp');
+                clearDiv();
+                $('#forms').load('forms/consultarReportesDoctor.action');
                 return false;
             });
         });
@@ -257,9 +276,9 @@
 						<li id="consultarClaveAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
 							<a href="forms/consultarClaveAnalisis.jsp"> Consultar por Clave</a>
 						</li>    		
-						<li id="consultarTipoAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
+						<!--<li id="consultarTipoAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
 							<a href="forms/consultarAnalisis.jsp"> Consultar por Tipo</a>
-						</li>    	
+						</li>  -->
 						<li id="modificarAnalisis" class="disabled" onclick="changePillState(document.getElementById('ana'));">
 							<a href="forms/actualizarAnalisis.jsp"> Modificar Analisis </a>
 						</li>    	
